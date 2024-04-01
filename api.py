@@ -13,7 +13,7 @@ from chains import (
     configure_qa_rag_chain,
     generate_ticket,
 )
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI, Depends, Query
 from pydantic import BaseModel
 from langchain.callbacks.base import BaseCallbackHandler
 from threading import Thread
@@ -159,3 +159,224 @@ async def generate_ticket_api(question: BaseTicket = Depends()):
         input_question=question.text,
     )
     return {"result": {"title": new_title, "text": new_question}, "model": llm_name}
+
+@app.get("/notification")
+async def notification(user_type: str = Query(..., description="User type (KM/INVG)")):
+    user_type_lower = user_type.lower()
+    if user_type_lower == "km":
+        return {
+            "latitude": "40.7127281",
+            "longitude": "-74.0060152",
+            "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+            "address": "Flinders Street 24, Melbourne, Australia",
+            "sensitivity": "12.2",
+            "description": "S23 in Melbourne, Flinders Street24' is a strategically located surveillance post overseeing critical sectors of Melbourne's Flinders Street24 area. Tasked with monitoring and analyzing real-time data, S23 serves as a vital node in the city's security infrastructure, ensuring timely response to potential threats and facilitating informed decision-making by authorities. Equipped with advanced surveillance technology and manned by trained personnel, S23 plays a pivotal role in safeguarding the integrity and safety of Flinders Street24, contributing to the overall security posture of the region.",
+            "social": [
+                {
+                    "name": "facebook",
+                    "icon": "fas fa-facebook",
+                    "link": "https://facebook.com"
+                },
+                {
+                    "name": "linkedin",
+                    "icon": "fas fa-linkedin",
+                    "link": "https://linkedin.com"
+                }
+            ],
+            "entities": [
+                {
+                    "name": "Entity One",
+                    "url": "https://entity-one.com",
+                    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+                    "latitude": "6.927079",
+                    "longitude": "79.861244",
+                    "description": "Entity One Description",
+                    "address": "Entity One Address",
+                    "sensitivity": "12.2",
+                    "social": [
+                        {
+                            "name": "facebook",
+                            "icon": "fas fa-facebook",
+                            "link": "https://facebook.com"
+                        },
+                        {
+                            "name": "linkedin",
+                            "icon": "fas fa-linkedin",
+                            "link": "https://linkedin.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    elif user_type_lower == "invg":
+        # Add functionality for INVG user type here
+        pass
+    else:
+        return {"error": "Invalid user type. Valid types are KM and INVG."}
+
+# Define mappings between question variations and their IDs
+# question_mappings = {
+#     "question1": ["give me available data", "show available data"],
+#     "question2": ["i would like to add more data to jewish community", "add data to jewish community"],
+#     "question3": ["what dates of interest are available in the ontology?", "available dates in the ontology?"],
+#     "question4": ["what reference threats are available in the ontology?", "available reference threats?"]
+# }
+question_mappings = {
+    "question1": [
+        "give me available data",
+        "show available data",
+        "what data is available?",
+        "list available data",
+        "display available data",
+        "available data",
+        "data available"
+    ],
+    "question2": [
+        "i would like to add more data to jewish community",
+        "add data to jewish community",
+        "insert data for jewish community",
+        "update jewish community data",
+        "append data to jewish community",
+        "add more jewish community data",
+        "expand jewish community data"
+    ],
+    "question3": [
+        "what dates of interest are available in the ontology?",
+        "available dates in the ontology?",
+        "list dates of interest in the ontology",
+        "display ontology dates of interest",
+        "dates of interest in ontology",
+        "ontology dates of interest"
+    ],
+    "question4": [
+        "what reference threats are available in the ontology?",
+        "available reference threats?",
+        "list reference threats in the ontology",
+        "display ontology reference threats",
+        "reference threats in ontology",
+        "ontology reference threats"
+    ]
+}
+
+
+class QueryBody(BaseModel):
+    query: str
+    coordinates: list
+
+@app.post("/chat")
+async def chat(query_body: QueryBody):
+    # Process the query and identify the question ID
+    query = query_body.query.lower()
+    question_id = None
+    for q_id, variations in question_mappings.items():
+        for variation in variations:
+            if variation.lower() in query:
+                question_id = q_id
+                break
+        if question_id:
+            break
+    
+    # Based on the identified question ID, provide the corresponding response
+    if question_id:
+        if question_id == "question1":
+            response = { "Knowlage": [
+  {
+    "name": "Jewish Community",
+    "url": "https://entity-one.com",
+    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+    "latitude": "6.927079",
+    "longitude": "79.861244",
+    "description": "Entity One Description",
+    "address": "Entity One Address",
+    "sensitivity": "12.2",
+    "color": "#e8ada0",
+    "map_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&usqp=CAU",
+    "social": [
+      {
+        "name": "facebook",
+        "icon": "fas fa-facebook",
+        "link": "https://facebook.com"
+      },
+      {
+        "name": "linkedin",
+        "icon": "fas fa-linkedin",
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Municipality",
+    "url": "https://entity-two.com",
+    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+    "latitude": "6.927079",
+    "longitude": "79.861244",
+    "description": "Entity Two Description",
+    "address": "Entity Two Address",
+    "sensitivity": "12.2",
+    "color": "#e8ada5",
+    "map_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&usqp=CAU",
+    "social": [
+      {
+        "name": "facebook",
+        "icon": "fas fa-facebook",
+        "link": "https://facebook.com"
+      },
+      {
+        "name": "linkedin",
+        "icon": "fas fa-linkedin",
+        "link": "https://linkedin.com"
+      }
+    ]
+  }
+],
+"widget_type":["MAP","TIMELINE"],
+"chat":"We Found below data sets for you to analyse which one would be of your interest please select"
+            }
+        elif question_id == "question2":
+            response = {"conversation":"You have couple of options to update which one do you prefer",
+"knowlege":["Upload CSV", "Free flowing text"], "widget_type":["MAP","TIMELINE"]
+}
+        elif question_id == "question3":
+            response = {
+  "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
+  "payload": {
+    "knowledge": [
+      {"Holiday": "Rosh Hashanah", "Date": "September 25-27"},
+      {"Holiday": "Yom Kippur", "Date": "October 4"},
+      {"Holiday": "Sukkot", "Date": "October 9-16"},
+      {"Holiday": "Hanukkah", "Date": "December 7-14"},
+      {"Holiday": "Purim", "Date": "March 6-7"},
+      {"Holiday": "Passover", "Date": "April 5-13"},
+      {"Holiday": "Shavuot", "Date": "May 25-27"}
+    ],
+    "widget_type": "CALENDAR_TABLE"
+  }
+}
+        elif question_id == "question4":
+            response = {
+  "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
+  "payload": {
+    "knowledge": [
+      {
+        "Crime Type": "Cyber Crime",
+        "Description": "Crimes committed using computers or over the internet.",
+        "Common Types": "Phishing, Malware, Ransomware"
+      },
+      {
+        "Crime Type": "General Crime",
+        "Description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
+        "Common Types": "Theft, Vandalism, Burglary"
+      },
+      {
+        "Crime Type": "Hate Crime",
+        "Description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
+        "Common Targets": "Religious institutions, Minority communities"
+      }
+    ],
+    "widget_type": "CRIME_OVERVIEW_TABLE"
+  }
+}
+    else:
+        response = {"response": "Sorry, I couldn't understand your question."}
+    
+    return response
