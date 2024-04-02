@@ -164,50 +164,20 @@ async def generate_ticket_api(question: BaseTicket = Depends()):
 async def notification(user_type: str = Query(..., description="User type (KM/INVG)")):
     user_type_lower = user_type.lower()
     if user_type_lower == "km":
-        return {
-            "latitude": "40.7127281",
-            "longitude": "-74.0060152",
-            "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
-            "address": "Flinders Street 24, Melbourne, Australia",
-            "sensitivity": "12.2",
-            "description": "S23 in Melbourne, Flinders Street24' is a strategically located surveillance post overseeing critical sectors of Melbourne's Flinders Street24 area. Tasked with monitoring and analyzing real-time data, S23 serves as a vital node in the city's security infrastructure, ensuring timely response to potential threats and facilitating informed decision-making by authorities. Equipped with advanced surveillance technology and manned by trained personnel, S23 plays a pivotal role in safeguarding the integrity and safety of Flinders Street24, contributing to the overall security posture of the region.",
-            "social": [
-                {
-                    "name": "facebook",
-                    "icon": "fas fa-facebook",
-                    "link": "https://facebook.com"
-                },
-                {
-                    "name": "linkedin",
-                    "icon": "fas fa-linkedin",
-                    "link": "https://linkedin.com"
-                }
-            ],
-            "entities": [
-                {
-                    "name": "Entity One",
-                    "url": "https://entity-one.com",
-                    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
-                    "latitude": "6.927079",
-                    "longitude": "79.861244",
-                    "description": "Entity One Description",
-                    "address": "Entity One Address",
-                    "sensitivity": "12.2",
-                    "social": [
-                        {
-                            "name": "facebook",
-                            "icon": "fas fa-facebook",
-                            "link": "https://facebook.com"
-                        },
-                        {
-                            "name": "linkedin",
-                            "icon": "fas fa-linkedin",
-                            "link": "https://linkedin.com"
-                        }
-                    ]
-                }
-            ]
-        }
+        return [
+  {
+    "description": "Urgent: Unidentified Aircraft Detected” - Immediate attention required. An unknown aircraft has been detected in Sector 17. Action required.",
+    "date": "12/09/2024",
+    "user": "UDITH",
+    "id": "map_01"
+  },
+  {
+    "description": "Urgent: Unidentified Aircraft Detected” - Immediate attention required. An unknown aircraft has been detected in Sector 17. Action required.",
+    "date": "12/09/2024",
+    "user": "UDITH",
+    "id": "ontology_01"
+  }
+]
     elif user_type_lower == "invg":
         # Add functionality for INVG user type here
         pass
@@ -262,6 +232,7 @@ question_mappings = {
 class QueryBody(BaseModel):
     query: str
     coordinates: list
+    multi_select: bool
 
 @app.post("/chat")
 async def chat(query_body: QueryBody):
@@ -279,59 +250,31 @@ async def chat(query_body: QueryBody):
     # Based on the identified question ID, provide the corresponding response
     if question_id:
         if question_id == "question1":
-            response = { "Knowlage": [
-  {
-    "name": "Jewish Community",
-    "url": "https://entity-one.com",
-    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
-    "latitude": "6.927079",
-    "longitude": "79.861244",
-    "description": "Entity One Description",
-    "address": "Entity One Address",
-    "sensitivity": "12.2",
-    "color": "#e8ada0",
-    "map_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&usqp=CAU",
-    "social": [
-      {
-        "name": "facebook",
-        "icon": "fas fa-facebook",
-        "link": "https://facebook.com"
-      },
-      {
-        "name": "linkedin",
-        "icon": "fas fa-linkedin",
-        "link": "https://linkedin.com"
-      }
-    ]
-  },
-  {
-    "name": "Municipality",
-    "url": "https://entity-two.com",
-    "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
-    "latitude": "6.927079",
-    "longitude": "79.861244",
-    "description": "Entity Two Description",
-    "address": "Entity Two Address",
-    "sensitivity": "12.2",
-    "color": "#e8ada5",
-    "map_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPAp-iUgEWK_0M8WlqFiI9YQkBOhsmCjmoEg&usqp=CAU",
-    "social": [
-      {
-        "name": "facebook",
-        "icon": "fas fa-facebook",
-        "link": "https://facebook.com"
-      },
-      {
-        "name": "linkedin",
-        "icon": "fas fa-linkedin",
-        "link": "https://linkedin.com"
-      }
-    ]
+            if query_body.multi_select:
+                response = {
+  "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
+  "payload": {
+    "knowlege": [
+      "Jewish community locations",
+      "Past incidents",
+      "Municipality locations",
+      "Known offenders"
+    ],
+    "widget_type": "MULTI_SELECT_LIST"
   }
-],
-"widget_type":["MAP","TIMELINE"],
-"chat":"We Found below data sets for you to analyse which one would be of your interest please select"
-            }
+}
+            else:
+                response = {
+  "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
+  "payload": {
+    "knowlege": [
+      "Draw on map",
+      "describe the required area"
+    ],
+    "widget_type": "SINGLE_SELECT_LIST"
+  }
+}
+             
         elif question_id == "question2":
             response = {"conversation":"You have couple of options to update which one do you prefer",
 "knowlege":["Upload CSV", "Free flowing text"], "widget_type":["MAP","TIMELINE"]
