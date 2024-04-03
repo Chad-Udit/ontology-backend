@@ -323,9 +323,13 @@ async def chat(query_body: QueryBody):
 }
              
         elif question_id == "question2":
-            response = {"conversation":"You have couple of options to update which one do you prefer",
-"knowlege":["Upload CSV", "Free flowing text"], "widget_type":["MAP","TIMELINE"]
+            response = {"conversation":" You have couple of options to update which one do you prefer",
+ "payload": {
+    "knowlege": ["Upload CSV", "Free flowing text"], "widget_type":"LIST"
 }
+}
+
+
         elif question_id == "question3":
             response = {
   "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
