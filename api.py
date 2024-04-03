@@ -228,6 +228,53 @@ question_mappings = {
     ]
 }
 
+@app.get("/get-map")
+async def get_map():
+    response = {
+  "latitude": "40.7127281",
+  "longitude": "-74.0060152",
+  "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+  "address": "Flinders Street 24, Melbourne, Australia",
+  "sensitivity": "12.2",
+  "description": "S23 in Melbourne, Flinders Street24' is a strategically located surveillance post overseeing critical sectors of Melbourne's Flinders Street24 area. Tasked with monitoring and analyzing real-time data, S23 serves as a vital node in the city's security infrastructure, ensuring timely response to potential threats and facilitating informed decision-making by authorities. Equipped with advanced surveillance technology and manned by trained personnel, S23 plays a pivotal role in safeguarding the integrity and safety of Flinders Street24, contributing to the overall security posture of the region.",
+  "social": [
+    {
+      "name": "facebook",
+      "icon": "fas fa-facebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "name": "linkedin",
+      "icon": "fas fa-linkedin",
+      "link": "https://linkedin.com"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Entity One",
+      "url": "https://entity-one.com",
+      "image_url": "https://www.gstatic.com/images/branding/product/1x/sheets_2020q4_48dp.png",
+      "latitude": "6.927079",
+      "longitude": "79.861244",
+      "description": "Entity One Description",
+      "address": "Entity One Address",
+      "sensitivity": "12.2",
+      "social": [
+        {
+          "name": "facebook",
+          "icon": "fas fa-facebook",
+          "link": "https://facebook.com"
+        },
+        {
+          "name": "linkedin",
+          "icon": "fas fa-linkedin",
+          "link": "https://linkedin.com"
+        }
+      ]
+    }
+  ]
+}
+    return response
 
 class QueryBody(BaseModel):
     query: str
