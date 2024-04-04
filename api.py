@@ -350,6 +350,13 @@ async def chat(query_body: QueryBody):
                         }
     else:
         result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
-        return {"result": result["answer"], "model": llm_name}
+        return {
+                              "conversation": result["answer"],
+                              "payload": {
+                                "knowlege": [],
+                                "widget_type": ""
+                              }
+                }
+    
     
     return response
