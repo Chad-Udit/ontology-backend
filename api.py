@@ -1,4 +1,5 @@
 import os
+import re
 
 from langchain_community.graphs import Neo4jGraph
 from dotenv import load_dotenv
@@ -184,49 +185,31 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
     else:
         return {"error": "Invalid user type. Valid types are KM and INVG."}
 
-# Define mappings between question variations and their IDs
-# question_mappings = {
-#     "question1": ["give me available data", "show available data"],
-#     "question2": ["i would like to add more data to jewish community", "add data to jewish community"],
-#     "question3": ["what dates of interest are available in the ontology?", "available dates in the ontology?"],
-#     "question4": ["what reference threats are available in the ontology?", "available reference threats?"]
-# }
-question_mappings = {
+# Define patterns for each question
+patterns = {
     "question1": [
-        "give me available data",
-        "show available data",
-        "what data is available?",
-        "list available data",
-        "display available data",
-        "available data",
-        "data available"
+        r"\b(?:give|show|display|list|available) data\b"
     ],
     "question2": [
-        "i would like to add more data to jewish community",
-        "add data to jewish community",
-        "insert data for jewish community",
-        "update jewish community data",
-        "append data to jewish community",
-        "add more jewish community data",
-        "expand jewish community data"
+        r"\b(?:add|insert|update|append) data(?: to)? jewish community\b",
+        r"\b(?:add|insert|update|append) data\b"  # For the shortened version
     ],
     "question3": [
-        "what dates of interest are available in the ontology?",
-        "available dates in the ontology?",
-        "list dates of interest in the ontology",
-        "display ontology dates of interest",
-        "dates of interest in ontology",
-        "ontology dates of interest"
+        r"\b(?:dates|days) of interest\b",
+        r"\b(?:available|list|display) dates(?: of interest)?(?: in the ontology)?\b"
     ],
     "question4": [
-        "what reference threats are available in the ontology?",
-        "available reference threats?",
-        "list reference threats in the ontology",
-        "display ontology reference threats",
-        "reference threats in ontology",
-        "ontology reference threats"
+        r"\b(?:reference|available|list) threats(?: in the ontology)?\b"
     ]
 }
+
+def match_intent(query):
+    # Iterate over patterns and check for matches
+    for question_id, question_patterns in patterns.items():
+        for pattern in question_patterns:
+            if re.search(pattern, query, re.IGNORECASE):
+                return question_id
+    return None
 
 @app.get("/get-map")
 async def get_map():
@@ -285,92 +268,88 @@ class QueryBody(BaseModel):
 async def chat(query_body: QueryBody):
     # Process the query and identify the question ID
     query = query_body.query.lower()
-    question_id = None
-    for q_id, variations in question_mappings.items():
-        for variation in variations:
-            if variation.lower() in query:
-                question_id = q_id
-                break
-        if question_id:
-            break
+    intent = match_intent(query)
+    print("intent")
+    print(intent)
     
     # Based on the identified question ID, provide the corresponding response
-    if question_id:
-        if question_id == "question1":
+    if intent:
+        if intent == "question1":
             if query_body.multi_select:
                 response = {
-  "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
-  "payload": {
-    "knowlege": [
-      "Jewish community locations",
-      "Past incidents",
-      "Municipality locations",
-      "Known offenders"
-    ],
-    "widget_type": "MULTI_SELECT_LIST"
-  }
-}
+                              "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
+                              "payload": {
+                                "knowlege": [
+                                  "Jewish community locations",
+                                  "Past incidents",
+                                  "Municipality locations",
+                                  "Known offenders"
+                                ],
+                                "widget_type": "MULTI_SELECT_LIST"
+                              }
+                            }
             else:
                 response = {
-  "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
-  "payload": {
-    "knowlege": [
-      "Draw on map",
-      "describe the required area"
-    ],
-    "widget_type": "SINGLE_SELECT_LIST"
-  }
-}
+                              "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
+                              "payload": {
+                                "knowlege": [
+                                  "Draw on map",
+                                  "describe the required area"
+                                ],
+                                "widget_type": "SINGLE_SELECT_LIST"
+                              }
+                            }
              
-        elif question_id == "question2":
+        elif intent == "question2":
             response = {"conversation":" You have couple of options to update which one do you prefer",
- "payload": {
-    "knowledge": ["Upload CSV", "Free flowing text"], "widget_type":"SINGLE_SELECT_LIST"
-}
-}
+                        "payload": {
+                            "knowledge": ["Upload CSV", "Free flowing text"], "widget_type":"SINGLE_SELECT_LIST"
+                        }
+                        }
 
 
-        elif question_id == "question3":
+        elif intent == "question3":
             response = {
-  "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
-  "payload": {
-    "knowledge": [
-      {"Holiday": "Rosh Hashanah", "Date": "September 25-27"},
-      {"Holiday": "Yom Kippur", "Date": "October 4"},
-      {"Holiday": "Sukkot", "Date": "October 9-16"},
-      {"Holiday": "Hanukkah", "Date": "December 7-14"},
-      {"Holiday": "Purim", "Date": "March 6-7"},
-      {"Holiday": "Passover", "Date": "April 5-13"},
-      {"Holiday": "Shavuot", "Date": "May 25-27"}
-    ],
-    "widget_type": "CALENDAR_TABLE"
-  }
-}
-        elif question_id == "question4":
+                          "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
+                          "payload": {
+                            "knowledge": [
+                              {"Holiday": "Rosh Hashanah", "Date": "September 25-27"},
+                              {"Holiday": "Yom Kippur", "Date": "October 4"},
+                              {"Holiday": "Sukkot", "Date": "October 9-16"},
+                              {"Holiday": "Hanukkah", "Date": "December 7-14"},
+                              {"Holiday": "Purim", "Date": "March 6-7"},
+                              {"Holiday": "Passover", "Date": "April 5-13"},
+                              {"Holiday": "Shavuot", "Date": "May 25-27"}
+                            ],
+                            "widget_type": "CALENDAR_TABLE"
+                          }
+                        }
+        elif intent == "question4":
             response = {
-  "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
-  "payload": {
-    "knowledge": [
-      {
-        "Crime Type": "Cyber Crime",
-        "Description": "Crimes committed using computers or over the internet.",
-        "Common Types": "Phishing, Malware, Ransomware"
-      },
-      {
-        "Crime Type": "General Crime",
-        "Description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
-        "Common Types": "Theft, Vandalism, Burglary"
-      },
-      {
-        "Crime Type": "Hate Crime",
-        "Description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
-        "Common Targets": "Religious institutions, Minority communities"
-      }
-    ],
-    "widget_type": "CRIME_OVERVIEW_TABLE"
-  }
-}
+                          "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
+                          "payload": {
+                            "knowledge": [
+                              {
+                                "Crime Type": "Cyber Crime",
+                                "Description": "Crimes committed using computers or over the internet.",
+                                "Common Types": "Phishing, Malware, Ransomware"
+                              },
+                              {
+                                "Crime Type": "General Crime",
+                                "Description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
+                                "Common Types": "Theft, Vandalism, Burglary"
+                              },
+                              {
+                                "Crime Type": "Hate Crime",
+                                "Description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
+                                "Common Targets": "Religious institutions, Minority communities"
+                              }
+                            ],
+                            "widget_type": "CRIME_OVERVIEW_TABLE"
+                          }
+                        }
     else:
-        response = {"response": "Sorry, I couldn't understand your question."}
+        result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
+        return {"result": result["answer"], "model": llm_name}
     
     return response
