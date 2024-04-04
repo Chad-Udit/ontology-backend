@@ -325,7 +325,7 @@ async def chat(query_body: QueryBody):
         elif question_id == "question2":
             response = {"conversation":" You have couple of options to update which one do you prefer",
  "payload": {
-    "knowlege": ["Upload CSV", "Free flowing text"], "widget_type":"LIST"
+    "knowledge": ["Upload CSV", "Free flowing text"], "widget_type":"SINGLE_SELECT_LIST"
 }
 }
 
