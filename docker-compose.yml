@@ -35,8 +35,8 @@ services:
     ports:
       - 7687:7687
       - 7474:7474
-    # volumes:
-    #   - $PWD/data:/data
+    volumes:
+      - $PWD/data:/opt/neo_data
     environment:
       - NEO4J_AUTH=${NEO4J_USERNAME-neo4j}/${NEO4J_PASSWORD-password}
       - NEO4J_PLUGINS=["apoc"]
