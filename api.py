@@ -336,6 +336,14 @@ async def get_map():
 }
     return response
 
+@app.post("/upload")
+async def upload():
+    # logic for adding data to neo4j
+    response = {
+        "conversation": "Your Data Succesfuly Added"
+}
+    return response
+
 class QueryBody(BaseModel):
     query: str
     coordinates: list
