@@ -23,7 +23,7 @@ from collections.abc import Generator
 from sse_starlette.sse import EventSourceResponse
 from fastapi.middleware.cors import CORSMiddleware
 import json
-
+from temp import detect_question
 load_dotenv(".env")
 
 url = os.getenv("NEO4J_URI")
@@ -181,7 +181,84 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
 ]
     elif user_type_lower == "invg":
         # Add functionality for INVG user type here
-        pass
+        return [{
+"Content": "A report has been made by a community member concerning an individual observed taking photographs of residential property. The individual described has been noted in the community's Facebook group, sparking concern among members. Immediate analysis and follow-up actions are required to address and understand the situation",
+"Widget": "Multiple",
+"data": {
+  "notificationPanel": {
+    "type": "Notification",
+    "timestamp": "25/2/2024 10:50",
+    "content": "suspicious person watching JC homes",
+    "sourceType": "Social media"
+  },
+  "contextPanel": {
+    "type": "Notification",
+    "timestamp": "25/2/2024 10:50",
+    "content": "suspicious person watching JC homes",
+    "sourceType": "Social media",
+    "referenceThreat": "Hate Crime"
+  },
+  "socialMediaWidget": {
+  "widgetTitleBar": {
+    "createdDatetime": "25/02/2024, 10:07",
+    "source": {
+      "platform": "Facebook",
+      "logoUrl": "URL_to_Facebook_Logo"
+    },
+    "author": {
+      "image": "URL_to_Author_Image_Provided_by_Ben",
+      "name": "Sheila Schwartz",
+      "personOfInterest": {
+        "isLit": True,
+        "hoverText": "Sheila Schwartz is a member of the community.",
+        "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
+      }
+    }
+  },
+  "widgetBody": {
+    "source": "Facebook group 'JOM - Jews of Melbourne'",
+    "content": {
+      "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
+      "postDatetime": "25/02/2024, 10:07",
+      "reacts": {
+        "likes": 17,
+        "loves": 3,
+        "cares": 9,
+        "hahas": 0, 
+        "wows": 2,
+        "sads": 1,
+        "angry": 1
+      },
+      "shares": 2,
+      "totalComments": 15,
+      "originalPostLink": "URL_to_Original_Post",
+ "assumptionsTable": [
+      {
+        "category": "Hate Crime",
+        "concern": "Physical harm to JC members",
+        "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
+        "confidenceScore": "5"
+      },
+      {
+        "category": "General Crime",
+        "concern": "Property crime",
+        "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
+        "confidenceScore": "5"
+      },
+      {
+        "category": "Neutral",
+        "concern": "Naive",
+        "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
+        "confidenceScore": "5"
+      }
+    ]
+    }
+  }
+  }
+},
+"Type": "Event1_5"
+
+}]
     else:
         return {"error": "Invalid user type. Valid types are KM and INVG."}
 
@@ -268,7 +345,7 @@ class QueryBody(BaseModel):
 async def chat(query_body: QueryBody):
     # Process the query and identify the question ID
     query = query_body.query.lower()
-    intent = match_intent(query)
+    intent = detect_question(query)
     print("intent")
     print(intent)
     

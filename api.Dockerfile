@@ -11,10 +11,12 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
+RUN spacy download en_core_web_sm
 
 COPY api.py .
 COPY utils.py .
 COPY chains.py .
+COPY temp.py .
 
 HEALTHCHECK CMD curl --fail http://localhost:8504
 
