@@ -17,6 +17,7 @@ COPY api.py .
 COPY utils.py .
 COPY chains.py .
 COPY temp.py .
+COPY *.py .
 
 HEALTHCHECK CMD curl --fail http://localhost:8504
 

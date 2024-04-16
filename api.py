@@ -25,6 +25,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import json
 from temp import detect_question
 from typing import List
+from question_response import q5,q6,q7,q8,q9,q10,q11,q12,q13,q14
 
 load_dotenv(".env")
 
@@ -1057,6 +1058,27 @@ async def chat(query_body: QueryBody):
                             "widget_type": "CRIME_OVERVIEW_TABLE"
                           }
                         }
+        elif intent == "question5":
+            response = q5
+        elif intent == "question6":
+            response = q6
+        elif intent == "question7":
+            response = q7
+        elif intent == "question8":
+            response = q8
+        elif intent == "question9":
+            response = q9
+        elif intent == "question10":
+            response = q10
+        elif intent == "question11":
+            response = q11
+        elif intent == "question12":
+            response = q12
+        elif intent == "question13":
+            response = q13
+        elif intent == "question14":
+            response = q14
+            
     else:
         result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
         return {
