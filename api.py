@@ -169,26 +169,45 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
     user_type_lower = user_type.lower()
     if user_type_lower == "km":
         return [
-    {
-        "Content": "You have the capability to explore and analyze specific information tied to particular locations. This skill enables you to uncover valuable insights and gather pertinent details relevant to your reporting or investigative work.",
-        "Widget": "Multiple",
-        "data": {
-            "notificationPanel": {
-                "type": "investigation",
-                "timestamp": "25/2/2024 10:50",
-                "content": "Terrorist activities occur are examined and analyzed utilizing maps",
-                "sourceType": "Open Sanction"
-            },
-            "contextPanel": {
-                "type": "investigation",
-                "timestamp": "25/2/2024 10:50",
-                "content": "Investigation Research in Melborn",
-                "sourceType": "Open Sanction",
-                "referenceThreat": "Terrorist"
-            },
+  {
+    "Content": "You have the capability to explore and analyze specific information tied to particular locations. This skill enables you to uncover valuable insights and gather pertinent details relevant to your reporting or investigative work.",
+    "Widget": "Multiple",
+    "data": {
+      "notificationPanel": {
+        "type": "investigation",
+        "timestamp": "25/2/2024 10:50",
+        "content": "Terrorist activities occur are examined and analyzed utilizing maps",
+        "sourceType": "Open Sanction"
+      },
+      "contextPanel": {
+        "type": "investigation",
+        "timestamp": "25/2/2024 10:50",
+        "content": "Investigation Research in Melborn",
+        "sourceType": "Open Sanction",
+        "referenceThreat": "Terrorist"
+      },
+      "containerWidget": {
+        "widgetTitleBar": {
+          "timestamp": "25/2/2024 10:50",
+          "containerType": "notofication",
+          "policyScore": "Critical",
+          "assignee": "analyst",
+          "id": "123456789",
+          "actionsMenue": ["Open"]
         },
-        "Type": "km"
-    }
+        "widgetBody": {
+          "content": "To initilize the system, please define your base target location by drawing it or by describing it",
+          "sourceType": "System Initilization",
+          "source": "map",
+          "actionButtons": ["More"],
+          "referenceThreat": "",
+          "referenceUseCase": "",
+          "tigger": ["System Initial Use"]
+        }
+      }
+    },
+    "Type": "km"
+  }
 ]
     elif user_type_lower == "invg":
         # Add functionality for INVG user type here
