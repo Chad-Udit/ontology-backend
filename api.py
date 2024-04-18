@@ -1039,20 +1039,47 @@ async def chat(query_body: QueryBody):
 
         elif intent == "question3":
             response = {
-                          "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
-                          "payload": {
-                            "knowledge": [
-                              {"Holiday": "Rosh Hashanah", "Date": "September 25-27"},
-                              {"Holiday": "Yom Kippur", "Date": "October 4"},
-                              {"Holiday": "Sukkot", "Date": "October 9-16"},
-                              {"Holiday": "Hanukkah", "Date": "December 7-14"},
-                              {"Holiday": "Purim", "Date": "March 6-7"},
-                              {"Holiday": "Passover", "Date": "April 5-13"},
-                              {"Holiday": "Shavuot", "Date": "May 25-27"}
-                            ],
-                            "widget_type": "CALENDAR_TABLE"
-                          }
-                        }
+  "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
+  "payload": {
+    "knowledge": [
+      {
+        "holiday": "Rosh Hashanah",
+        "duration": "2 days",
+        "start": "September 25",
+        "end": "September 27",
+        "freequency": "First and second day of the Jewish month of Tishrei",
+        "effectiveHours": "Full day",
+        "reference": "https://simple.wikipedia.org/wiki/Rosh_Hashanah",
+        "related": {
+          "caseId": "1234567890",
+          "personOfInterest": "John Murphy",
+          "reason": "Some Reason",
+          "locationOfInterest": "Melborn, Austrailia"
+        },
+        "policyScore": "low",
+        "justification": ""
+      },
+      {
+        "holiday": "Yom Kippur",
+        "duration": "1 day",
+        "start": "October 4",
+        "end": "October 4",
+        "freequency": "Tenth day of the Jewish month of Tishrei",
+        "effectiveHours": "Full day (fasting)",
+        "reference": "https://simple.wikipedia.org/wiki/Yom_Kippur",
+        "related": {
+          "caseId": "1234567890",
+          "personOfInterest": "John Murphy",
+          "reason": "Some Reason",
+          "locationOfInterest": "Melborn, Austrailia"
+        },
+        "policyScore": "low",
+        "justification": ""
+      }
+    ],
+    "widget_type": "CALENDAR_TABLE"
+  }
+}
         elif intent == "question4":
             response = {
                           "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
