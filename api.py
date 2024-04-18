@@ -984,7 +984,7 @@ async def get_ontology(ontology_type: List[OntologyType]):
 async def upload():
     # logic for adding data to neo4j
     response = {
-        "conversation": "Your Data Succesfuly Added"
+        "conversation": "Your location data has been incorporated into the ontology graph. Feel free to analyze it for insights and patterns."
 }
     return response
 
