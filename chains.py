@@ -89,8 +89,8 @@ def load_llm(llm_name: str, logger=BaseLogger(), config={}):
 def configure_llm_only_chain(llm):
     # LLM only response
     template = """
-    You are a helpful assistant that helps a support agent with answering programming questions.
-    If you don't know the answer, just say that you don't know, you must not make up an answer.
+    You are a helpful assistant that helps a support agent with genrel questions.
+    question like What is capital of india, sri lanka etc. only genrel queston.
     """
     system_message_prompt = SystemMessagePromptTemplate.from_template(template)
     human_template = "{question}"
