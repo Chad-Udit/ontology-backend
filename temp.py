@@ -1,9 +1,43 @@
+import os
 import spacy
 from spacy.matcher import PhraseMatcher
+from dotenv import load_dotenv
 
 # Load English tokenizer, tagger, parser, and NER
 nlp = spacy.load("en_core_web_sm")
 
+from utils import (
+    BaseLogger,
+)
+from chains import (
+    load_llm,
+    configure_llm_only_chain,
+
+)
+load_dotenv(".env")
+ollama_base_url = os.getenv("OLLAMA_BASE_URL")
+embedding_model_name = os.getenv("EMBEDDING_MODEL")
+llm_name = os.getenv("LLM")
+llm = load_llm(
+    llm_name, logger=BaseLogger(), config={"ollama_base_url": ollama_base_url}
+)
+
+llm_chain = configure_llm_only_chain(llm)
+
+PROMPT = """
+YOu need to answer me with below knowledge on question bank I have provideded you with 5batch of  questions which I provided below, form that list I will give my user input question you need to suggest me which is the nearest question bank that matched to my user question your response should be simple like 
+question2
+(Above only give question2 as your response nothing else)
+
+Below is my question bank:
+{0}
+
+Below is my user question please match a question from the bank and respond in the format I asked previously
+User Question: {1}
+
+NOTE: If any Question did not matched then your output will be:
+None
+"""
 # Define the questions
 question_mappings = {
     "question1": [
@@ -17,6 +51,7 @@ question_mappings = {
     ],
     "question2": [
         "i would like to add more data to jewish community",
+        "I want to upload sources of interest",
         "add data to jewish community",
         "insert data for jewish community",
         "update jewish community data",
@@ -160,7 +195,23 @@ def detect_question(query):
     # If no question number found, return None
     return question_number
 
+
+def detect_question_llm(question):
+    print("No Question Detatcted Calling LLM")
+    user_prompt = PROMPT.format(str(question_mappings),question)
+    print("PROMPT to LLM")
+    # print(user_prompt)
+    result = llm_chain({"question": user_prompt, "chat_history": []}, callbacks=[])
+    print(result["answer"])
+
+    return result["answer"]
+
 # Example usage
-# input_query = "update data"
+# input_query = "add data"
 # matched_question_number = detect_question(input_query)
+# print("Matched question number:", matched_question_number)
+# print("Now LLM response")
+
+
+# matched_question_number = detect_question_llm(input_query)
 # print("Matched question number:", matched_question_number)

@@ -105,7 +105,7 @@ q8 = {
   "conversation": "Added a note to the Orrong and Glen Eiira post",
   "payload": {
     "knowledge": [ {
-      "Notes": ["The event in Orrong and Glen Eiira was a performed by a municipality worker, claiming he was mapping out routes for garbage disposal"],
+      "notes": ["The event in Orrong and Glen Eiira was a performed by a municipality worker, claiming he was mapping out routes for garbage disposal"],
       "assumption":"Suspect may be municipality worker"}
     ],
     "widget_type": "N/A",
@@ -118,12 +118,12 @@ q9 = {
   "payload": {
     "knowledge": [ {
      "crimes":[{
-  "IncidentType": "Theft",
-  "Latitude": "34.052235",
-  "Longitude": "-118.243683",
-  "Address": "625 S Broadway, Los Angeles, CA 90014, USA",
-  "LinkToGoogleMaps": "https://www.google.com/maps/place/625+S+Broadway,+Los+Angeles,+CA+90014,+USA/",
-  "Date": "2024-04-13"
+  "incidentType": "Theft",
+  "latitude": "34.052235",
+  "longitude": "-118.243683",
+  "address": "625 S Broadway, Los Angeles, CA 90014, USA",
+  "linkToGoogleMaps": "https://www.google.com/maps/place/625+S+Broadway,+Los+Angeles,+CA+90014,+USA/",
+  "date": "2024-04-13"
 }]
     }],
     "widget_type": "N/A",

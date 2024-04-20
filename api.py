@@ -23,7 +23,7 @@ from collections.abc import Generator
 from sse_starlette.sse import EventSourceResponse
 from fastapi.middleware.cors import CORSMiddleware
 import json
-from temp import detect_question
+from temp import detect_question, detect_question_llm
 from typing import List
 from question_response import q5,q6,q7,q8,q9,q10,q11,q12,q13,q14
 
@@ -1000,7 +1000,10 @@ async def chat(query_body: QueryBody):
     intent = detect_question(query)
     print("intent")
     print(intent)
-    
+    if intent == None:
+        intent = detect_question_llm(query)
+        print("Response From LLM: ", intent)
+        
     # Based on the identified question ID, provide the corresponding response
     if intent:
         if intent == "question1":
@@ -1086,19 +1089,19 @@ async def chat(query_body: QueryBody):
                           "payload": {
                             "knowledge": [
                               {
-                                "Crime Type": "Cyber Crime",
-                                "Description": "Crimes committed using computers or over the internet.",
-                                "Common Types": "Phishing, Malware, Ransomware"
+                                "crime_type": "Cyber Crime",
+                                "description": "Crimes committed using computers or over the internet.",
+                                "common_types": "Phishing, Malware, Ransomware"
                               },
                               {
-                                "Crime Type": "General Crime",
-                                "Description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
-                                "Common Types": "Theft, Vandalism, Burglary"
+                                "crime_type": "General Crime",
+                                "description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
+                                "common_types": "Theft, Vandalism, Burglary"
                               },
                               {
-                                "Crime Type": "Hate Crime",
-                                "Description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
-                                "Common Targets": "Religious institutions, Minority communities"
+                                "crime_type": "Hate Crime",
+                                "description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
+                                "common_types": "Religious institutions, Minority communities"
                               }
                             ],
                             "widget_type": "CRIME_OVERVIEW_TABLE"
