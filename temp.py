@@ -142,6 +142,36 @@ question_mappings = {
         "conclude from investigation that reported suspicious photography sightings are linked to neutral municipal activities",
         "determine through investigation that sightings of suspicious photography likely involve neutral municipal activities",
         "find from investigation that reported sightings of suspicious photography are probably related to neutral municipal activities"
+    ],
+    "question15": [
+        "perform linguistic analysis on the post",
+        "analyze the language used in the post",
+        "conduct linguistic analysis of the post",
+        "examine the linguistic aspects of the post"
+    ],
+    "question16": [
+        "convert notification to alert",
+        "change notification to alert",
+        "transform notification into alert",
+        "modify notification to alert"
+    ],
+    "question17": [
+        "upload new sources of interest",
+        "add new sources of interest",
+        "update sources of interest",
+        "submit additional sources of interest"
+    ],
+    "question18": [
+        "merge both incidents and elevate risk level for the incidents and of person of interest",
+        "combine both incidents and raise the risk level for them and the person of interest",
+        "merge the incidents and increase the risk level for both incidents and the person of interest",
+        "consolidate both incidents and escalate the risk level for them and the person of interest"
+    ],
+    "question19": [
+        "convert incident to Case",
+        "transform incident into Case",
+        "change incident to Case",
+        "turn incident into Case"
     ]
 }
 
@@ -207,11 +237,11 @@ def detect_question_llm(question):
     return result["answer"]
 
 # Example usage
-# input_query = "add data"
-# matched_question_number = detect_question(input_query)
-# print("Matched question number:", matched_question_number)
-# print("Now LLM response")
+input_query = "is there any data avaible in this polygon?"
+matched_question_number = detect_question(input_query)
+print("Matched question number:", matched_question_number)
+print("Now LLM response")
 
 
-# matched_question_number = detect_question_llm(input_query)
-# print("Matched question number:", matched_question_number)
+matched_question_number = detect_question_llm(input_query)
+print("Matched question number:", matched_question_number)
