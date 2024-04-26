@@ -444,29 +444,29 @@ async def chat(query_body: QueryBody):
         if intent == "question1":
             if query_body.multi_select:
                 response = {
-  "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
-  "payload": {
-    "knowlege": [
-      {
-        "type": "municipility",
-        "value": "Municipality"
-      },
-      {
-        "type": "past_incidents",
-        "value": "Past Incidents"
-      },
-      {
-        "type": "poi",
-        "value": "Known Offenders"
-      },
-      {
-        "type": "jwish_community",
-        "value": "Jewish Community"
-      }
-    ],
-    "widgetType": "MULTI_SELECT_LIST"
-  }
-}
+                              "conversation": "We Found below data sets for you to analyse which one would be of your interest please select",
+                              "payload": {
+                                "knowlege": [
+                                  {
+                                    "type": "municipility",
+                                    "value": "Municipality"
+                                  },
+                                  {
+                                    "type": "past_incidents",
+                                    "value": "Past Incidents"
+                                  },
+                                  {
+                                    "type": "poi",
+                                    "value": "Known Offenders"
+                                  },
+                                  {
+                                    "type": "jwish_community",
+                                    "value": "Jewish Community"
+                                  }
+                                ],
+                                "widgetType": "MULTI_SELECT_LIST"
+                              }
+                            }
             else:
                 response = {
                               "conversation": "To initilize the system please select your region",
@@ -481,75 +481,75 @@ async def chat(query_body: QueryBody):
              
         elif intent == "question2":
             response = {
-  "conversation": " You have couple of options to update which one do you prefer",
-  "payload": {
-    "knowledge": [
-      "Upload CSV",
-      "Free flowing text"
-    ],
-    "widgetType": "SINGLE_SELECT_LIST"
-  }
-}
+                          "conversation": " You have couple of options to update which one do you prefer",
+                          "payload": {
+                            "knowledge": [
+                              "Upload CSV",
+                              "Free flowing text"
+                            ],
+                            "widgetType": "SINGLE_SELECT_LIST"
+                          }
+                        }
 
 
         elif intent == "question3":
             response = {
-  "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
-  "payload": {
-    "knowledge": [
-      {
-        "holiday": "Rosh Hashanah",
-        "duration": "2 days",
-        "start": "September 25",
-        "end": "September 27",
-        "freequency": "First and second day of the Jewish month of Tishrei",
-        "effectiveHours": "Full day",
-        "reference": "https://simple.wikipedia.org/wiki/Rosh_Hashanah",
-        "related": {
-          "caseId": "1234567890",
-          "personOfInterest": "John Murphy",
-          "reason": "Some Reason",
-          "locationOfInterest": "Melborn, Austrailia"
-        },
-        "policyScore": "low",
-        "justification": ""
-      },
-      {
-        "holiday": "Yom Kippur",
-        "duration": "1 day",
-        "start": "October 4",
-        "end": "October 4",
-        "freequency": "Tenth day of the Jewish month of Tishrei",
-        "effectiveHours": "Full day (fasting)",
-        "reference": "https://simple.wikipedia.org/wiki/Yom_Kippur",
-        "related": {
-          "caseId": "1234567890",
-          "personOfInterest": "John Murphy",
-          "reason": "Some Reason",
-          "locationOfInterest": "Melborn, Austrailia"
-        },
-        "policyScore": "low",
-        "justification": ""
-      }
-    ],
-    "widgetType": "CALENDAR_TABLE"
-  }
-}
+                          "conversation": "Below are significant dates and holidays of interest along with their dates or date ranges for this year.",
+                          "payload": {
+                            "knowledge": [
+                              {
+                                "holiday": "Rosh Hashanah",
+                                "duration": "2 days",
+                                "start": "September 25",
+                                "end": "September 27",
+                                "freequency": "First and second day of the Jewish month of Tishrei",
+                                "effectiveHours": "Full day",
+                                "reference": "https://simple.wikipedia.org/wiki/Rosh_Hashanah",
+                                "related": {
+                                  "caseId": "1234567890",
+                                  "personOfInterest": "John Murphy",
+                                  "reason": "Some Reason",
+                                  "locationOfInterest": "Melborn, Austrailia"
+                                },
+                                "policyScore": "low",
+                                "justification": ""
+                              },
+                              {
+                                "holiday": "Yom Kippur",
+                                "duration": "1 day",
+                                "start": "October 4",
+                                "end": "October 4",
+                                "freequency": "Tenth day of the Jewish month of Tishrei",
+                                "effectiveHours": "Full day (fasting)",
+                                "reference": "https://simple.wikipedia.org/wiki/Yom_Kippur",
+                                "related": {
+                                  "caseId": "1234567890",
+                                  "personOfInterest": "John Murphy",
+                                  "reason": "Some Reason",
+                                  "locationOfInterest": "Melborn, Austrailia"
+                                },
+                                "policyScore": "low",
+                                "justification": ""
+                              }
+                            ],
+                            "widgetType": "CALENDAR_TABLE"
+                          }
+                        }
         elif intent == "question4":
             response = {
-  "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
-  "payload": {
-    "knowledge": [
-      {
-        "crimeType": "Cyber Crime",
-        "description": "Crimes committed using computers or over the internet.",
-        "commonTypes": "Phishing, Malware, Ransomware"
-      }
-    ],
-    "widgetType": "CRIME_OVERVIEW_TABLE",
-    "actionKey": "km_crime"
-  }
-}
+                          "conversation": "Here are the types of crimes that our system monitors, along with descriptions and common examples.",
+                          "payload": {
+                            "knowledge": [
+                              {
+                                "crimeType": "Cyber Crime",
+                                "description": "Crimes committed using computers or over the internet.",
+                                "commonTypes": "Phishing, Malware, Ransomware"
+                              }
+                            ],
+                            "widgetType": "CRIME_OVERVIEW_TABLE",
+                            "actionKey": "km_crime"
+                          }
+                        }
         elif intent == "question5":
             response = q5
         elif intent == "question6":
@@ -580,15 +580,32 @@ async def chat(query_body: QueryBody):
             response = q18
         elif intent == "question19":
             response = q19
-            
+        elif "None" in intent:
+            result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
+            response =  {
+                  "conversation": result["answer"],
+                  "payload": {
+                    "knowlege": [],
+                    "widget_type": ""
+                  }
+                }
+        elif intent.__contains__("None"):
+            result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
+            response =  {
+                  "conversation": result["answer"],
+                  "payload": {
+                    "knowlege": [],
+                    "widget_type": ""
+                  }
+                }            
     else:
         result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
         return {
-                              "conversation": result["answer"],
-                              "payload": {
-                                "knowlege": [],
-                                "widget_type": ""
-                              }
+                  "conversation": result["answer"],
+                  "payload": {
+                    "knowlege": [],
+                    "widget_type": ""
+                  }
                 }
     
     
