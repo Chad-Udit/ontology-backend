@@ -212,19 +212,13 @@ q16 = {
 }
 
 q17 = {
-  "conversation": "Please upload the file with sources of interest",
+  "conversation": " You have couple of options to update which one do you prefer",
   "payload": {
     "knowledge": [
-      {
-        "source": "Jewish",
-        "definitionOfTheSource": "Religion",
-        "name": "Melbourne Hebrew Congregation",
-        "socialMediaPage": "https://www.facebook.com/toorak.shule",
-        "sentiment": "Positive"
-      }
+      "Upload CSV",
+      "Free flowing text"
     ],
-    "widgetType": "N/A",
-    "actionKey": "km_upload_source_interest"
+    "widgetType": "SINGLE_SELECT_LIST"
   }
 }
 
