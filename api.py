@@ -627,7 +627,16 @@ async def get_ontology(ontology_type: List[OntologyType]):
 async def upload():
     # logic for adding data to neo4j
     response = {
-        "conversation": "Your location data has been incorporated into the ontology graph. Feel free to analyze it for insights and patterns."
+    "conversation": "The data has been successfully uploaded. Do you want to show data on Map?",
+    "payload": {
+        "knowlege": [
+            {
+                "type": "show_on_map",
+                "value": "Yes"
+            }
+        ],
+        "widgetType": "SINGLE_SELECT_LIST"
+    }
 }
     return response
 
@@ -665,7 +674,7 @@ async def chat(query_body: QueryBody):
                                   },
                                   {
                                     "type": "poi",
-                                    "value": "Known Offenders"
+                                    "value": "Person of Intereset"
                                   },
                                   {
                                     "type": "jwish_community",

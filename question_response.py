@@ -865,7 +865,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Teacher",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "William Jones",
@@ -885,7 +885,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Software Engineer",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Olivia Miller",
@@ -905,7 +905,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Retail Manager",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Benjamin Davis",
@@ -925,7 +925,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Doctor",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Isabella Garcia",
@@ -945,7 +945,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Accountant",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Lucas Hernandez",
@@ -965,7 +965,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Chef",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Sophia Johnson",
@@ -985,7 +985,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Marketing Specialist",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Ethan Lee",
@@ -1005,7 +1005,7 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Graphic Designer",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
   {
     "name": "Mia Wilson",
@@ -1025,6 +1025,6 @@ ontology_data = [
     "interestLevel": "high",
     "occupation": "Nurse",
     "workplace": "Melbourne",
-    "type": "jc"
+    "type": "jwish_community"
   },
 ]
