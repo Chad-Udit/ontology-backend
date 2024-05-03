@@ -248,6 +248,7 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
     "content": "A report has been made by a community member concerning an individual observed taking photographs of residential property. The individual described has been noted in the community's Facebook group, sparking concern among members. Immediate analysis and follow-up actions are required to address and understand the situation",
     "widget": "Multiple",
     "id": "123456",
+    "isVisible": True,
     "data": {
       "notificationPanel": {
         "type": "Notification",
@@ -352,6 +353,7 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
     "content": "Problematic Iconography by Person of Interest.",
     "widget": "Multiple",
     "id": "1234567",
+    "isVisible": True,
     "data": {
       "notificationPanel": {
         "type": "Notification",
@@ -452,6 +454,111 @@ async def notification(user_type: str = Query(..., description="User type (KM/IN
     "type": "event2",
     "actionKey": "event2_init"
   },
+  {
+    "content": "Potential merge of incidents",
+    "widget": "Multiple",
+    "id": "12345600",
+    "isVisible": False,
+    "data": {
+      "notificationPanel": {
+        "type": "Notification",
+        "timestamp": "25/2/2024 10:56",
+        "content": "New alert received: Potential merge of incidents",
+        "sourceType": "Social media"
+      },
+      "contextPanel": {
+        "type": "Notification",
+        "timestamp": "25/2/2024 10:56",
+        "content": "New alert received: Potential merge of incidents",
+        "sourceType": "Social media",
+        "referenceThreat": "Hate Crime"
+      },
+      "socialMediaWidget": {
+        "widgetTitleBar": {
+          "createdDatetime": "25/02/2024, 10:07",
+          "source": {
+            "platform": "Facebook",
+            "logoUrl": "URL_to_Facebook_Logo"
+          },
+          "author": {
+            "image": "URL_to_Author_Image_Provided_by_Ben",
+            "name": "Sheila Schwartz",
+            "personOfInterest": {
+              "isLit": True,
+              "hoverText": "Sheila Schwartz is a member of the community.",
+              "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
+            }
+          }
+        },
+        "widgetBody": {
+          "source": "Facebook group 'JOM - Jews of Melbourne'",
+          "content": {
+            "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
+            "postDatetime": "25/02/2024, 10:07",
+            "reacts": {
+              "likes": 17,
+              "loves": 3,
+              "cares": 9,
+              "hahas": 0,
+              "wows": 2,
+              "sads": 1,
+              "angry": 1
+            },
+            "shares": 2,
+            "totalComments": 15,
+            "originalPostLink": "URL_to_Original_Post"
+          }
+        }
+      },
+      "assumptionsTable": [
+        {
+          "category": "Hate Crime",
+          "concern": "Physical harm to JC members",
+          "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
+          "confidenceScore": "5"
+        },
+        {
+          "category": "General Crime",
+          "concern": "Property crime",
+          "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
+          "confidenceScore": "5"
+        },
+        {
+          "category": "Neutral",
+          "concern": "Naive",
+          "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
+          "confidenceScore": "5"
+        }
+      ],
+      "containerWidget": {
+        "widgetTitleBar": {
+          "timestamp": "25/2/2024 10:56",
+          "containerType": "notofication",
+          "policyScore": "Critical",
+          "assignee": "John Dou",
+          "id": "123456789",
+          "actionsMenue": [
+            "Open"
+          ]
+        },
+        "widgetBody": {
+          "content": "Unusual Iconography By a Person of interest",
+          "sourceType": "Ontoligical rule",
+          "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
+          "actionButtons": [
+            "Ontology Widget"
+          ],
+          "referenceThreat": "Hate Crime",
+          "referenceUseCase": "",
+          "tigger": [
+            "Rule: 'Suspect in one incident added as person of interest in another incident"
+          ]
+        }
+      }
+    },
+    "type": "event3",
+    "actionKey": "event3_init"
+  }
 ]
     else:
         return {"error": "Invalid user type. Valid types are KM and INVG."}
