@@ -368,7 +368,7 @@ km = [
           "assignee": "analyst",
           "id": "123456789",
           "actionsMenue": [
-            "Open"
+            "More"
           ]
         },
         "widgetBody": {
@@ -2051,8 +2051,34 @@ q19 = {
   "type": "Case",
   "policyScore": "High",
   "assignedTo": "Analyst name"
-    }],
-    "widgetType": "N/A",
+    },
+    {
+        "widgetTitleBar": {
+          "timestamp": "25/2/2024 11:26",
+          "containerType": "Case",
+          "policyScore": "High",
+          "assignee": "John Dou",
+          "id": "123456789",
+          "actionsMenue": [
+            "Open"
+          ]
+        },
+        "widgetBody": {
+          "content": "Created a case #277652",
+          "sourceType": "Ontology Rule",
+          "source": "Combined Both Incident",
+          "actionButtons": [
+            "More"
+          ],
+          "referenceThreat": "Hate Crime",
+          "referenceUseCase": "",
+          "tigger": [
+            "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+          ]
+        }
+      }
+    ],
+    "widgetType": "CONTAINER_WIDGET",
     "actionKey":"event3_case_created"
   }
 }
