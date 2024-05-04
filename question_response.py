@@ -339,10 +339,10 @@ km = [
       "containerWidget": {
         "widgetTitleBar": {
           "timestamp": "25/2/2024 10:50",
-          "containerType": "notofication",
+          "containerType": "Notification",
           "typeList": [
             {
-              "id": "notofication",
+              "id": "Notification",
               "displayName": "Notification"
             },
             {
