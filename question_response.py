@@ -2134,8 +2134,8 @@ q21 = {
         }
       }
     ],
-    "widget_type": "N/A",
-    "action_key":"event2_more_post"
+    "widgetType": "SOCIAL_MEDIA_WIDGET",
+    "actionKey":"event2_more_post"
   }
 }
 ontology_data = [
@@ -2740,183 +2740,259 @@ ontology_data = [
     "type": "poi"
   },
   {
-    "name": "Amelia Brown",
-    "url": "",
-    "imageUrl": "/images/amelia_brown.png",
-    "latitude": "-37.84653988",
-    "longitude": "145.1508142",
-    "description": "",
-    "address": "12 Hawthorn Road, Melbourne VIC 3130",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Teacher",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "William Jones",
-    "url": "",
-    "imageUrl": "/images/william_jones.png",
-    "latitude": "-37.81990498",
-    "longitude": "145.1361099",
-    "description": "",
-    "address": "34 Oak Lane, Melbourne VIC 3130",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Software Engineer",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Olivia Miller",
-    "url": "",
-    "imageUrl": "/images/olivia_miller.png",
-    "latitude": "-37.82181653",
-    "longitude": "145.1629855",
-    "description": "",
-    "address": "21 King Street, Melbourne VIC 3131",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Retail Manager",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Benjamin Davis",
-    "url": "",
-    "imageUrl": "/images/benjamin_davis.png",
-    "latitude": "-37.81846853",
-    "longitude": "144.9601855",
-    "description": "",
-    "address": "56 Queen Street, Melbourne VIC 3132",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Doctor",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Isabella Garcia",
-    "url": "",
-    "imageUrl": "/images/isabella_garcia.png",
-    "latitude": "-37.78127183",
-    "longitude": "144.99522",
-    "description": "",
-    "address": "89 High Street, Melbourne VIC 3132",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Accountant",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Lucas Hernandez",
-    "url": "",
-    "imageUrl": "/images/lucas_hernandez.png",
-    "latitude": "-37.81868788",
-    "longitude": "145.1575107",
-    "description": "",
-    "address": "123 Maple Avenue, Melbourne VIC 3130",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Chef",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Sophia Johnson",
-    "url": "",
-    "imageUrl": "/images/sophia_johnson.png",
-    "latitude": "-37.81662293",
-    "longitude": "144.9587718",
-    "description": "",
-    "address": "457 Bourke Street, Melbourne VIC 3131",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Marketing Specialist",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Ethan Lee",
-    "url": "",
-    "imageUrl": "/images/ethan_lee.png",
-    "latitude": "-37.75866623",
-    "longitude": "145.2885122",
-    "description": "",
-    "address": "8 Birch Road, Melbourne VIC 3132",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Graphic Designer",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
-  {
-    "name": "Mia Wilson",
-    "url": "",
-    "imageUrl": "/images/mia_wilson.png",
-    "latitude": "-37.81601468",
-    "longitude": "145.1151728",
-    "description": "",
-    "address": "23 Poplar Street, Melbourne VIC 3130",
-    "sensitivity": "0.0",
-    "color": "#e8ada0",
-    "mapIcon": "poi_marker.png",
-    "social": [],
-    "create_date": "8/22/2022",
-    "create_user": "",
-    "status": "new",
-    "interestLevel": "high",
-    "occupation": "Nurse",
-    "workplace": "Melbourne",
-    "type": "jwish_community"
-  },
+    "name": "Jewish Community Council of Victoria",
+    "website": "http://www.jccv.org.au/",
+    "address": "306 Hawthorn Rd, Caulfield VIC 3162, Australia",
+    "reviewsCommentsOsint": [
+        "Can't say much but thankyou for help.",
+        "No people there at all",
+        "There is no security. It feels scary"
+    ],
+    "phone": "61392725566",
+    "facebookPage": "https://www.facebook.com/JewishCommunityCouncilOfVictoria/",
+    "instagram": "https://www.instagram.com/jccvic/",
+    "telegram": "",
+    "twitter": "https://twitter.com/jccvic",
+    "email": "info@jccv.org.au",
+    "openHours": {
+        "Wednesday": "9am–5pm",
+        "Thursday": "9am–5pm",
+        "Friday": "9am–3pm",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Monday": "9am–5pm",
+        "Tuesday": "9am–5pm"
+    },
+    "relatedPerson1Facebook": "https://www.facebook.com/philip.zajac",
+    "relatedPerson1Address": "",
+    "relatedPerson2Facebook": "https://www.facebook.com/hayley.southwick",
+    "relatedPerson2Address": "Melbourne, Victoria, Australia",
+    "type": "jewish_community"
+},
+{
+    "name": "Mifgash Centre - Bentleigh Synagogue & Jewish Centre",
+    "website": "https://mifgashcentre.org.au/en/home/?utm_source=google&utm_medium=maps&utm_campaign=google-maps",
+    "address": "1-3 Cobar St, Bentleigh East VIC 3165, Australia",
+    "reviewsCommentsOsint": [
+        "Incredible events for the whole family! Also Fun-Kan Hebrew School is well organized and great for kids."
+    ],
+    "phone": "61395231204",
+    "facebookPage": "https://www.facebook.com/profile.php?id=100057535814327",
+    "instagram": "",
+    "telegram": "",
+    "twitter": "",
+    "email": "",
+    "openHours": "",
+    "upcomingEvents": [
+        {
+            "event": "Chanukah Festival 2023",
+            "description": "See you at 5:30! Tickets available at the door! *There will be security at this event *",
+            "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHY8ubyeaeTVbCHgCtfQQsT7VqNeZxVtharwCTEpM1p3ASKdTuN4NDYKFw8HQkgml&id=100057535814327&__cft__[0]=AZXjJuOpQXJm1JttFi59gD5cji2c6BBV5Z9pDGePZe0FscmCLKNrHe85zHkIY_0H4CG0iKZsb0idHK_TBnGl3jIqBR-Duc_C_CoD0sSKKDU9JHJ327e7xU0-gHoB5bWmV3ta3jdJPVYthBMsUAr3ySCbfe7BHmNth-2OoIEumwZKUgTCLvGu8T2LzUGUlKcTnPQ&__tn__=%2CO%2CP-R"
+        }
+    ],
+    "type": "jewish_community"
+},
+{
+    "name": "North Eastern Jewish Centre",
+    "website": "http://nejc.com.au/",
+    "address": "6 High St, Doncaster VIC 3108, Australia",
+    "reviewsCommentsOsint": [
+        "Have given public lectures here. Great food drinks and great atmosphere. Multimedia AV in Hall and active social multiethnic foods, insightful engaging events.",
+        "Hate this place and the people there."
+    ],
+    "phone": "61398579000",
+    "facebookPage": "https://www.facebook.com/NorthEasternJewishCentre",
+    "instagram": "https://www.instagram.com/northeasternjewishcentre/",
+    "telegram": "",
+    "twitter": "",
+    "email": "nejc@bigpond.com",
+    "openHours": {
+        "Wednesday": "Open 24 hours",
+        "Thursday": "Open 24 hours",
+        "Friday": "Open 24 hours",
+        "Saturday": "Open 24 hours",
+        "Sunday": "Open 24 hours",
+        "Monday": "Open 24 hours",
+        "Tuesday": "Open 24 hours"
+    },
+    "upcomingEvents": [
+        {
+            "event": "Monday to Friday Shacharit",
+            "time": "6.30am"
+        },
+        {
+            "event": "Shabbat Day Shacharit",
+            "time": "8.45am"
+        },
+        {
+            "event": "Children’s Services",
+            "time": "10.30am"
+        },
+        {
+            "event": "Mincha/Seuda/Maariv an hour before Shabbat ends",
+            "time": ""
+        },
+        {
+            "event": "Sunday/Public Holidays Shacharit",
+            "time": "8.00am"
+        },
+        {
+            "event": "Mincha followed by Maariv",
+            "time": "5.00pm"
+        }
+    ],
+    "relatedPerson1Facebook": "https://www.facebook.com/menachem.sabbach",
+    "relatedPerson1Address": "",
+    "relatedPerson2Facebook": "https://www.facebook.com/moshe.sabbach",
+    "relatedPerson2Address": "",
+    "type": "jewish_community"
+},
+{
+    "name": "Melbourne Hebrew Congregation",
+    "website": "https://www.melbournesynagogue.org.au/",
+    "address": "2/8 Toorak Rd, South Yarra VIC 3141, Australia",
+    "reviewsCommentsOsint": [
+        "I attended an event entitled Gershwin and Me featuring Simon Tedeschi piano and Mat Jodrel trumpet. It was a great privilege to be there in this beautiful synagogue.",
+        "Have you heard that Jews from this place support Israel when Palestinian children die!"
+    ],
+    "phone": "61398662255",
+    "facebookPage": "https://www.facebook.com/toorak.shule",
+    "instagram": "",
+    "telegram": "",
+    "twitter": "",
+    "email": "admin@mhc.org.au",
+    "openHours": {
+        "Monday": "9:00 AM - 4:00 PM",
+        "Tuesday": "9:00 AM - 4:00 PM",
+        "Wednesday": "9:00 AM - 4:00 PM",
+        "Thursday": "9:00 AM - 4:00 PM",
+        "Friday": "9:00 AM - 12:00 PM",
+        "Saturday": "9:30 AM - 1:30 PM",
+        "Sunday": "CLOSED"
+    },
+    "upcomingEvents": [],
+    "relatedPerson1Facebook": "https://www.facebook.com/shlomo.nathanson",
+    "relatedPerson1Address": "",
+    "relatedPerson2Facebook": "https://www.facebook.com/rivki.nathanson",
+    "relatedPerson2Address": "Melbourne, Victoria, Australia",
+    "type": "jewish_community"
+},
+{
+    "name": "East Melbourne Hebrew Congregation",
+    "website": "http://www.melbournecitysynagogue.com/",
+    "address": "488 Albert St, East Melbourne VIC 3002, Australia",
+    "reviewsCommentsOsint": [
+        "The Rabbi and his family are warm and welcoming; the congregation itself a family. Fantastic prayer service and inclusive events throughout the year. Only issue is with climbing ladders.",
+        "Zionists are everywhere"
+    ],
+    "phone": "61396621372",
+    "facebookPage": "https://www.facebook.com/eastmelbournesynagogue",
+    "instagram": "",
+    "telegram": "",
+    "twitter": "",
+    "email": "office@melbournecitysynagogue.com",
+    "openHours": "The Synagogue’s administration office is open on Monday to Thursday 10am to 2pm. Please note that these times do not apply to Public Holidays or Jewish Holidays.  If the office is closed messages should be left on the answering machine and calls will be dealt with on the next working day.",
+    "upcomingEvents": [
+        {
+            "event": "Chanukah Learning with Babs and Sonya",
+            "date": "Thurs December 7, 2023",
+            "time": "7:30pm",
+            "cost": "FREE",
+            "location": "East Melbourne Synagogue"
+        },
+        {
+            "event": "Shabbat Chanukah Dinner",
+            "date": "Friday December 8, 2023",
+            "time": "7:00 pm - 9:00 pm",
+            "cost": "A$40.00 p/p",
+            "location": "East Melbourne Synagogue"
+        }
+    ],
+    "relatedPerson1Facebook": "https://www.facebook.com/dovid.gutnick",
+    "relatedPerson1Address": "",
+    "relatedPerson2Facebook": "https://www.facebook.com/danny.segal.18",
+    "relatedPerson2Address": "Melbourne, Victoria, Australia",
+    "type": "jewish_community"
+},
+{
+    "name": "Adass Israel Synagogue of Melbourne",
+    "website": "",
+    "address": "12/24 Glen Eira Ave, Ripponlea VIC 3185, Australia",
+    "reviewsCommentsOsint": [
+        "If you need to catch a minyan, this is the place to go!",
+        "Big chasidic Shul. It has many Minyanim, very inclusive, has siddurim for every Nusach. Their is a hall and a kollel on premises. It is right across road from Ripponlee train station, Perhaps the Most convenient shul to daven by if going to work in the city right after davening. Or if rushing to catch mincha after getting back from city."
+    ],
+    "phone": "61395231204",
+    "facebookPage": "",
+    "instagram": "",
+    "telegram": "",
+    "twitter": "",
+    "email": "",
+    "openHours": {
+        "Wednesday": "Open 24 hours",
+        "Thursday": "Open 24 hours",
+        "Friday": "Open 24 hours",
+        "Saturday": "Open 24 hours",
+        "Sunday": "Open 24 hours",
+        "Monday": "Open 24 hours",
+        "Tuesday": "Open 24 hours"
+    },
+    "upcomingEvents": [],
+    "type": "jewish_community"
+},
+{
+    "name": "Jewish Community Council of Victoria",
+    "website": "http://www.jccv.org.au/",
+    "address": "306 Hawthorn Rd, Caulfield VIC 3162, Australia",
+    "reviewsCommentsOsint": [
+        "Cant say much but thankyou for help.",
+        "no people there at all",
+        "there is no security. It feels scary"
+    ],
+    "phone": "61392725566",
+    "facebookPage": "https://www.facebook.com/JewishCommunityCouncilOfVictoria/",
+    "instagram": "https://www.instagram.com/jccvic/",
+    "telegram": "",
+    "twitter": "https://twitter.com/jccvic",
+    "email": "info@jccv.org.au",
+    "openHours": {
+        "Wednesday": "9am–5pm",
+        "Thursday": "9am–5pm",
+        "Friday": "9am–3pm",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Monday": "9am–5pm",
+        "Tuesday": "9am–5pm"
+    },
+    "relatedPerson1Facebook": "https://www.facebook.com/philip.zajac",
+    "relatedPerson1Address": "",
+    "relatedPerson2Facebook": "https://www.facebook.com/hayley.southwick",
+    "relatedPerson2Address": "Melbourne, Victoria, Australia",
+    "type": "jewish_community"
+},
+{
+    "name": "Mifgash Centre - Bentleigh Synagogue & Jewish Centre",
+    "website": "https://mifgashcentre.org.au/en/home/?utm_source=google&utm_medium=maps&utm_campaign=google-maps",
+    "address": "1-3 Cobar St, Bentleigh East VIC 3165, Australia",
+    "reviewsCommentsOsint": [
+        "Incredible events for the whole family! Also Fun-Kan Hebrew School is well organized and great for kids."
+    ],
+    "phone": "61395231204",
+    "facebookPage": "https://www.facebook.com/profile.php?id=100057535814327",
+    "instagram": "",
+    "telegram": "",
+    "twitter": "",
+    "email": "",
+    "openHours": "",
+    "upcomingEvents": [
+        {
+            "event": "Chanukah Festival 2023",
+            "description": "See you at 5:30! Tickets available at the door! *There will be security at this event *",
+            "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHY8ubyeaeTVbCHgCtfQQsT7VqNeZxVtharwCTEpM1p3ASKdTuN4NDYKFw8HQkgml&id=100057535814327&__cft__[0]=AZXjJuOpQXJm1JttFi59gD5cji2c6BBV5Z9pDGePZe0FscmCLKNrHe85zHkIY_0H4CG0iKZsb0idHK_TBnGl3jIqBR-Duc_C_CoD0sSKKDU9JHJ327e7xU0-gHoB5bWmV3ta3jdJPVYthBMsUAr3ySCbfe7BHmNth-2OoIEumwZKUgTCLvGu8T2LzUGUlKcTnPQ&__tn__=%2CO%2CP-R"
+        }
+    ],
+    "type": "jewish_community"
+}
+
+
 ]
