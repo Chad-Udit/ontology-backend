@@ -264,6 +264,8 @@ async def chat(query_body: QueryBody):
             response = q18
         elif intent == "question19":
             response = q19
+        elif intent == "question20":
+            response == q5
         elif "None" in intent:
             result = llm_chain({"question": query_body.query, "chat_history": []}, callbacks=[])
             response =  {

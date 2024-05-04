@@ -172,6 +172,9 @@ question_mappings = {
         "transform incident into Case",
         "change incident to Case",
         "turn incident into Case"
+    ],
+    "question20": [
+        "show on the map routes of garbage collection in the JC polygon"
     ]
 }
 

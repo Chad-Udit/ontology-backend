@@ -26,7 +26,7 @@ invg = [
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
           },
           "author": {
-            "image": "URL_to_Author_Image_Provided_by_Ben",
+            "image": "https://drive.google.com/file/d/1APma18KB1e7ncu7Ja9-SgbiQmKZQWp5Y",
             "name": "Sheila Schwartz",
             "personOfInterest": {
               "isLit": True,
@@ -51,7 +51,7 @@ invg = [
             },
             "shares": 2,
             "totalComments": 15,
-            "originalPostLink": "URL_to_Original_Post"
+            "originalPostLink": "https://drive.google.com/file/d/13zzexxkZoNqdqacHl7rNX0GGRutY5MIe"
           }
         }
       },
@@ -532,7 +532,343 @@ q3 = {
                                 },
                                 "policyScore": "low",
                                 "justification": ""
-                              }
+                              },
+                              {
+    "holiday": "Sukkot",
+    "duration": "7-8 days",
+    "frequency": "Fifteenth day of Tishrei to twenty-second or twenty-third of Tishrei",
+    "effectiveHours": "Varies by day",
+    "reference": "https://en.wikipedia.org/wiki/Sukkot",
+    "exactDates": "Sept 23rd - Sept 30th or Oct 1st"
+},
+{
+    "holiday": "Passover",
+    "duration": "7-8 days",
+    "frequency": "Fifteenth day of the Jewish month of Nissan",
+    "effectiveHours": "Varies by day",
+    "reference": "https://simple.wikipedia.org/wiki/Passover",
+    "exactDates": "April 8th - April 15th or 16th"
+},
+{
+    "holiday": "Shavuot",
+    "duration": "1-2 days",
+    "frequency": "Sixth and seventh day of the Jewish month of Sivan",
+    "effectiveHours": "Full day",
+    "reference": "https://simple.wikipedia.org/wiki/Shavuot",
+    "exactDates": "May 15th & 16th or 16th only"
+},
+{
+    "holiday": "Christmas Day",
+    "duration": "1 day",
+    "frequency": "December 25th",
+    "effectiveHours": "Full day",
+    "reference": "https://en.wikipedia.org/wiki/Christmas",
+    "exactDates": "December 25th"
+},
+{
+    "holiday": "Good Friday",
+    "duration": "1 day",
+    "frequency": "Friday before Easter Sunday",
+    "effectiveHours": "Full day (commemoration)",
+    "reference": "https://en.wikipedia.org/wiki/Good_Friday",
+    "exactDates": "April 12th"
+},
+{
+    "holiday": "Easter Sunday",
+    "duration": "1 day",
+    "frequency": "First Sunday after the full moon following the vernal equinox",
+    "effectiveHours": "Full day",
+    "reference": "https://en.wikipedia.org/wiki/Easter",
+    "exactDates": "April 14th"
+},
+{
+    "holiday": "Eid al-Fitr",
+    "duration": "1-3 days",
+    "frequency": "First day of the Islamic month of Shawwal",
+    "effectiveHours": "Full day",
+    "reference": "https://en.wikipedia.org/wiki/Eid_al_Fitr",
+    "exactDates": "May 10th or 11th"
+},
+{
+    "holiday": "Eid al-Adha",
+    "duration": "4 days",
+    "frequency": "Tenth day of Dhu al-Hijjah (Islamic calendar)",
+    "effectiveHours": "Full day",
+    "reference": "https://en.wikipedia.org/wiki/Eid_al_Adha",
+    "exactDates": "July 19th - 22nd"
+},
+{
+    "holiday": "Fast of Esther",
+    "duration": "1 day",
+    "frequency": "13th day of Adar II (Hebrew calendar) - Observance",
+    "effectiveHours": "Full day",
+    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+    "exactDates": "Thursday, March 21"
+},
+{
+    "holiday": "Purim Eve",
+    "duration": "1 day",
+    "frequency": "Eve of Purim - Observance",
+    "effectiveHours": "Full day",
+    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+    "exactDates": "Saturday, March 23"
+},
+{
+    "holiday": "Purim (Tel Aviv)",
+    "duration": "1 day",
+    "frequency": "14th day of Adar II (Hebrew calendar) - Local Holiday",
+    "effectiveHours": "Full day",
+    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+    "exactDates": "Sunday, March 24"
+},
+{
+    "holiday": "Shushan Purim (Jerusalem)",
+    "duration": "1 day",
+    "frequency": "15th day of Adar II (Hebrew calendar) - Local Holiday",
+    "effectiveHours": "Varies by day",
+    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+    "exactDates": "Monday, March 25"
+},
+{
+    "holiday": "Passover Eve",
+    "duration": "7-8 days",
+    "frequency": "14th day of Nisan (Hebrew calendar) - Observance",
+    "effectiveHours": "Varies by day",
+    "reference": "https://www.hebcal.com/holidays/pesach-2024",
+    "exactDates": "Monday, April 22"
+},
+{
+    "holiday": "Passover (Day 1)",
+    "duration": "7-8 days",
+    "frequency": "15th day of Nisan (Hebrew calendar) - National Holiday",
+    "effectiveHours": "Full day",
+    "reference": "https://www.hebcal.com/holidays/pesach-2024",
+    "exactDates": "Tuesday, April 23"
+},
+{
+    "holiday": "Passover (Day 2)",
+    "duration": "7-8 days",
+    "frequency": "16th day of Nisan (Hebrew calendar) - Observance",
+    "effectiveHours": "Varies",
+    "reference": "https://www.hebcal.com/holidays/pesach-2024",
+    "exactDates": "Wednesday, April 24"
+},
+{
+    "holiday": "Passover (Days 3-4-5)",
+    "duration": "7-8 days",
+    "frequency": "17th, 18th, 19th days of Nisan (Hebrew calendar) - Observance",
+    "effectiveHours": "Varies by day",
+    "reference": "https://www.hebcal.com/holidays/pesach-2024",
+    "exactDates": "Thursday-Friday-Saturday, April 25-26-27"
+},
+{
+    "holiday": "Passover (Days 6-7)",
+    "duration": "7-8 days",
+    "frequency": "20th, 21st days of Nisan (Hebrew calendar) - Observance",
+    "effectiveHours": "Varies by day",
+    "reference": "https://www.hebcal.com/holidays/pesach-2024",
+    "exactDates": "Sunday-Monday, April 28-29"
+},
+{
+    "holiday": "Yom HaShoah",
+    "duration": "1 day",
+    "frequency": "Holocaust Remembrance Day: Remembers the Jewish victims of the Holocaust - Observance",
+    "effectiveHours": "Varies by day",
+    "reference": "https://www.timeanddate.com/holidays/israel/yom-hashoah",
+    "exactDates": "Monday, May 6"
+},
+{
+    "holiday": "Yom HaZikaron",
+    "duration": "1 day",
+    "frequency": "Israeli Memorial Day: Honors Israeli soldiers and civilians killed in wars and terrorist attacks - Observance",
+    "effectiveHours": "Full day",
+    "reference": "https://www.hebcal.com/holidays/yom-hazikaron-2024",
+    "exactDates": "Monday, May 13"
+},
+{
+    "holiday": "Yom HaAtzmaut",
+    "duration": "1 day",
+    "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
+    "effectiveHours": "Full day",
+    "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
+    "exactDates": "Tuesday, May 14"
+},
+{
+    "holiday": "Lag BaOmer",
+    "duration": "1 day",
+    "frequency": "33rd day of the Omer counting between Passover and Shavuot - Observance traditionally associated with Rabbi Shimon bar Yochai",
+    "effectiveHours": "Full day",
+    "reference": "https://www.hebcal.com/holidays/lag-baomer-2024",
+    "exactDates": "Sunday, May 26"
+},
+{
+    "holiday": "Jerusalem Day",
+    "duration": "1 day",
+    "frequency": "Reunification of Jerusalem: Marks the reunification of East and West Jerusalem after the Six-Day War in 1967 - Observance",
+    "effectiveHours": "Full day",
+    "reference": "https://www.timeanddate.com/calendar/custom.html?country=34",
+    "exactDates": "Wednesday, June 5"
+},
+{
+    "holiday": "Shavuot Eve",
+    "duration": "1 day",
+    "frequency": "Eve of Shavuot - Observance",
+    "effectiveHours": "Full day",
+    "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+    "exactDates": "Tuesday, June 11"
+},
+{
+    "holiday": "Shavuot",
+    "duration": "1 day",
+    "frequency": "Festival of Weeks: Celebrates the giving of the Torah on Mount Sinai and the wheat harvest - National Holiday",
+    "effectiveHours": "Full day",
+    "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+    "exactDates": "Wednesday, June 12"
+},
+{
+    "holiday": "Muharram 1 (Islamic New Year)",
+    "duration": "1 Day",
+    "frequency": "1st day of the Islamic calendar",
+    "effectiveHours": "Full Day",
+    "reference": "https://en.wikipedia.org/wiki/Islamic_New_Year",
+    "exactDates": "Needs Islamic Calendar Check"
+},
+{
+    "holiday": "Ashura",
+    "duration": "1 Day",
+    "frequency": "10th day of Muharram (commemorates death of Hussein)",
+    "effectiveHours": "Varies",
+    "reference": "https://simple.wikipedia.org/wiki/Day_of_Ashura",
+    "exactDates": "Needs Islamic Calendar Check"
+},
+{
+    "holiday": "Mawlid an-Nabi",
+    "duration": "1-3 Days",
+    "frequency": "Birthday of the Prophet Muhammad",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Mawlid",
+    "exactDates": "Needs Islamic Calendar Check"
+},
+{
+    "holiday": "Laylat al-Qadr",
+    "duration": "1 Night",
+    "frequency": "Night of Power (believed to be the night Quran revealed)",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+    "exactDates": "Needs Islamic Calendar Check"
+},
+{
+    "holiday": "Ramadan",
+    "duration": "29-30 Days",
+    "frequency": "Month of fasting and prayer",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Ramadan",
+    "exactDates": "March 10 - April 8, 2024"
+},
+{
+    "holiday": "Eid al-Fitr",
+    "duration": "3-4 Days",
+    "frequency": "Festival of Breaking the Fast (end of Ramadan)",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+    "exactDates": "April 9-10, 2024"
+},
+{
+    "holiday": "Hajj",
+    "duration": "5-6 Days",
+    "frequency": "Pilgrimage to Mecca (once in a lifetime for Muslims who are able)",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Hajj",
+    "exactDates": "June 14 - June 19, 2024"
+},
+{
+    "holiday": "Eid al-Adha",
+    "duration": "4 Days",
+    "frequency": "Festival of Sacrifice (commemorates Abraham's sacrifice)",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+    "exactDates": "June 16-19, 2024"
+},
+{
+    "holiday": "Arafah (Day of Arafah)",
+    "duration": "1 Day",
+    "frequency": "Day of standing on Arafah during Hajj",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+    "exactDates": "June 15, 2024"
+},
+{
+    "holiday": "Muharram",
+    "duration": "1 Day",
+    "frequency": "First month of the Islamic calendar",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Islamic_calendar",
+    "exactDates": "Sunday 7th July 2024"
+},
+{
+    "holiday": "Shaban",
+    "duration": "1 Month",
+    "frequency": "Eighth month of the Islamic calendar",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Sha%27ban"
+},
+{
+    "holiday": "Dhul-Hijjah",
+    "duration": "1 Month",
+    "frequency": "Twelfth month of the Islamic calendar",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Dhu_al-Hijja"
+},
+{
+    "holiday": "Rajab",
+    "duration": "1 Month",
+    "frequency": "Seventh month of the Islamic calendar",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Rajab"
+},
+{
+    "holiday": "Jummah (Friday Prayer)",
+    "duration": "1 Day (Prayer Service)",
+    "frequency": "Every Friday",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Friday_prayer"
+},
+{
+    "holiday": "Laylat al-Bara'a (Night of Forgiveness)",
+    "duration": "1 Night",
+    "frequency": "15th night of Shaban (seeking forgiveness from Allah)",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Night_of_Power"
+},
+{
+    "holiday": "Ashura al-Bara'a (Day of Forgiveness)",
+    "duration": "1 Day",
+    "frequency": "Follows Laylat al-Bara'a",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Night_of_Power"
+},
+{
+    "holiday": "Mawlid al-Imam Ali (Birthday of Ali)",
+    "duration": "1-3 Days",
+    "frequency": "Birthday of Imam Ali, son-in-law of Prophet Muhammad",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Ali"
+},
+{
+    "holiday": "Miraj (Night Journey)",
+    "duration": "1 Night",
+    "frequency": "Night of Prophet Muhammad's journey to Jerusalem and Heaven",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj"
+},
+{
+    "holiday": "Isra' wal-Miraj",
+    "duration": "1 Night",
+    "frequency": "Combination of Night Journey and Ascension to Heaven",
+    "effectiveHours": "Varies",
+    "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj"
+}
+
                             ],
                             "widgetType": "CALENDAR_TABLE"
                           }
@@ -554,7 +890,7 @@ q4 = {
                         }
 
 q5 = {
-  "conversation": "Here are the routes for garbage collection",
+  "conversation": "Would you like to add latest garbage collection routes dated Decenber 2023  from Melbourne GIS https://maps.melbourne.vic.gov.au/ ?",
   "payload": {
     "knowledge": [
       {
@@ -1065,7 +1401,7 @@ q5 = {
 
 
 q6 = {
-  "conversation": "Converted to Incident",
+  "conversation": "Container widget will open up on Canvas. Please complete mandatory incident information, including assumptions",
   "payload": {
     "knowledge": [],
     "widgetType": "N/A",
