@@ -175,6 +175,9 @@ question_mappings = {
     ],
     "question20": [
         "show on the map routes of garbage collection in the JC polygon"
+    ],
+    "question21": [
+        "More posts from author"
     ]
 }
 

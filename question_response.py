@@ -2056,6 +2056,88 @@ q19 = {
   }
 }
 
+q21 = {
+  "conversation": "Created a case #277652",
+  "payload": {
+    "knowledge": [{
+        "widgetTitleBar": {
+          "createdDatetime": "16/02/2024, 10:55",
+          "source": {
+            "platform": "Facebook",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
+          },
+          "author": {
+            "image": "https://drive.google.com/file/d/1MBVZ43j5lileHg43EuUtXISlJuPfVR8T",
+            "name": "Bilal Elcheikh",
+            "personOfInterest": {
+              "isLit": False,
+              "hoverText": "",
+              "entityOfInterestWidget": ""
+            }
+          }
+        },
+        "widgetBody": {
+          "source": "Bilal Elcheikh",
+          "content": {
+            "text": "أرجو ممن يقرأ هذا المنشور أن يعلق بأي كلمة لأن منشوراتي لا تصل إلى أصدقائي بسبب سياسة الفيسبوك العفنة. ",
+            "postDatetime": "16/02/2024, 10:55",
+            "reacts": {
+              "likes": 21,
+              "loves": 0,
+              "cares": 0,
+              "hahas": 0,
+              "wows": 0,
+              "sads": 0,
+              "angry": 0
+            },
+            "shares": 0,
+            "totalComments": 3,
+            "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
+          }
+        }
+      },
+      {
+        "widgetTitleBar": {
+          "createdDatetime": "01/03/2024, 12:44",
+          "source": {
+            "platform": "Facebook",
+            "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
+          },
+          "author": {
+            "image": "https://drive.google.com/file/d/1MBVZ43j5lileHg43EuUtXISlJuPfVR8T",
+            "name": "Bilal Elcheikh",
+            "personOfInterest": {
+              "isLit": False,
+              "hoverText": "",
+              "entityOfInterestWidget": ""
+            }
+          }
+        },
+        "widgetBody": {
+          "source": "Bilal Elcheikh",
+          "content": {
+            "text": "Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project",
+            "postDatetime": "01/03/2024, 12:44",
+            "reacts": {
+              "likes": 17,
+              "loves": 0,
+              "cares": 0,
+              "hahas": 0,
+              "wows": 0,
+              "sads": 0,
+              "angry": 0
+            },
+            "shares": 0,
+            "totalComments": 1,
+            "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
+          }
+        }
+      }
+    ],
+    "widget_type": "N/A",
+    "action_key":"event2_more_post"
+  }
+}
 ontology_data = [
   {
     "name": "Municipility 01",
