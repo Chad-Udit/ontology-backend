@@ -465,7 +465,7 @@ q1_multi ={
                                     "value": "Person of Intereset"
                                   },
                                   {
-                                    "type": "jwish_community",
+                                    "type": "jewish_community",
                                     "value": "Jewish Community"
                                   }
                                 ],
