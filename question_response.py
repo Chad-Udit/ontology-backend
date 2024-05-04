@@ -321,6 +321,7 @@ km = [
     "content": "You have the capability to explore and analyze specific information tied to particular locations. This skill enables you to uncover valuable insights and gather pertinent details relevant to your reporting or investigative work.",
     "widget": "Multiple",
     "id": "123456",
+    "isVisible": True,
     "data": {
       "notificationPanel": {
         "type": "km",
