@@ -78,7 +78,7 @@ invg = [
       "containerWidget": {
         "widgetTitleBar": {
           "timestamp": "25/2/2024 10:50",
-          "containerType": "notofication",
+          "containerType": "Notification",
           "policyScore": "Critical",
           "assignee": "analyst",
           "id": "123456789",
@@ -183,7 +183,7 @@ invg = [
       "containerWidget": {
         "widgetTitleBar": {
           "timestamp": "25/2/2024 10:56",
-          "containerType": "notofication",
+          "containerType": "Notification",
           "policyScore": "Critical",
           "assignee": "John Dou",
           "id": "123456789",
@@ -288,7 +288,7 @@ invg = [
       "containerWidget": {
         "widgetTitleBar": {
           "timestamp": "25/2/2024 10:56",
-          "containerType": "notofication",
+          "containerType": "Notification",
           "policyScore": "Critical",
           "assignee": "John Dou",
           "id": "123456789",
@@ -535,340 +535,555 @@ q3 = {
                                 "justification": ""
                               },
                               {
-    "holiday": "Sukkot",
-    "duration": "7-8 days",
-    "frequency": "Fifteenth day of Tishrei to twenty-second or twenty-third of Tishrei",
-    "effectiveHours": "Varies by day",
-    "reference": "https://en.wikipedia.org/wiki/Sukkot",
-    "exactDates": "Sept 23rd - Sept 30th or Oct 1st"
-},
-{
-    "holiday": "Passover",
-    "duration": "7-8 days",
-    "frequency": "Fifteenth day of the Jewish month of Nissan",
-    "effectiveHours": "Varies by day",
-    "reference": "https://simple.wikipedia.org/wiki/Passover",
-    "exactDates": "April 8th - April 15th or 16th"
-},
-{
-    "holiday": "Shavuot",
-    "duration": "1-2 days",
-    "frequency": "Sixth and seventh day of the Jewish month of Sivan",
-    "effectiveHours": "Full day",
-    "reference": "https://simple.wikipedia.org/wiki/Shavuot",
-    "exactDates": "May 15th & 16th or 16th only"
-},
-{
-    "holiday": "Christmas Day",
-    "duration": "1 day",
-    "frequency": "December 25th",
-    "effectiveHours": "Full day",
-    "reference": "https://en.wikipedia.org/wiki/Christmas",
-    "exactDates": "December 25th"
-},
-{
-    "holiday": "Good Friday",
-    "duration": "1 day",
-    "frequency": "Friday before Easter Sunday",
-    "effectiveHours": "Full day (commemoration)",
-    "reference": "https://en.wikipedia.org/wiki/Good_Friday",
-    "exactDates": "April 12th"
-},
-{
-    "holiday": "Easter Sunday",
-    "duration": "1 day",
-    "frequency": "First Sunday after the full moon following the vernal equinox",
-    "effectiveHours": "Full day",
-    "reference": "https://en.wikipedia.org/wiki/Easter",
-    "exactDates": "April 14th"
-},
-{
-    "holiday": "Eid al-Fitr",
-    "duration": "1-3 days",
-    "frequency": "First day of the Islamic month of Shawwal",
-    "effectiveHours": "Full day",
-    "reference": "https://en.wikipedia.org/wiki/Eid_al_Fitr",
-    "exactDates": "May 10th or 11th"
-},
-{
-    "holiday": "Eid al-Adha",
-    "duration": "4 days",
-    "frequency": "Tenth day of Dhu al-Hijjah (Islamic calendar)",
-    "effectiveHours": "Full day",
-    "reference": "https://en.wikipedia.org/wiki/Eid_al_Adha",
-    "exactDates": "July 19th - 22nd"
-},
-{
-    "holiday": "Fast of Esther",
-    "duration": "1 day",
-    "frequency": "13th day of Adar II (Hebrew calendar) - Observance",
-    "effectiveHours": "Full day",
-    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-    "exactDates": "Thursday, March 21"
-},
-{
-    "holiday": "Purim Eve",
-    "duration": "1 day",
-    "frequency": "Eve of Purim - Observance",
-    "effectiveHours": "Full day",
-    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-    "exactDates": "Saturday, March 23"
-},
-{
-    "holiday": "Purim (Tel Aviv)",
-    "duration": "1 day",
-    "frequency": "14th day of Adar II (Hebrew calendar) - Local Holiday",
-    "effectiveHours": "Full day",
-    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-    "exactDates": "Sunday, March 24"
-},
-{
-    "holiday": "Shushan Purim (Jerusalem)",
-    "duration": "1 day",
-    "frequency": "15th day of Adar II (Hebrew calendar) - Local Holiday",
-    "effectiveHours": "Varies by day",
-    "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-    "exactDates": "Monday, March 25"
-},
-{
-    "holiday": "Passover Eve",
-    "duration": "7-8 days",
-    "frequency": "14th day of Nisan (Hebrew calendar) - Observance",
-    "effectiveHours": "Varies by day",
-    "reference": "https://www.hebcal.com/holidays/pesach-2024",
-    "exactDates": "Monday, April 22"
-},
-{
-    "holiday": "Passover (Day 1)",
-    "duration": "7-8 days",
-    "frequency": "15th day of Nisan (Hebrew calendar) - National Holiday",
-    "effectiveHours": "Full day",
-    "reference": "https://www.hebcal.com/holidays/pesach-2024",
-    "exactDates": "Tuesday, April 23"
-},
-{
-    "holiday": "Passover (Day 2)",
-    "duration": "7-8 days",
-    "frequency": "16th day of Nisan (Hebrew calendar) - Observance",
-    "effectiveHours": "Varies",
-    "reference": "https://www.hebcal.com/holidays/pesach-2024",
-    "exactDates": "Wednesday, April 24"
-},
-{
-    "holiday": "Passover (Days 3-4-5)",
-    "duration": "7-8 days",
-    "frequency": "17th, 18th, 19th days of Nisan (Hebrew calendar) - Observance",
-    "effectiveHours": "Varies by day",
-    "reference": "https://www.hebcal.com/holidays/pesach-2024",
-    "exactDates": "Thursday-Friday-Saturday, April 25-26-27"
-},
-{
-    "holiday": "Passover (Days 6-7)",
-    "duration": "7-8 days",
-    "frequency": "20th, 21st days of Nisan (Hebrew calendar) - Observance",
-    "effectiveHours": "Varies by day",
-    "reference": "https://www.hebcal.com/holidays/pesach-2024",
-    "exactDates": "Sunday-Monday, April 28-29"
-},
-{
-    "holiday": "Yom HaShoah",
-    "duration": "1 day",
-    "frequency": "Holocaust Remembrance Day: Remembers the Jewish victims of the Holocaust - Observance",
-    "effectiveHours": "Varies by day",
-    "reference": "https://www.timeanddate.com/holidays/israel/yom-hashoah",
-    "exactDates": "Monday, May 6"
-},
-{
-    "holiday": "Yom HaZikaron",
-    "duration": "1 day",
-    "frequency": "Israeli Memorial Day: Honors Israeli soldiers and civilians killed in wars and terrorist attacks - Observance",
-    "effectiveHours": "Full day",
-    "reference": "https://www.hebcal.com/holidays/yom-hazikaron-2024",
-    "exactDates": "Monday, May 13"
-},
-{
-    "holiday": "Yom HaAtzmaut",
-    "duration": "1 day",
-    "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
-    "effectiveHours": "Full day",
-    "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
-    "exactDates": "Tuesday, May 14"
-},
-{
-    "holiday": "Lag BaOmer",
-    "duration": "1 day",
-    "frequency": "33rd day of the Omer counting between Passover and Shavuot - Observance traditionally associated with Rabbi Shimon bar Yochai",
-    "effectiveHours": "Full day",
-    "reference": "https://www.hebcal.com/holidays/lag-baomer-2024",
-    "exactDates": "Sunday, May 26"
-},
-{
-    "holiday": "Jerusalem Day",
-    "duration": "1 day",
-    "frequency": "Reunification of Jerusalem: Marks the reunification of East and West Jerusalem after the Six-Day War in 1967 - Observance",
-    "effectiveHours": "Full day",
-    "reference": "https://www.timeanddate.com/calendar/custom.html?country=34",
-    "exactDates": "Wednesday, June 5"
-},
-{
-    "holiday": "Shavuot Eve",
-    "duration": "1 day",
-    "frequency": "Eve of Shavuot - Observance",
-    "effectiveHours": "Full day",
-    "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
-    "exactDates": "Tuesday, June 11"
-},
-{
-    "holiday": "Shavuot",
-    "duration": "1 day",
-    "frequency": "Festival of Weeks: Celebrates the giving of the Torah on Mount Sinai and the wheat harvest - National Holiday",
-    "effectiveHours": "Full day",
-    "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
-    "exactDates": "Wednesday, June 12"
-},
-{
-    "holiday": "Muharram 1 (Islamic New Year)",
-    "duration": "1 Day",
-    "frequency": "1st day of the Islamic calendar",
-    "effectiveHours": "Full Day",
-    "reference": "https://en.wikipedia.org/wiki/Islamic_New_Year",
-    "exactDates": "Needs Islamic Calendar Check"
-},
-{
-    "holiday": "Ashura",
-    "duration": "1 Day",
-    "frequency": "10th day of Muharram (commemorates death of Hussein)",
-    "effectiveHours": "Varies",
-    "reference": "https://simple.wikipedia.org/wiki/Day_of_Ashura",
-    "exactDates": "Needs Islamic Calendar Check"
-},
-{
-    "holiday": "Mawlid an-Nabi",
-    "duration": "1-3 Days",
-    "frequency": "Birthday of the Prophet Muhammad",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Mawlid",
-    "exactDates": "Needs Islamic Calendar Check"
-},
-{
-    "holiday": "Laylat al-Qadr",
-    "duration": "1 Night",
-    "frequency": "Night of Power (believed to be the night Quran revealed)",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
-    "exactDates": "Needs Islamic Calendar Check"
-},
-{
-    "holiday": "Ramadan",
-    "duration": "29-30 Days",
-    "frequency": "Month of fasting and prayer",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Ramadan",
-    "exactDates": "March 10 - April 8, 2024"
-},
-{
-    "holiday": "Eid al-Fitr",
-    "duration": "3-4 Days",
-    "frequency": "Festival of Breaking the Fast (end of Ramadan)",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
-    "exactDates": "April 9-10, 2024"
-},
-{
-    "holiday": "Hajj",
-    "duration": "5-6 Days",
-    "frequency": "Pilgrimage to Mecca (once in a lifetime for Muslims who are able)",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Hajj",
-    "exactDates": "June 14 - June 19, 2024"
-},
-{
-    "holiday": "Eid al-Adha",
-    "duration": "4 Days",
-    "frequency": "Festival of Sacrifice (commemorates Abraham's sacrifice)",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Eid_al-Adha",
-    "exactDates": "June 16-19, 2024"
-},
-{
-    "holiday": "Arafah (Day of Arafah)",
-    "duration": "1 Day",
-    "frequency": "Day of standing on Arafah during Hajj",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Day_of_Arafah",
-    "exactDates": "June 15, 2024"
-},
-{
-    "holiday": "Muharram",
-    "duration": "1 Day",
-    "frequency": "First month of the Islamic calendar",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Islamic_calendar",
-    "exactDates": "Sunday 7th July 2024"
-},
-{
-    "holiday": "Shaban",
-    "duration": "1 Month",
-    "frequency": "Eighth month of the Islamic calendar",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Sha%27ban"
-},
-{
-    "holiday": "Dhul-Hijjah",
-    "duration": "1 Month",
-    "frequency": "Twelfth month of the Islamic calendar",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Dhu_al-Hijja"
-},
-{
-    "holiday": "Rajab",
-    "duration": "1 Month",
-    "frequency": "Seventh month of the Islamic calendar",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Rajab"
-},
-{
-    "holiday": "Jummah (Friday Prayer)",
-    "duration": "1 Day (Prayer Service)",
-    "frequency": "Every Friday",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Friday_prayer"
-},
-{
-    "holiday": "Laylat al-Bara'a (Night of Forgiveness)",
-    "duration": "1 Night",
-    "frequency": "15th night of Shaban (seeking forgiveness from Allah)",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Night_of_Power"
-},
-{
-    "holiday": "Ashura al-Bara'a (Day of Forgiveness)",
-    "duration": "1 Day",
-    "frequency": "Follows Laylat al-Bara'a",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Night_of_Power"
-},
-{
-    "holiday": "Mawlid al-Imam Ali (Birthday of Ali)",
-    "duration": "1-3 Days",
-    "frequency": "Birthday of Imam Ali, son-in-law of Prophet Muhammad",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Ali"
-},
-{
-    "holiday": "Miraj (Night Journey)",
-    "duration": "1 Night",
-    "frequency": "Night of Prophet Muhammad's journey to Jerusalem and Heaven",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj"
-},
-{
-    "holiday": "Isra' wal-Miraj",
-    "duration": "1 Night",
-    "frequency": "Combination of Night Journey and Ascension to Heaven",
-    "effectiveHours": "Varies",
-    "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj"
-}
+        "holiday": "Sukkot",
+        "duration": "7-8 days",
+        "frequency": "Fifteenth day of Tishrei to twenty-second or twenty-third of Tishrei",
+        "effectiveHours": "Varies by day",
+        "reference": "https://en.wikipedia.org/wiki/Sukkot",
+        "exactDates": "Sept 23rd - Sept 30th or Oct 1st",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover",
+        "duration": "7-8 days",
+        "frequency": "Fifteenth day of the Jewish month of Nissan",
+        "effectiveHours": "Varies by day",
+        "reference": "https://simple.wikipedia.org/wiki/Passover",
+        "exactDates": "April 8th - April 15th or 16th",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Shavuot",
+        "duration": "1-2 days",
+        "frequency": "Sixth and seventh day of the Jewish month of Sivan",
+        "effectiveHours": "Full day",
+        "reference": "https://simple.wikipedia.org/wiki/Shavuot",
+        "exactDates": "May 15th & 16th or 16th only",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Christmas Day",
+        "duration": "1 day",
+        "frequency": "December 25th",
+        "effectiveHours": "Full day",
+        "reference": "https://en.wikipedia.org/wiki/Christmas",
+        "exactDates": "December 25th",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Good Friday",
+        "duration": "1 day",
+        "frequency": "Friday before Easter Sunday",
+        "effectiveHours": "Full day (commemoration)",
+        "reference": "https://en.wikipedia.org/wiki/Good_Friday",
+        "exactDates": "April 12th",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Easter Sunday",
+        "duration": "1 day",
+        "frequency": "First Sunday after the full moon following the vernal equinox",
+        "effectiveHours": "Full day",
+        "reference": "https://en.wikipedia.org/wiki/Easter",
+        "exactDates": "April 14th",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Eid al-Fitr",
+        "duration": "1-3 days",
+        "frequency": "First day of the Islamic month of Shawwal",
+        "effectiveHours": "Full day",
+        "reference": "https://en.wikipedia.org/wiki/Eid_al_Fitr",
+        "exactDates": "May 10th or 11th",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Eid al-Adha",
+        "duration": "4 days",
+        "frequency": "Tenth day of Dhu al-Hijjah (Islamic calendar)",
+        "effectiveHours": "Full day",
+        "reference": "https://en.wikipedia.org/wiki/Eid_al_Adha",
+        "exactDates": "July 19th - 22nd",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Fast of Esther",
+        "duration": "1 day",
+        "frequency": "13th day of Adar II (Hebrew calendar) - Observance",
+        "effectiveHours": "Full day",
+        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+        "exactDates": "Thursday, March 21",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Purim Eve",
+        "duration": "1 day",
+        "frequency": "Eve of Purim - Observance",
+        "effectiveHours": "Full day",
+        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+        "exactDates": "Saturday, March 23",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Purim (Tel Aviv)",
+        "duration": "1 day",
+        "frequency": "14th day of Adar II (Hebrew calendar) - Local Holiday",
+        "effectiveHours": "Full day",
+        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+        "exactDates": "Sunday, March 24",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Shushan Purim (Jerusalem)",
+        "duration": "1 day",
+        "frequency": "15th day of Adar II (Hebrew calendar) - Local Holiday",
+        "effectiveHours": "Varies by day",
+        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+        "exactDates": "Monday, March 25",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover Eve",
+        "duration": "7-8 days",
+        "frequency": "14th day of Nisan (Hebrew calendar) - Observance",
+        "effectiveHours": "Varies by day",
+        "reference": "https://www.hebcal.com/holidays/pesach-2024",
+        "exactDates": "Monday, April 22",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover (Day 1)",
+        "duration": "7-8 days",
+        "frequency": "15th day of Nisan (Hebrew calendar) - National Holiday",
+        "effectiveHours": "Full day",
+        "reference": "https://www.hebcal.com/holidays/pesach-2024",
+        "exactDates": "Tuesday, April 23",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover (Day 2)",
+        "duration": "7-8 days",
+        "frequency": "16th day of Nisan (Hebrew calendar) - Observance",
+        "effectiveHours": "Varies",
+        "reference": "https://www.hebcal.com/holidays/pesach-2024",
+        "exactDates": "Wednesday, April 24",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover (Days 3-4-5)",
+        "duration": "7-8 days",
+        "frequency": "17th, 18th, 19th days of Nisan (Hebrew calendar) - Observance",
+        "effectiveHours": "Varies by day",
+        "reference": "https://www.hebcal.com/holidays/pesach-2024",
+        "exactDates": "Thursday-Friday-Saturday, April 25-26-27",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Passover (Days 6-7)",
+        "duration": "7-8 days",
+        "frequency": "20th, 21st days of Nisan (Hebrew calendar) - Observance",
+        "effectiveHours": "Varies by day",
+        "reference": "https://www.hebcal.com/holidays/pesach-2024",
+        "exactDates": "Sunday-Monday, April 28-29",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Yom HaShoah",
+        "duration": "1 day",
+        "frequency": "Holocaust Remembrance Day: Remembers the Jewish victims of the Holocaust - Observance",
+        "effectiveHours": "Varies by day",
+        "reference": "https://www.timeanddate.com/holidays/israel/yom-hashoah",
+        "exactDates": "Monday, May 6",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Yom HaZikaron",
+        "duration": "1 day",
+        "frequency": "Israeli Memorial Day: Honors Israeli soldiers and civilians killed in wars and terrorist attacks - Observance",
+        "effectiveHours": "Full day",
+        "reference": "https://www.hebcal.com/holidays/yom-hazikaron-2024",
+        "exactDates": "Monday, May 13",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Yom HaAtzmaut",
+        "duration": "1 day",
+        "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
+        "effectiveHours": "Full day",
+        "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
+        "exactDates": "Tuesday, May 14",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Lag BaOmer",
+        "duration": "1 day",
+        "frequency": "33rd day of the Omer counting between Passover and Shavuot - Observance traditionally associated with Rabbi Shimon bar Yochai",
+        "effectiveHours": "Full day",
+        "reference": "https://www.hebcal.com/holidays/lag-baomer-2024",
+        "exactDates": "Sunday, May 26",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Jerusalem Day",
+        "duration": "1 day",
+        "frequency": "Reunification of Jerusalem: Marks the reunification of East and West Jerusalem after the Six-Day War in 1967 - Observance",
+        "effectiveHours": "Full day",
+        "reference": "https://www.timeanddate.com/calendar/custom.html?country=34",
+        "exactDates": "Wednesday, June 5",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Shavuot Eve",
+        "duration": "1 day",
+        "frequency": "Eve of Shavuot - Observance",
+        "effectiveHours": "Full day",
+        "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+        "exactDates": "Tuesday, June 11",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Shavuot",
+        "duration": "1 day",
+        "frequency": "Festival of Weeks: Celebrates the giving of the Torah on Mount Sinai and the wheat harvest - National Holiday",
+        "effectiveHours": "Full day",
+        "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+        "exactDates": "Wednesday, June 12",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Muharram 1 (Islamic New Year)",
+        "duration": "1 Day",
+        "frequency": "1st day of the Islamic calendar",
+        "effectiveHours": "Full Day",
+        "reference": "https://en.wikipedia.org/wiki/Islamic_New_Year",
+        "exactDates": "Needs Islamic Calendar Check",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Ashura",
+        "duration": "1 Day",
+        "frequency": "10th day of Muharram (commemorates death of Hussein)",
+        "effectiveHours": "Varies",
+        "reference": "https://simple.wikipedia.org/wiki/Day_of_Ashura",
+        "exactDates": "Needs Islamic Calendar Check",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Mawlid an-Nabi",
+        "duration": "1-3 Days",
+        "frequency": "Birthday of the Prophet Muhammad",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Mawlid",
+        "exactDates": "Needs Islamic Calendar Check",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Laylat al-Qadr",
+        "duration": "1 Night",
+        "frequency": "Night of Power (believed to be the night Quran revealed)",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+        "exactDates": "Needs Islamic Calendar Check",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Ramadan",
+        "duration": "29-30 Days",
+        "frequency": "Month of fasting and prayer",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Ramadan",
+        "exactDates": "March 10 - April 8, 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Eid al-Fitr",
+        "duration": "3-4 Days",
+        "frequency": "Festival of Breaking the Fast (end of Ramadan)",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+        "exactDates": "April 9-10, 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Hajj",
+        "duration": "5-6 Days",
+        "frequency": "Pilgrimage to Mecca (once in a lifetime for Muslims who are able)",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Hajj",
+        "exactDates": "June 14 - June 19, 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Eid al-Adha",
+        "duration": "4 Days",
+        "frequency": "Festival of Sacrifice (commemorates Abraham's sacrifice)",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+        "exactDates": "June 16-19, 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Arafah (Day of Arafah)",
+        "duration": "1 Day",
+        "frequency": "Day of standing on Arafah during Hajj",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+        "exactDates": "June 15, 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Muharram",
+        "duration": "1 Day",
+        "frequency": "First month of the Islamic calendar",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Islamic_calendar",
+        "exactDates": "Sunday 7th July 2024",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Shaban",
+        "duration": "1 Month",
+        "frequency": "Eighth month of the Islamic calendar",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Sha%27ban",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Dhul-Hijjah",
+        "duration": "1 Month",
+        "frequency": "Twelfth month of the Islamic calendar",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Dhu_al-Hijja",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Rajab",
+        "duration": "1 Month",
+        "frequency": "Seventh month of the Islamic calendar",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Rajab",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Jummah (Friday Prayer)",
+        "duration": "1 Day (Prayer Service)",
+        "frequency": "Every Friday",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Friday_prayer",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Laylat al-Bara'a (Night of Forgiveness)",
+        "duration": "1 Night",
+        "frequency": "15th night of Shaban (seeking forgiveness from Allah)",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Ashura al-Bara'a (Day of Forgiveness)",
+        "duration": "1 Day",
+        "frequency": "Follows Laylat al-Bara'a",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Mawlid al-Imam Ali (Birthday of Ali)",
+        "duration": "1-3 Days",
+        "frequency": "Birthday of Imam Ali, son-in-law of Prophet Muhammad",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Ali",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Miraj (Night Journey)",
+        "duration": "1 Night",
+        "frequency": "Night of Prophet Muhammad's journey to Jerusalem and Heaven",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    },
+    {
+        "holiday": "Eid al-Ghadir",
+        "duration": "1 Day",
+        "frequency": "Celebrates the appointment of Ali ibn Abi Talib as Muhammad's successor",
+        "effectiveHours": "Varies",
+        "reference": "https://en.wikipedia.org/wiki/Eid_al-Ghadir",
+        "start": "",
+        "end": "",
+        "related": "",
+        "policyScore": "",
+        "justification": ""
+    }
 
                             ],
                             "widgetType": "CALENDAR_TABLE"
@@ -2175,7 +2390,7 @@ ontology_data = [
     "description": "",
     "address": "32 Motherwell St, South Yarra VIC 3141, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2195,7 +2410,7 @@ ontology_data = [
     "description": "",
     "address": "32 Drake St, Brighton VIC 3186, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2215,7 +2430,7 @@ ontology_data = [
     "description": "",
     "address": "19 Windermere Cres, Brighton VIC 3186, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2235,7 +2450,7 @@ ontology_data = [
     "description": "",
     "address": "12 St Aubins Ave, Caulfield North VIC 3161, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2255,7 +2470,7 @@ ontology_data = [
     "description": "",
     "address": "Carnegie VIC 3163, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2275,7 +2490,7 @@ ontology_data = [
     "description": "",
     "address": "18 Norman St, McKinnon VIC 3204, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2295,7 +2510,7 @@ ontology_data = [
     "description": "",
     "address": "14 Tower Ct, Armadale VIC 3143, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2315,7 +2530,7 @@ ontology_data = [
     "description": "",
     "address": "13 Inverness Ave, Armadale VIC 3143, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2335,7 +2550,7 @@ ontology_data = [
     "description": "",
     "address": "13 Inverness Ave, Armadale VIC 3143, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2355,7 +2570,7 @@ ontology_data = [
     "description": "",
     "address": "58 Pleasant Rd, Hawthorn East VIC 3123, Australia",
     "sensitivity": "0.0",
-    "color": "#556B2F",
+    "color": "#F26666",
     "mapIcon": "municiple.png",
     "social": [],
     "create_date": "",
@@ -2375,7 +2590,7 @@ ontology_data = [
     "description": "Displayed a banner reading “Expose Jewish Power” in front of a train station in Melbourne, boarded a train, handed out materials and asked passengers if they were Jewish. People affiliated with NSN posted picture of the incident and propagating the antisemitic Great Replacement conspiracy theory and on the 'social' media platform Gab, and asserted “Expose Jewish power because Jews slander gentile nationalists as baby-killers and terrorists, all the while Israel fires a missile into a Palestinian hospital killing hundreds of women and children.”",
     "address": "189 Railway Pl, West Melbourne VIC 3003, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "14/10/2023",
@@ -2395,7 +2610,7 @@ ontology_data = [
     "description": " Two pieces of graffiti, both composed of “Kill JEWS”, were written on the pavement in south Melbourne.",
     "address": "103 Laurens St, North Melbourne VIC 3051, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "13/10/2023",
@@ -2415,7 +2630,7 @@ ontology_data = [
     "description": "A car full of men of ‘Arab descent’ reportedly boasted they were ‘on the hunt to kill Jews’ as they cruised around a Melbourne suburb, with police on alert for anti-Semitic threats in the wake of the Israel-Hamas war",
     "address": "2/8 Toorak Rd, South Yarra VIC 3141, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "11/10/2023",
@@ -2435,7 +2650,7 @@ ontology_data = [
     "description": "Jewish students threatened with a knife on a bus in Melbourne, Australia. Jewish Students from the Leibler Yavneh College in Australia were traveling on a public bus when they were abused with antisemitic obscenities by a knife-wielding man on Thursday, according to a press release from the Anti-Defamation Commission (ADC).",
     "address": "22 Staniland Grove, Elsternwick VIC 3185, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "05/08/2023",
@@ -2455,7 +2670,7 @@ ontology_data = [
     "description": "A Jewish family from Melbourne told Daily Mail Australia that their teenage daughter had been targeted by high school students. Her mother, who wished to remain anonymous, said a series of antisemitic incidents had been directed at her daughter since the start of the year, well before the current Israel/Hamas conflict. 'She has been sent swastikas online. One child repeatedly approached her and told her 'Knock Knock' jokes in which the butt of the jokes are 'dead Jews,' she said. 'Another student approached her and declared: I will gas you and your whole family.'",
     "address": "Whitlam Place, Fitzroy VIC 3065, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "01/09/2023",
@@ -2475,7 +2690,7 @@ ontology_data = [
     "description": "Clashes between pro-Palestinian and pro-Israeli groups in Melbourne's south-east. A rally was organised on Friday, with a spokesperson for Free Palestine Melbourne saying it was organised in response to an arson attack on a burger shop on Glenhuntly Road in Caulfield, owned by a man of Palestinian heritage. Police said on Friday they were treating the fire at Burgertory as suspicious, but repeatedly said they did not believe it was linked to the owner's attendance at an earlier pro-Palestinian rally. Small numbers of people, some draped in Israeli flags, had gathered near the boarded-up burger store throughout the day.",
     "address": "340 Hawthorn Rd, Caulfield VIC 3162, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "11/11/2023",
@@ -2495,7 +2710,7 @@ ontology_data = [
     "description": "The word 'genocide' and a picture of the Palestinian flag were found spray-painted across the Beth Weizmann Community Centre.",
     "address": "304 Hawthorn Rd, Caulfield South VIC 3162, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "07/10/2023",
@@ -2515,7 +2730,7 @@ ontology_data = [
     "description": "A synagogue in the Australian city of Melbourne was evacuated on police order on Shabbat as pro-Palestinian protesters demonstrated nearby.",
     "address": "Caulfield South VIC 3162, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "13/11/2023",
@@ -2535,7 +2750,7 @@ ontology_data = [
     "description": "Rabbi walking with young child on Melbourne street confronted with alleged antisemitic threats",
     "address": "84 Bambra Rd, Caulfield North VIC 3161, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "11/10/2023",
@@ -2555,7 +2770,7 @@ ontology_data = [
     "description": "A member of Melbourne’s Jewish community claims she and her husband were attacked by pro-Palestinian protestors outside the Melbourne Town Hall. The attack happened last night as the City of Melbourne voted down a motion for the council to call for a ceasefire in Gaza.",
     "address": "Melbourne Town Hall, Melbourne VIC 3000, Australia",
     "sensitivity": "0.0",
-    "color": "#B22222",
+    "color": "#80F27E",
     "mapIcon": "past_incidents.png",
     "social": [],
     "create_date": "21/02/2024",
@@ -2575,7 +2790,7 @@ ontology_data = [
     "description": "Took photos of the jewish community ",
     "address": "123 Bridge Rd, Richmond VIC 3121",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "4/24/2023",
@@ -2595,7 +2810,7 @@ ontology_data = [
     "description": "wrote antisemitic post on Facebook",
     "address": "Level 12, 500 Bourke St, Melbourne VIC 3000",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "3/13/2024",
@@ -2615,7 +2830,7 @@ ontology_data = [
     "description": "Antesemitic comment on Twitter",
     "address": "Crown Melbourne, 8 Whiteman St, Southbank VIC 3006",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "8/22/2022",
@@ -2635,7 +2850,7 @@ ontology_data = [
     "description": "Clashed with young Jews near a synagogue",
     "address": "WeWork, 727 Collins St, Docklands VIC 3008",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "8/22/2022",
@@ -2655,7 +2870,7 @@ ontology_data = [
     "description": "Antesemitic comment on Twitter",
     "address": "Fitzroy North Primary School, 25 Brunswick St, Fitzroy North VIC 3065",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "7/12/2023",
@@ -2675,7 +2890,7 @@ ontology_data = [
     "description": "Threatening a Jewish student",
     "address": "Studio K, 564 Glenferrie Rd, Hawthorn VIC 3122",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "3/14/2024",
@@ -2695,7 +2910,7 @@ ontology_data = [
     "description": "Laughing emoji under antesemitic post",
     "address": "Rapid Plumbing, 1/24 Essex St, Footscray VIC 3011",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "8/10/2023",
@@ -2715,7 +2930,7 @@ ontology_data = [
     "description": "Antesemitic comment on Twitter",
     "address": "Petal Power, 353 Sydney Rd, Brunswick VIC 3056",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "2/7/2024",
@@ -2735,7 +2950,7 @@ ontology_data = [
     "description": "Antesemitic comment on Facebook",
     "address": "St Kilda Road Medical Centre, 127 Fitzroy St, St Kilda VIC 3182",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "3/3/2024",
@@ -2755,7 +2970,7 @@ ontology_data = [
     "description": "Laughing emoji under antesemitic post",
     "address": "Sparks R Us, 485 Sydney Rd, Coburg VIC 3058",
     "sensitivity": "0.0",
-    "color": "#e8ada0",
+    "color": "#80F27E",
     "mapIcon": "poi_marker.png",
     "social": [],
     "create_date": "2/27/2024",
@@ -2767,259 +2982,229 @@ ontology_data = [
     "type": "poi"
   },
   {
-    "name": "Jewish Community Council of Victoria",
-    "website": "http://www.jccv.org.au/",
-    "address": "306 Hawthorn Rd, Caulfield VIC 3162, Australia",
-    "reviewsCommentsOsint": [
-        "Can't say much but thankyou for help.",
-        "No people there at all",
-        "There is no security. It feels scary"
-    ],
-    "phone": "61392725566",
-    "facebookPage": "https://www.facebook.com/JewishCommunityCouncilOfVictoria/",
-    "instagram": "https://www.instagram.com/jccvic/",
-    "telegram": "",
-    "twitter": "https://twitter.com/jccvic",
-    "email": "info@jccv.org.au",
-    "openHours": {
-        "Wednesday": "9am–5pm",
-        "Thursday": "9am–5pm",
-        "Friday": "9am–3pm",
-        "Saturday": "Closed",
-        "Sunday": "Closed",
-        "Monday": "9am–5pm",
-        "Tuesday": "9am–5pm"
+        "name": "North Eastern Jewish Centre",
+        "website": "http://nejc.com.au/",
+        "address": "6 High St, Doncaster VIC 3108, Australia",
+        "reviewsCommentsOsint": [
+            "Have given public lectures here. Great food drinks and great atmosphere. Multimedia AV in Hall and active social multiethnic foods, insightful engaging events.",
+            "Hate this place and the people there."
+        ],
+        "phone": "61398579000",
+        "facebookPage": "https://www.facebook.com/NorthEasternJewishCentre",
+        "instagram": "https://www.instagram.com/northeasternjewishcentre/",
+        "telegram": "",
+        "twitter": "",
+        "email": "nejc@bigpond.com",
+        "openHours": {
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours"
+        },
+        "upcomingEvents": [
+            {
+                "event": "Monday to Friday Shacharit",
+                "time": "6.30am"
+            },
+            {
+                "event": "Shabbat Day Shacharit",
+                "time": "8.45am"
+            },
+            {
+                "event": "Children’s Services",
+                "time": "10.30am"
+            },
+            {
+                "event": "Mincha/Seuda/Maariv an hour before Shabbat ends",
+                "time": ""
+            },
+            {
+                "event": "Sunday/Public Holidays Shacharit",
+                "time": "8.00am"
+            },
+            {
+                "event": "Mincha followed by Maariv",
+                "time": "5.00pm"
+            }
+        ],
+        "relatedPerson1Facebook": "https://www.facebook.com/menachem.sabbach",
+        "relatedPerson1Address": "",
+        "relatedPerson2Facebook": "https://www.facebook.com/moshe.sabbach",
+        "relatedPerson2Address": "",
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.78869533,
+        "longitude": 145.1040411
     },
-    "relatedPerson1Facebook": "https://www.facebook.com/philip.zajac",
-    "relatedPerson1Address": "",
-    "relatedPerson2Facebook": "https://www.facebook.com/hayley.southwick",
-    "relatedPerson2Address": "Melbourne, Victoria, Australia",
-    "type": "jewish_community"
-},
-{
-    "name": "Mifgash Centre - Bentleigh Synagogue & Jewish Centre",
-    "website": "https://mifgashcentre.org.au/en/home/?utm_source=google&utm_medium=maps&utm_campaign=google-maps",
-    "address": "1-3 Cobar St, Bentleigh East VIC 3165, Australia",
-    "reviewsCommentsOsint": [
-        "Incredible events for the whole family! Also Fun-Kan Hebrew School is well organized and great for kids."
-    ],
-    "phone": "61395231204",
-    "facebookPage": "https://www.facebook.com/profile.php?id=100057535814327",
-    "instagram": "",
-    "telegram": "",
-    "twitter": "",
-    "email": "",
-    "openHours": "",
-    "upcomingEvents": [
-        {
-            "event": "Chanukah Festival 2023",
-            "description": "See you at 5:30! Tickets available at the door! *There will be security at this event *",
-            "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHY8ubyeaeTVbCHgCtfQQsT7VqNeZxVtharwCTEpM1p3ASKdTuN4NDYKFw8HQkgml&id=100057535814327&__cft__[0]=AZXjJuOpQXJm1JttFi59gD5cji2c6BBV5Z9pDGePZe0FscmCLKNrHe85zHkIY_0H4CG0iKZsb0idHK_TBnGl3jIqBR-Duc_C_CoD0sSKKDU9JHJ327e7xU0-gHoB5bWmV3ta3jdJPVYthBMsUAr3ySCbfe7BHmNth-2OoIEumwZKUgTCLvGu8T2LzUGUlKcTnPQ&__tn__=%2CO%2CP-R"
-        }
-    ],
-    "type": "jewish_community"
-},
-{
-    "name": "North Eastern Jewish Centre",
-    "website": "http://nejc.com.au/",
-    "address": "6 High St, Doncaster VIC 3108, Australia",
-    "reviewsCommentsOsint": [
-        "Have given public lectures here. Great food drinks and great atmosphere. Multimedia AV in Hall and active social multiethnic foods, insightful engaging events.",
-        "Hate this place and the people there."
-    ],
-    "phone": "61398579000",
-    "facebookPage": "https://www.facebook.com/NorthEasternJewishCentre",
-    "instagram": "https://www.instagram.com/northeasternjewishcentre/",
-    "telegram": "",
-    "twitter": "",
-    "email": "nejc@bigpond.com",
-    "openHours": {
-        "Wednesday": "Open 24 hours",
-        "Thursday": "Open 24 hours",
-        "Friday": "Open 24 hours",
-        "Saturday": "Open 24 hours",
-        "Sunday": "Open 24 hours",
-        "Monday": "Open 24 hours",
-        "Tuesday": "Open 24 hours"
+    {
+        "name": "Melbourne Hebrew Congregation",
+        "website": "https://www.melbournesynagogue.org.au/",
+        "address": "2/8 Toorak Rd, South Yarra VIC 3141, Australia",
+        "reviewsCommentsOsint": [
+            "I attended an event entitled Gershwin and Me featuring Simon Tedeschi piano and Mat Jodrel trumpet. It was a great privilege to be there in this beautiful synagogue.",
+            "Have you heard that Jews from this place support Israel when Palestinian children die!"
+        ],
+        "phone": "61398662255",
+        "facebookPage": "https://www.facebook.com/toorak.shule",
+        "instagram": "",
+        "telegram": "",
+        "twitter": "",
+        "email": "admin@mhc.org.au",
+        "openHours": {
+            "Monday": "9:00 AM - 4:00 PM",
+            "Tuesday": "9:00 AM - 4:00 PM",
+            "Wednesday": "9:00 AM - 4:00 PM",
+            "Thursday": "9:00 AM - 4:00 PM",
+            "Friday": "9:00 AM - 12:00 PM",
+            "Saturday": "9:30 AM - 1:30 PM",
+            "Sunday": "CLOSED"
+        },
+        "upcomingEvents": [],
+        "relatedPerson1Facebook": "https://www.facebook.com/shlomo.nathanson",
+        "relatedPerson1Address": "",
+        "relatedPerson2Facebook": "https://www.facebook.com/rivki.nathanson",
+        "relatedPerson2Address": "Melbourne, Victoria, Australia",
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.83796623,
+        "longitude": 144.9751989
     },
-    "upcomingEvents": [
-        {
-            "event": "Monday to Friday Shacharit",
-            "time": "6.30am"
-        },
-        {
-            "event": "Shabbat Day Shacharit",
-            "time": "8.45am"
-        },
-        {
-            "event": "Children’s Services",
-            "time": "10.30am"
-        },
-        {
-            "event": "Mincha/Seuda/Maariv an hour before Shabbat ends",
-            "time": ""
-        },
-        {
-            "event": "Sunday/Public Holidays Shacharit",
-            "time": "8.00am"
-        },
-        {
-            "event": "Mincha followed by Maariv",
-            "time": "5.00pm"
-        }
-    ],
-    "relatedPerson1Facebook": "https://www.facebook.com/menachem.sabbach",
-    "relatedPerson1Address": "",
-    "relatedPerson2Facebook": "https://www.facebook.com/moshe.sabbach",
-    "relatedPerson2Address": "",
-    "type": "jewish_community"
-},
-{
-    "name": "Melbourne Hebrew Congregation",
-    "website": "https://www.melbournesynagogue.org.au/",
-    "address": "2/8 Toorak Rd, South Yarra VIC 3141, Australia",
-    "reviewsCommentsOsint": [
-        "I attended an event entitled Gershwin and Me featuring Simon Tedeschi piano and Mat Jodrel trumpet. It was a great privilege to be there in this beautiful synagogue.",
-        "Have you heard that Jews from this place support Israel when Palestinian children die!"
-    ],
-    "phone": "61398662255",
-    "facebookPage": "https://www.facebook.com/toorak.shule",
-    "instagram": "",
-    "telegram": "",
-    "twitter": "",
-    "email": "admin@mhc.org.au",
-    "openHours": {
-        "Monday": "9:00 AM - 4:00 PM",
-        "Tuesday": "9:00 AM - 4:00 PM",
-        "Wednesday": "9:00 AM - 4:00 PM",
-        "Thursday": "9:00 AM - 4:00 PM",
-        "Friday": "9:00 AM - 12:00 PM",
-        "Saturday": "9:30 AM - 1:30 PM",
-        "Sunday": "CLOSED"
+    {
+        "name": "East Melbourne Hebrew Congregation",
+        "website": "http://www.melbournecitysynagogue.com/",
+        "address": "488 Albert St, East Melbourne VIC 3002, Australia",
+        "reviewsCommentsOsint": [
+            "The Rabbi and his family are warm and welcoming; the congregation itself a family. Fantastic prayer service and inclusive events throughout the year. Only issue is with climbing ladders.",
+            "Zionists are everywhere"
+        ],
+        "phone": "61396621372",
+        "facebookPage": "https://www.facebook.com/eastmelbournesynagogue",
+        "instagram": "",
+        "telegram": "",
+        "twitter": "",
+        "email": "office@melbournecitysynagogue.com",
+        "openHours": "The Synagogue’s administration office is open on Monday to Thursday 10am to 2pm. Please note that these times do not apply to Public Holidays or Jewish Holidays.  If the office is closed messages should be left on the answering machine and calls will be dealt with on the next working day.",
+        "upcomingEvents": [
+            {
+                "event": "Chanukah Learning with Babs and Sonya",
+                "date": "Thurs December 7, 2023",
+                "time": "7:30pm",
+                "cost": "FREE",
+                "location": "East Melbourne Synagogue"
+            },
+            {
+                "event": "Shabbat Chanukah Dinner",
+                "date": "Friday December 8, 2023",
+                "time": "7:00 pm - 9:00 pm",
+                "cost": "A$40.00 p/p",
+                "location": "East Melbourne Synagogue"
+            }
+        ],
+        "relatedPerson1Facebook": "https://www.facebook.com/dovid.gutnick",
+        "relatedPerson1Address": "",
+        "relatedPerson2Facebook": "https://www.facebook.com/danny.segal.18",
+        "relatedPerson2Address": "Melbourne, Victoria, Australia",
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.81061863,
+        "longitude": 144.973052
     },
-    "upcomingEvents": [],
-    "relatedPerson1Facebook": "https://www.facebook.com/shlomo.nathanson",
-    "relatedPerson1Address": "",
-    "relatedPerson2Facebook": "https://www.facebook.com/rivki.nathanson",
-    "relatedPerson2Address": "Melbourne, Victoria, Australia",
-    "type": "jewish_community"
-},
-{
-    "name": "East Melbourne Hebrew Congregation",
-    "website": "http://www.melbournecitysynagogue.com/",
-    "address": "488 Albert St, East Melbourne VIC 3002, Australia",
-    "reviewsCommentsOsint": [
-        "The Rabbi and his family are warm and welcoming; the congregation itself a family. Fantastic prayer service and inclusive events throughout the year. Only issue is with climbing ladders.",
-        "Zionists are everywhere"
-    ],
-    "phone": "61396621372",
-    "facebookPage": "https://www.facebook.com/eastmelbournesynagogue",
-    "instagram": "",
-    "telegram": "",
-    "twitter": "",
-    "email": "office@melbournecitysynagogue.com",
-    "openHours": "The Synagogue’s administration office is open on Monday to Thursday 10am to 2pm. Please note that these times do not apply to Public Holidays or Jewish Holidays.  If the office is closed messages should be left on the answering machine and calls will be dealt with on the next working day.",
-    "upcomingEvents": [
-        {
-            "event": "Chanukah Learning with Babs and Sonya",
-            "date": "Thurs December 7, 2023",
-            "time": "7:30pm",
-            "cost": "FREE",
-            "location": "East Melbourne Synagogue"
+    {
+        "name": "Adass Israel Synagogue of Melbourne",
+        "website": "",
+        "address": "12/24 Glen Eira Ave, Ripponlea VIC 3185, Australia",
+        "reviewsCommentsOsint": [
+            "If you need to catch a minyan, this is the place to go!",
+            "Big chasidic Shul. It has many Minyanim, very inclusive, has siddurim for every Nusach. Their is a hall and a kollel on premises. It is right across road from Ripponlee train station, Perhaps the Most convenient shul to daven by if going to work in the city right after davening. Or if rushing to catch mincha after getting back from city."
+        ],
+        "phone": "61395231204",
+        "facebookPage": "",
+        "instagram": "",
+        "telegram": "",
+        "twitter": "",
+        "email": "",
+        "openHours": {
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours",
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours"
         },
-        {
-            "event": "Shabbat Chanukah Dinner",
-            "date": "Friday December 8, 2023",
-            "time": "7:00 pm - 9:00 pm",
-            "cost": "A$40.00 p/p",
-            "location": "East Melbourne Synagogue"
-        }
-    ],
-    "relatedPerson1Facebook": "https://www.facebook.com/dovid.gutnick",
-    "relatedPerson1Address": "",
-    "relatedPerson2Facebook": "https://www.facebook.com/danny.segal.18",
-    "relatedPerson2Address": "Melbourne, Victoria, Australia",
-    "type": "jewish_community"
-},
-{
-    "name": "Adass Israel Synagogue of Melbourne",
-    "website": "",
-    "address": "12/24 Glen Eira Ave, Ripponlea VIC 3185, Australia",
-    "reviewsCommentsOsint": [
-        "If you need to catch a minyan, this is the place to go!",
-        "Big chasidic Shul. It has many Minyanim, very inclusive, has siddurim for every Nusach. Their is a hall and a kollel on premises. It is right across road from Ripponlee train station, Perhaps the Most convenient shul to daven by if going to work in the city right after davening. Or if rushing to catch mincha after getting back from city."
-    ],
-    "phone": "61395231204",
-    "facebookPage": "",
-    "instagram": "",
-    "telegram": "",
-    "twitter": "",
-    "email": "",
-    "openHours": {
-        "Wednesday": "Open 24 hours",
-        "Thursday": "Open 24 hours",
-        "Friday": "Open 24 hours",
-        "Saturday": "Open 24 hours",
-        "Sunday": "Open 24 hours",
-        "Monday": "Open 24 hours",
-        "Tuesday": "Open 24 hours"
+        "upcomingEvents": [],
+        "relatedPerson1Facebook": "",
+        "relatedPerson1Address": "",
+        "relatedPerson2Facebook": "",
+        "relatedPerson2Address": "",
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.87726388,
+        "longitude": 144.994517
     },
-    "upcomingEvents": [],
-    "type": "jewish_community"
-},
-{
-    "name": "Jewish Community Council of Victoria",
-    "website": "http://www.jccv.org.au/",
-    "address": "306 Hawthorn Rd, Caulfield VIC 3162, Australia",
-    "reviewsCommentsOsint": [
-        "Cant say much but thankyou for help.",
-        "no people there at all",
-        "there is no security. It feels scary"
-    ],
-    "phone": "61392725566",
-    "facebookPage": "https://www.facebook.com/JewishCommunityCouncilOfVictoria/",
-    "instagram": "https://www.instagram.com/jccvic/",
-    "telegram": "",
-    "twitter": "https://twitter.com/jccvic",
-    "email": "info@jccv.org.au",
-    "openHours": {
-        "Wednesday": "9am–5pm",
-        "Thursday": "9am–5pm",
-        "Friday": "9am–3pm",
-        "Saturday": "Closed",
-        "Sunday": "Closed",
-        "Monday": "9am–5pm",
-        "Tuesday": "9am–5pm"
+    {
+        "name": "Jewish Community Council of Victoria",
+        "website": "http://www.jccv.org.au/",
+        "address": "306 Hawthorn Rd, Caulfield VIC 3162, Australia",
+        "reviewsCommentsOsint": [
+            "Can't say much but thank you for help.",
+            "No people there at all",
+            "There is no security. It feels scary"
+        ],
+        "phone": "61392725566",
+        "facebookPage": "https://www.facebook.com/JewishCommunityCouncilOfVictoria/",
+        "instagram": "https://www.instagram.com/jccvic/",
+        "telegram": "",
+        "twitter": "https://twitter.com/jccvic",
+        "email": "info@jccv.org.au",
+        "openHours": {
+            "Wednesday": "9am–5pm",
+            "Thursday": "9am–5pm",
+            "Friday": "9am–3pm",
+            "Saturday": "Closed",
+            "Sunday": "Closed",
+            "Monday": "9am–5pm",
+            "Tuesday": "9am–5pm"
+        },
+        "upcomingEvents": [],
+        "relatedPerson1Facebook": "https://www.facebook.com/philip.zajac",
+        "relatedPerson1Address": "",
+        "relatedPerson2Facebook": "https://www.facebook.com/hayley.southwick",
+        "relatedPerson2Address": "Melbourne, Victoria, Australia",
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.88658043,
+        "longitude": 145.0205612
     },
-    "relatedPerson1Facebook": "https://www.facebook.com/philip.zajac",
-    "relatedPerson1Address": "",
-    "relatedPerson2Facebook": "https://www.facebook.com/hayley.southwick",
-    "relatedPerson2Address": "Melbourne, Victoria, Australia",
-    "type": "jewish_community"
-},
-{
-    "name": "Mifgash Centre - Bentleigh Synagogue & Jewish Centre",
-    "website": "https://mifgashcentre.org.au/en/home/?utm_source=google&utm_medium=maps&utm_campaign=google-maps",
-    "address": "1-3 Cobar St, Bentleigh East VIC 3165, Australia",
-    "reviewsCommentsOsint": [
-        "Incredible events for the whole family! Also Fun-Kan Hebrew School is well organized and great for kids."
-    ],
-    "phone": "61395231204",
-    "facebookPage": "https://www.facebook.com/profile.php?id=100057535814327",
-    "instagram": "",
-    "telegram": "",
-    "twitter": "",
-    "email": "",
-    "openHours": "",
-    "upcomingEvents": [
-        {
-            "event": "Chanukah Festival 2023",
-            "description": "See you at 5:30! Tickets available at the door! *There will be security at this event *",
-            "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHY8ubyeaeTVbCHgCtfQQsT7VqNeZxVtharwCTEpM1p3ASKdTuN4NDYKFw8HQkgml&id=100057535814327&__cft__[0]=AZXjJuOpQXJm1JttFi59gD5cji2c6BBV5Z9pDGePZe0FscmCLKNrHe85zHkIY_0H4CG0iKZsb0idHK_TBnGl3jIqBR-Duc_C_CoD0sSKKDU9JHJ327e7xU0-gHoB5bWmV3ta3jdJPVYthBMsUAr3ySCbfe7BHmNth-2OoIEumwZKUgTCLvGu8T2LzUGUlKcTnPQ&__tn__=%2CO%2CP-R"
-        }
-    ],
-    "type": "jewish_community"
-}
+    {
+        "name": "Mifgash Centre - Bentleigh Synagogue & Jewish Centre",
+        "website": "https://mifgashcentre.org.au/en/home/?utm_source=google&utm_medium=maps&utm_campaign=google-maps",
+        "address": "1-3 Cobar St, Bentleigh East VIC 3165, Australia",
+        "reviewsCommentsOsint": [
+            "Incredible events for the whole family! Also Fun-Kan Hebrew School is well organized and great for kids."
+        ],
+        "phone": "61395231204",
+        "facebookPage": "https://www.facebook.com/profile.php?id=100057535814327",
+        "instagram": "",
+        "telegram": "",
+        "twitter": "",
+        "email": "",
+        "openHours": "",
+        "upcomingEvents": [
+            {
+                "event": "Chanukah Festival 2023",
+                "description": "See you at 5:30! Tickets available at the door! *There will be security at this event *",
+                "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gHY8ubyeaeTVbCHgCtfQQsT7VqNeZxVtharwCTEpM1p3ASKdTuN4NDYKFw8HQkgml&id=100057535814327&__cft__[0]=AZXjJuOpQXJm1JttFi59gD5cji2c6BBV5Z9pDGePZe0FscmCLKNrHe85zHkIY_0H4CG0iKZsb0idHK_TBnGl3jIqBR-Duc_C_CoD0sSKKDU9JHJ327e7xU0-gHoB5bWmV3ta3jdJPVYthBMsUAr3ySCbfe7BHmNth-2OoIEumwZKUgTCLvGu8T2LzUGUlKcTnPQ&__tn__=%2CO%2CP-R"
+            }
+        ],
+        "type": "jewish_community",
+        "mapIcon": "poi_marker.png",
+        "latitude": -37.90897548,
+        "longitude": 145.064396
+    }
 
 
 ]
