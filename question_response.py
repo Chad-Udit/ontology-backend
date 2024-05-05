@@ -131,7 +131,7 @@ invg = [
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
           },
           "author": {
-            "image": "https://drive.google.com/file/d/1MBVZ43j5lileHg43EuUtXISlJuPfVR8T",
+            "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
             "name": "Bilal Elcheikh",
             "personOfInterest": {
               "isLit": False,
