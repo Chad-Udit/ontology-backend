@@ -26,7 +26,7 @@ invg = [
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
           },
           "author": {
-            "image": "https://drive.google.com/file/d/1APma18KB1e7ncu7Ja9-SgbiQmKZQWp5Y",
+            "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
             "name": "Sheila Schwartz",
             "personOfInterest": {
               "isLit": True,
@@ -51,7 +51,7 @@ invg = [
             },
             "shares": 2,
             "totalComments": 15,
-            "originalPostLink": "https://drive.google.com/file/d/13zzexxkZoNqdqacHl7rNX0GGRutY5MIe"
+            "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
           }
         }
       },
