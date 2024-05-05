@@ -188,7 +188,7 @@ invg = [
           "assignee": "John Dou",
           "id": "123456789",
           "actionsMenue": [
-            "Open"
+            "More"
           ]
         },
         "widgetBody": {
