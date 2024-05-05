@@ -1632,6 +1632,15 @@ q7 = {
       {
         "source": "Facebook group Melbourne",
         "latLang": "-37.8781 145.0072",
+        "author": {
+            "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+            "name": "Bilal Elcheikh",
+            "personOfInterest": {
+              "isLit": False,
+              "hoverText": "",
+              "entityOfInterestWidget": ""
+            }
+          },
         "content": {
           "text": "Did anyone else notice a strange person lingering around and taking photos on Orrong and Glen Eira? They were quite focused on the homes in the area. It's left me feeling uneasy. Anybody else had a similar experience?",
           "postDatetime": "22/2/2024, 14:21:00",
@@ -1652,6 +1661,15 @@ q7 = {
       {
         "source": "Facebook group Melbourne",
         "latLang": "-37.878083 145.007167",
+        "author": {
+            "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+            "name": "Bilal Elcheikh",
+            "personOfInterest": {
+              "isLit": False,
+              "hoverText": "",
+              "entityOfInterestWidget": ""
+            }
+          },
         "content": {
           "text": "Update on the person taking photos around Orrong and Glen Eira: I approached him to ask what was going on. It turns out he was wearing a uniform from the municipality. He showed me his municipality worker's ID and explained that he is part of a team mapping out new garbage disposal routes in our area. Just wanted to share this to ease any concerns others might have had!",
           "postDatetime": "22/2/2024, 14:55:00",
@@ -1672,6 +1690,15 @@ q7 = {
       {
         "source": "Facebook group Melbourne",
         "latLang": "-37.904111 144.990778",
+        "author": {
+            "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+            "name": "Bilal Elcheikh",
+            "personOfInterest": {
+              "isLit": False,
+              "hoverText": "",
+              "entityOfInterestWidget": ""
+            }
+          },
         "content": {
           "text": "There was an odd figure wandering down Bay Street in Brighton earlier, stopping to take pictures of different homes. It didn't seem like they were a tourist. Anyone else in the area catch sight of this or know why they were taking pictures?",
           "postDatetime": "10/2/2024, 11:54:00",
