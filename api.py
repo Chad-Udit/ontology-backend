@@ -14,7 +14,7 @@ from chains import (
     configure_qa_rag_chain,
     generate_ticket,
 )
-from fastapi import FastAPI, Depends, Query
+from fastapi import FastAPI, Depends, Query,Request
 from pydantic import BaseModel
 from langchain.callbacks.base import BaseCallbackHandler
 from threading import Thread
@@ -197,9 +197,27 @@ async def get_ontology(ontology_type: List[OntologyType]):
     return filtered_results   
 
 @app.post("/upload")
-async def upload():
-    # logic for adding data to neo4j
-    response = upload_res
+async def upload(req: Request):
+    # logic for adding data to neo4j   "type": "source_of_intereset"
+    body = await req.json()
+    print("body", body)
+    print("type ", body["type"])
+    if body["type"] == "source_of_intereset":
+        response = {
+                        "conversation": "The data has been successfully uploaded. Do you want to show data on Table?",
+                        "payload": {
+                            "knowlege": [
+                                {
+                                    "type": "show_on_table_source_of_interest",
+                                    "value": "Yes"
+                                }
+                            ],
+                            "widgetType": "SINGLE_SELECT_LIST",
+                            "actionKey": "km_source_of_intereset"
+                        }
+                    }
+    else:
+        response = upload_res
     return response
 
 class QueryBody(BaseModel):

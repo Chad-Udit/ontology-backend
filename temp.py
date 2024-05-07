@@ -243,11 +243,11 @@ def detect_question_llm(question):
     return result["answer"]
 
 # Example usage
-input_query = "is there any data avaible in this polygon?"
-matched_question_number = detect_question(input_query)
-print("Matched question number:", matched_question_number)
-print("Now LLM response")
+# input_query = "Add a note that the event in Orrong and Glen Eiira was a performed by a municipality worker, claiming he was mapping out routes for garbage disposal, and increase neutral base assumption value by one with a reason of related to garbage disposal route mapping"
+# matched_question_number = detect_question(input_query)
+# print("Matched question number:", matched_question_number)
+# print("Now LLM response")
 
 
-matched_question_number = detect_question_llm(input_query)
-print("Matched question number:", matched_question_number)
+# matched_question_number = detect_question_llm(input_query)
+# print("Matched question number:", matched_question_number)
