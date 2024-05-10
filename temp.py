@@ -178,6 +178,15 @@ question_mappings = {
     ],
     "question21": [
         "More posts from author"
+    ],
+    "question23": [
+        "Last year independence day parade took the following route:"
+    ],
+    "question24": [
+        "Cross reference this route with investigations in the past 12 months looking for high correlation"
+    ],
+    "question25": [
+        "convert container to Case and elevate risk level to Very High"
     ]
 }
 

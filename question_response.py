@@ -313,6 +313,54 @@ invg = [
     },
     "type": "event3",
     "actionKey": "event3_init"
+  },
+  {
+    "content": "Potential Date Of Intrest",
+    "widget": "Multiple",
+    "id": "4",
+    "isVisible": True,
+    "data": {
+      "notificationPanel": {
+        "type": "Notification",
+        "timestamp": "14/042024 10:56",
+        "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+        "sourceType": "Ontological rule"
+      },
+      "contextPanel": {
+        "type": "Notification",
+        "timestamp": "14/04/2024 10:56",
+        "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+        "sourceType": "Ontological rule",
+        "referenceThreat": "Hate Crime"
+      },
+      "containerWidget": {
+        "widgetTitleBar": {
+          "timestamp": "14/04/2024 10:56",
+          "containerType": "Notification",
+          "policyScore": "High",
+          "assignee": "John Dou",
+          "id": "123456789",
+          "actionsMenue": [
+            "Open"
+          ]
+        },
+        "widgetBody": {
+          "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+          "sourceType": "Ontoligical rule",
+          "source": "Date Of Intrest 'Jeewis Independce Day Pared'",
+          "actionButtons": [
+            "Ontology Widget"
+          ],
+          "referenceThreat": "Hate Crime",
+          "referenceUseCase": "",
+          "tigger": [
+            "Mass event related to a date of interest requires preparations"
+          ]
+        }
+      }
+    },
+    "type": "event4",
+    "actionKey": "event4_init"
   }
 ]
 
@@ -2402,6 +2450,65 @@ q21 = {
     "widgetType": "SOCIAL_MEDIA_WIDGET",
     "actionKey":"event2_more_post"
   }
+}
+
+q23 = q5
+
+q24 = {
+    "conversation": "Case #277652 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Add to canvas?",
+  "payload": {
+    "knowledge": [ 
+    {
+  "datetime": "25/2/2024 10:50",
+  "type": "Case",
+  "policyScore": "High",
+  "assignedTo": "Analyst name"
+    },
+    {
+        "widgetTitleBar": {
+          "timestamp": "25/2/2024 11:26",
+          "containerType": "Case",
+          "policyScore": "High",
+          "assignee": "John Dou",
+          "id": "123456789",
+          "actionsMenue": [
+            "Open"
+          ]
+        },
+        "widgetBody": {
+          "content": "Created a case #277652",
+          "sourceType": "Ontology Rule",
+          "source": "Combined Both Incident",
+          "actionButtons": [
+            "More"
+          ],
+          "referenceThreat": "Hate Crime",
+          "referenceUseCase": "",
+          "tigger": [
+            "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+          ]
+        }
+      }
+    ],
+    "widgetType": "CONTAINER_WIDGET",
+    "actionKey":"event4_case_found"
+  }
+    
+}
+
+
+q25 = {
+  "conversation": "Incresed the General Crime Risk Level associated to the incident",
+  "payload": {
+    "knowledge": [
+      {
+        "assumption": "Major correlation to property crime in the area"
+      }
+    ],
+    "widgetType": "N/A",
+    "actionKey": "event4_update_crime"
+  }
+    
 }
 ontology_data = [
   {
