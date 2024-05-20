@@ -20,7 +20,7 @@ invg = [
       },
       "socialMediaWidget": {
         "widgetTitleBar": {
-          "createdDatetime": "25/02/2024, 10:07",
+          "createdDatetime": "25/02/2024 10:07",
           "source": {
             "platform": "Facebook",
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
@@ -39,7 +39,7 @@ invg = [
           "source": "Facebook group 'JOM - Jews of Melbourne'",
           "content": {
             "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-            "postDatetime": "25/02/2024, 10:07",
+            "postDatetime": "25/02/2024 10:07",
             "reacts": {
               "likes": 17,
               "loves": 3,
@@ -125,7 +125,7 @@ invg = [
       },
       "socialMediaWidget": {
         "widgetTitleBar": {
-          "createdDatetime": "01/03/2024, 09:22",
+          "createdDatetime": "01/03/2024 09:22",
           "source": {
             "platform": "Facebook",
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
@@ -144,7 +144,7 @@ invg = [
           "source": "Melbourne Islamic Lectures, Classes & Events",
           "content": {
             "text": "“They are controlling the world and the brave people are suffering",
-            "postDatetime": "01/03/2024, 09:22",
+            "postDatetime": "01/03/2024 09:22",
             "reacts": {
               "likes": 47,
               "loves": 0,
@@ -230,7 +230,7 @@ invg = [
       },
       "socialMediaWidget": {
         "widgetTitleBar": {
-          "createdDatetime": "25/02/2024, 10:07",
+          "createdDatetime": "25/02/2024 10:07",
           "source": {
             "platform": "Facebook",
             "logoUrl": "URL_to_Facebook_Logo"
@@ -249,7 +249,7 @@ invg = [
           "source": "Facebook group 'JOM - Jews of Melbourne'",
           "content": {
             "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-            "postDatetime": "25/02/2024, 10:07",
+            "postDatetime": "25/02/2024 10:07",
             "reacts": {
               "likes": 17,
               "loves": 3,
@@ -1691,7 +1691,7 @@ q7 = {
           },
         "content": {
           "text": "Did anyone else notice a strange person lingering around and taking photos on Orrong and Glen Eira? They were quite focused on the homes in the area. It's left me feeling uneasy. Anybody else had a similar experience?",
-          "postDatetime": "22/2/2024, 14:21:00",
+          "postDatetime": "22/2/2024 14:21",
           "reacts": {
             "likes": 6,
             "loves": 0,
@@ -1720,7 +1720,7 @@ q7 = {
           },
         "content": {
           "text": "Update on the person taking photos around Orrong and Glen Eira: I approached him to ask what was going on. It turns out he was wearing a uniform from the municipality. He showed me his municipality worker's ID and explained that he is part of a team mapping out new garbage disposal routes in our area. Just wanted to share this to ease any concerns others might have had!",
-          "postDatetime": "22/2/2024, 14:55:00",
+          "postDatetime": "22/2/2024 14:55",
           "reacts": {
             "likes": 25,
             "loves": 0,
@@ -1749,7 +1749,7 @@ q7 = {
           },
         "content": {
           "text": "There was an odd figure wandering down Bay Street in Brighton earlier, stopping to take pictures of different homes. It didn't seem like they were a tourist. Anyone else in the area catch sight of this or know why they were taking pictures?",
-          "postDatetime": "10/2/2024, 11:54:00",
+          "postDatetime": "10/2/2024 11:54",
           "reacts": {
             "likes": 8,
             "loves": 0,
@@ -2374,7 +2374,7 @@ q21 = {
   "payload": {
     "knowledge": [{
         "widgetTitleBar": {
-          "createdDatetime": "16/02/2024, 10:55",
+          "createdDatetime": "16/02/2024 10:55",
           "source": {
             "platform": "Facebook",
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
@@ -2393,7 +2393,7 @@ q21 = {
           "source": "Bilal Elcheikh",
           "content": {
             "text": "أرجو ممن يقرأ هذا المنشور أن يعلق بأي كلمة لأن منشوراتي لا تصل إلى أصدقائي بسبب سياسة الفيسبوك العفنة. ",
-            "postDatetime": "16/02/2024, 10:55",
+            "postDatetime": "16/02/2024 10:55",
             "reacts": {
               "likes": 21,
               "loves": 0,
@@ -2411,7 +2411,7 @@ q21 = {
       },
       {
         "widgetTitleBar": {
-          "createdDatetime": "01/03/2024, 12:44",
+          "createdDatetime": "01/03/2024 12:44",
           "source": {
             "platform": "Facebook",
             "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
@@ -2430,7 +2430,7 @@ q21 = {
           "source": "Bilal Elcheikh",
           "content": {
             "text": "Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project",
-            "postDatetime": "01/03/2024, 12:44",
+            "postDatetime": "01/03/2024 12:44",
             "reacts": {
               "likes": 17,
               "loves": 0,
