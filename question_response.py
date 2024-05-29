@@ -8,52 +8,48 @@ invg = [
             "notificationPanel": {
                 "type": "Notification",
                 "timestamp": "2024/02/05 10:50:00",
-                "content": "suspicious person watching JC homes",
+                "content": "Suspicious Person Watching JC Homes",
                 "sourceType": "Social media"
             },
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/02/05 10:50:00",
-                "content": "suspicious person watching JC homes",
+                "content": "Notification: Suspicious Person Watching JC Homes",
                 "sourceType": "Social media",
                 "referenceThreat": "Hate Crime"
             },
             "socialMediaWidget": {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/02/25 10:07:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
-                    },
-                    "author": {
-                        "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
-                        "name": "Sheila Schwartz",
-                        "personOfInterest": {
-                            "isLit": True,
-                            "hoverText": "Sheila Schwartz is a member of the community.",
-                            "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
-                        }
+                "source": 'Facebook group "JOM - Jews of Melbourne"',
+                "author": {
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
+                    "name": "Sheila Schwartz",
+                    "personOfInterest": {
+                        "isLit": True,
+                        "hoverText": "Sheila Schwartz is a member of the community.",
+                        "entityOfInterestWidget": ""
                     }
                 },
-                "widgetBody": {
-                    "source": "Facebook group 'JOM - Jews of Melbourne'",
-                    "content": {
-                        "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-                        "postDatetime": "2024/02/25 10:07:00",
-                        "reacts": {
-                            "likes": 17,
-                            "loves": 3,
-                            "cares": 9,
-                            "hahas": 0,
-                            "wows": 2,
-                            "sads": 1,
-                            "angry": 1
-                        },
-                        "shares": 2,
-                        "totalComments": 15,
-                        "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
-                    }
-                }
+                "content": {
+                    "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
+                    "postDatetime": "2024/02/25 10:07:00",
+                    "reacts": {
+                        "likes": 17,
+                        "loves": 3,
+                        "cares": 9,
+                        "hahas": 0,
+                        "wows": 1,
+                        "sads": 1,
+                        "angry": 2
+                    },
+                    "shares": 2,
+                    "totalComments": 15,
+                    "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "",
+                "longitude": "",
+                "createDate": ""
             },
             "assumptionsTable": [
                 {
@@ -80,21 +76,15 @@ invg = [
                     "timestamp": "2024/02/05 10:50:00",
                     "containerType": "Notification",
                     "policyScore": "Medium",
-                    "assignee": "analyst",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "Open"
-                    ]
+                    "assignee": "invg",
+                    "id": "10002"
                 },
                 "widgetBody": {
                     "content": "Suspicious Person Watching JC Homes",
                     "sourceType": "Social media",
                     "source": "Facebook group 'JOM - Jews of Melbourne'",
-                    "actionButtons": [
-                        "More"
-                    ],
                     "referenceThreat": "Hate Crime",
-                    "referenceUseCase": "",
+                    "referenceUseCase": "Discussion about potential physical threat",
                     "tigger": [
                         "+5 keywords in a post on source of interest FB group"
                     ]
@@ -374,13 +364,13 @@ km = [
             "notificationPanel": {
                 "type": "km",
                 "timestamp": "2024/04/25 12:50:00",
-                "content": "To initialize the system please define your base target location",
+                "content": "To initialize the system, please define your base location by drawing it or by describing it",
                 "sourceType": "System Initialization"
             },
             "contextPanel": {
                 "type": "km",
-                "timestamp": "2024/04/25 12:50:00",
-                "content": "Jewish Communities Ontology",
+                "timestamp": "2023/01/15 09:32:00",
+                "content": "Ontology: Jewish Communities",
                 "sourceType": "Smith Consulting Inc.",
                 "referenceThreat": "Terrorist"
             },
@@ -413,16 +403,16 @@ km = [
                         "High",
                         "Critical"
                     ],
-                    "assignee": "km-user",
+                    "assignee": "km",
                     "id": "10001",
                     "actionsMenu": [
-                        "More"
+                        "Show"
                     ]
                 },
                 "widgetBody": {
                     "content": "To initilize the system, please define your base target location by drawing it or by describing it",
-                    "sourceType": "System Initialization",
-                    "source": "map",
+                    "sourceType": "",
+                    "source": "",
                     "actionButtons": [
                         "More"
                     ],
@@ -2054,49 +2044,59 @@ q5 = {
     "payload": {
         "knowledge": [
             {
-                "routeInfo": {
-                    "routeId": "route_01",
-                    "name": "Route 1",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.85898296252439,
-                        "longitude": 145.0103583837135,
-                        "name": "Location A"
+                "routeId": "route_01",
+                "name": "Route 1",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.85898296252439,
+                    "longitude": 145.0103583837135,
+                    "name": "Location A",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": ""
+                },
+                "endPoint": {
+                    "latitude": -37.87864327974311,
+                    "longitude": 145.02319421444597,
+                    "name": "Location B",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": ""
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.87668319158373,
+                        "longitude": 145.00710838375733,
+                        "name": "Route 1 Waypoint 1",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": ""
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.85898296252439,
+                        "startLongitude": 145.0103583837135,
+                        "endLatitude": -37.87668319158373,
+                        "endLongitude": 145.00710838375733,
+                        "distance": 0,
+                        "geometry": "LineString"
                     },
-                    "endPoint": {
-                        "latitude": -37.87864327974311,
-                        "longitude": 145.02319421444597,
-                        "name": "Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.87668319158373,
-                            "longitude": 145.00710838375733,
-                            "name": "Route 1 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.85898296252439,
-                            "startLongitude": 145.0103583837135,
-                            "endLatitude": -37.87668319158373,
-                            "endLongitude": 145.00710838375733,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.87668319158373,
-                            "startLongitude": 145.00710838375733,
-                            "endLatitude": -37.87864327974311,
-                            "endLongitude": 145.02319421444597,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.87668319158373,
+                        "startLongitude": 145.00710838375733,
+                        "endLatitude": -37.87864327974311,
+                        "endLongitude": 145.02319421444597,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             },
             {
                 "routeInfo": {
@@ -2342,13 +2342,12 @@ q7 = {
     "payload": {
         "knowledge": [
             {
-                "source": "Facebook group Melbourne",
-                "latLang": "-37.8781 145.0072",
+                "source": 'Facebook group "Melbourne, Victoria, Australia"',
                 "author": {
-                    "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                    "name": "Bilal Elcheikh",
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "name": "Matthew Smith",
                     "personOfInterest": {
-                        "isLit": False,
+                        "isLit": "",
                         "hoverText": "",
                         "entityOfInterestWidget": ""
                     }
@@ -2368,23 +2367,27 @@ q7 = {
                     "shares": 0,
                     "totalComments": 3,
                     "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
-                }
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "-37.87792237",
+                "longitude": "145.0071774",
+                "createDate": ""
             },
             {
-                "source": "Facebook group Melbourne",
-                "latLang": "-37.878083 145.007167",
+                "source": 'Facebook group "Melbourne, Victoria, Australia"',
                 "author": {
-                    "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                    "name": "Bilal Elcheikh",
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "name": "Matthew Smith",
                     "personOfInterest": {
-                        "isLit": False,
+                        "isLit": "",
                         "hoverText": "",
                         "entityOfInterestWidget": ""
                     }
                 },
                 "content": {
                     "text": "Update on the person taking photos around Orrong and Glen Eira: I approached him to ask what was going on. It turns out he was wearing a uniform from the municipality. He showed me his municipality worker's ID and explained that he is part of a team mapping out new garbage disposal routes in our area. Just wanted to share this to ease any concerns others might have had!",
-                    "postDatetime": "2024/02/22 14:55:00",
+                    "postDatetime": "2024/02/22 14.55.00",
                     "reacts": {
                         "likes": 25,
                         "loves": 0,
@@ -2397,23 +2400,27 @@ q7 = {
                     "shares": 0,
                     "totalComments": 2,
                     "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
-                }
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "-37.87792237",
+                "longitude": "145.0071774",
+                "createDate": ""
             },
             {
-                "source": "Facebook group Melbourne",
-                "latLang": "-37.904111 144.990778",
+                "source": 'Melbourne',
                 "author": {
-                    "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                    "name": "Bilal Elcheikh",
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "name": "Emily Johnson",
                     "personOfInterest": {
-                        "isLit": False,
+                        "isLit": "",
                         "hoverText": "",
                         "entityOfInterestWidget": ""
                     }
                 },
                 "content": {
                     "text": "There was an odd figure wandering down Bay Street in Brighton earlier, stopping to take pictures of different homes. It didn't seem like they were a tourist. Anyone else in the area catch sight of this or know why they were taking pictures?",
-                    "postDatetime": "2024/02/10 11:54:00",
+                    "postDatetime": "2024/02/22 14:21:00",
                     "reacts": {
                         "likes": 8,
                         "loves": 0,
@@ -2425,9 +2432,14 @@ q7 = {
                     },
                     "shares": 2,
                     "totalComments": 3,
-                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
-                }
-            }
+                    "originalPostLink": "https://www.facebook.com/groups/27176700640/"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "-37.90411111",
+                "longitude": "144.9907778",
+                "createDate": ""
+            },
         ]
     },
     "widgetType": "N/A",
