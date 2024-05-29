@@ -475,9 +475,9 @@ curr_map = {
 }
 
 upload_res = {
-    "conversation": "The data has been successfully uploaded. Do you want to show data on Map?",
+    "conversation": "The data from file {FILENAME} has been successfully uploaded. Do you want to see this data on the map? ",
     "payload": {
-        "knowlege": [
+        "knowledge": [
             {
                 "type": "show_on_map",
                 "value": "Yes"
