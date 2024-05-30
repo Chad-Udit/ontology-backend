@@ -375,7 +375,7 @@ invg = [
                     "assignee": "John Dou",
                     "id": "123456789",
                     "actionsMenu": [
-                        "Open"
+                        "Show"
                     ]
                 },
                 "widgetBody": {
@@ -383,7 +383,7 @@ invg = [
                     "sourceType": "Ontoligical rule",
                     "source": "Date Of Intrest 'Jeewis Independce Day Pared'",
                     "actionButtons": [
-                        "Ontology Widget"
+                        "Show"
                     ],
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
