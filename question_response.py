@@ -155,7 +155,7 @@ invg = [
                     "category": "Hate Crime",
                     "concern": "Physical harm to JC members",
                     "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
-                    "confidenceScore": "9"
+                    "confidenceScore": "5"
                 },
                 {
                     "category": "General Crime",
@@ -248,7 +248,7 @@ invg = [
        "actionKey": "event2_end"
    },
     {
-        "content": "Potential merge of incidents",
+        "content": "Potential Merge of Incident",
         "widget": "Multiple",
         "id": "12345600",
         "isVisible": False,
@@ -256,7 +256,7 @@ invg = [
             "notificationPanel": {
                 "type": "Notification",
                 "timestamp": "2024/02/25 10:56:00",
-                "content": "New alert received: Potential merge of incidents",
+                "content": "New alert received: Potential merge of Incident",
                 "sourceType": "Social media"
             },
             "contextPanel": {
@@ -267,41 +267,37 @@ invg = [
                 "referenceThreat": "Hate Crime"
             },
             "socialMediaWidget": {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/02/25 10:07:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "URL_to_Facebook_Logo"
-                    },
-                    "author": {
-                        "image": "URL_to_Author_Image_Provided_by_Ben",
-                        "name": "Sheila Schwartz",
-                        "personOfInterest": {
-                            "isLit": True,
-                            "hoverText": "Sheila Schwartz is a member of the community.",
-                            "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
-                        }
+                "source": 'Facebook group "JOM - Jews of Melbourne"',
+                "author": {
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
+                    "name": "Sheila Schwartz",
+                    "personOfInterest": {
+                        "isLit": True,
+                        "hoverText": "Sheila Schwartz is a member of the community.",
+                        "entityOfInterestWidget": ""
                     }
                 },
-                "widgetBody": {
-                    "source": "Facebook group 'JOM - Jews of Melbourne'",
-                    "content": {
-                        "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-                        "postDatetime": "2024/02/25 10:07:00",
-                        "reacts": {
-                            "likes": 17,
-                            "loves": 3,
-                            "cares": 9,
-                            "hahas": 0,
-                            "wows": 2,
-                            "sads": 1,
-                            "angry": 1
-                        },
-                        "shares": 2,
-                        "totalComments": 15,
-                        "originalPostLink": "URL_to_Original_Post"
-                    }
-                }
+                "content": {
+                    "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
+                    "postDatetime": "2024/02/25 10:07:00",
+                    "reacts": {
+                        "likes": 17,
+                        "loves": 3,
+                        "cares": 9,
+                        "hahas": 0,
+                        "wows": 1,
+                        "sads": 1,
+                        "angry": 2
+                    },
+                    "shares": 2,
+                    "totalComments": 15,
+                    "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "",
+                "longitude": "",
+                "createDate": ""
             },
             "assumptionsTable": [
                 {
@@ -335,7 +331,7 @@ invg = [
                     ]
                 },
                 "widgetBody": {
-                    "content": "Unusual Iconography By a Person of interest",
+                    "content": "Potential Merge of Incident",
                     "sourceType": "Ontoligical rule",
                     "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
                     "actionButtons": [
@@ -3062,50 +3058,79 @@ q19 = {
 }
 
 q21 = {
-    "conversation": "More Post Found!!",
+    "conversation": "Found More Post",
     "payload": {
         "knowledge": [
             {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/01/03 12:44:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
-                    },
-                    "author": {
-                        "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                        "name": "Bilal Elcheikh",
-                        "personOfInterest": {
-                            "isLit": False,
-                            "hoverText": "",
-                            "entityOfInterestWidget": ""
-                        }
+                "source": 'Bilal Elcheikh',
+                "author": {
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "name": "Bilal Elcheikh",
+                    "personOfInterest": {
+                        "isLit": "",
+                        "hoverText": "",
+                        "entityOfInterestWidget": ""
                     }
                 },
-                "widgetBody": {
-                    "source": "Bilal Elcheikh",
-                    "content": {
-                        "text": "Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project",
-                        "postDatetime": "2024/01/03 12:44:00",
-                        "reacts": {
-                            "likes": 17,
-                            "loves": 0,
-                            "cares": 0,
-                            "hahas": 0,
-                            "wows": 0,
-                            "sads": 0,
-                            "angry": 0
-                        },
-                        "shares": 0,
-                        "totalComments": 1,
-                        "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
+                "content": {
+                    "text": "أرجو ممن يقرأ هذا المنشور أن يعلق بأي كلمة لأن منشوراتي لا تصل إلى أصدقائي بسبب سياسة الفيسبوك العفنة. ",
+                    "postDatetime": "2024/02/16 10:55:00",
+                    "reacts": {
+                        "likes": 6,
+                        "loves": 0,
+                        "cares": 0,
+                        "hahas": 0,
+                        "wows": 0,
+                        "sads": 0,
+                        "angry": 0
+                    },
+                    "shares": 0,
+                    "totalComments": 3,
+                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "-37.87792237",
+                "longitude": "145.0071774",
+                "createDate": ""
+            },
+            {
+                "source": 'Bilal Elcheikh',
+                "author": {
+                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "name": "Bilal Elcheikh",
+                    "personOfInterest": {
+                        "isLit": "",
+                        "hoverText": "",
+                        "entityOfInterestWidget": ""
                     }
-                }
-            }
-        ],
-        "widgetType": "SOCIAL_MEDIA_WIDGET",
-        "actionKey": "event2_more_post"
-    }
+                },
+                "content": {
+                    "text": 'Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project.',
+                    "postDatetime": "2024/01/03 12:24:00",
+                    "reacts": {
+                        "likes": 25,
+                        "loves": 0,
+                        "cares": 0,
+                        "hahas": 0,
+                        "wows": 0,
+                        "sads": 0,
+                        "angry": 0
+                    },
+                    "shares": 0,
+                    "totalComments": 2,
+                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "-37.87792237",
+                "longitude": "145.0071774",
+                "createDate": ""
+            },
+        ]
+    },
+    "widgetType": "N/A",
+    "actionKey": "event2_more_post"
 }
 
 q23 = q5
