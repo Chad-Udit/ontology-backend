@@ -165,7 +165,7 @@ invg = [
                    "category": "Hate Crime",
                    "concern": "Physical harm to JC members",
                    "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
-                   "confidenceScore": "5"
+                   "confidenceScore": "9"
                },
                {
                    "category": "General Crime",
@@ -188,7 +188,7 @@ invg = [
                    "assignee": "John Dou",
                    "id": "123456789",
                    "actionsMenue": [
-                       "More"
+                       "Open"
                    ]
                },
                "widgetBody": {
@@ -196,7 +196,7 @@ invg = [
                    "sourceType": "Social media",
                    "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
                    "actionButtons": [
-                       "More"
+                       "Open"
                    ],
                    "referenceThreat": "Hate Crime",
                    "referenceUseCase": "",
@@ -208,6 +208,54 @@ invg = [
        },
        "type": "event2",
        "actionKey": "event2_init"
+   },
+   {
+       "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
+       "widget": "Multiple",
+       "id": "1234560090",
+       "isVisible": False,
+       "data": {
+           "notificationPanel": {
+               "type": "Notification",
+               "timestamp": "4/3/2024 10:36:00",
+               "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
+               "sourceType": "Social media"
+           },
+           "contextPanel": {
+               "type": "Notification",
+               "timestamp": "4/3/2024 10:36:00",
+               "content": "Detected iconography will be shaed with Ontology owner",
+               "sourceType": "Ontological Rule",
+               "referenceThreat": "Hate Crime"
+           },
+           "containerWidget": {
+               "widgetTitleBar": {
+                   "timestamp": "2024/04/03 13:23:00",
+                   "containerType": "Notification",
+                   "policyScore": "Medium",
+                   "assignee": "John Dou",
+                   "id": "123456789",
+                   "actionsMenue": [
+                       "Open"
+                   ]
+               },
+               "widgetBody": {
+                   "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
+                   "sourceType": "Social media",
+                   "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
+                   "actionButtons": [
+                       "Open"
+                   ],
+                   "referenceThreat": "Hate Crime",
+                   "referenceUseCase": "",
+                   "tigger": [
+                       "Rule: 'Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+                   ]
+               }
+           }
+       },
+       "type": "event3",
+       "actionKey": "event3_init"
    },
    {
        "content": "Potential merge of incidents",
