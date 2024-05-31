@@ -155,19 +155,19 @@ invg = [
                     "category": "Hate Crime",
                     "concern": "Physical harm to JC members",
                     "assumption": "Suspect implies to tanigble threat",
-                    "confidenceScore": "5"
+                    "confidenceScore": "9"
                 },
                 {
                     "category": "General Crime",
                     "concern": "Property crime",
                     "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
-                    "confidenceScore": "5"
+                    "confidenceScore": "2"
                 },
                 {
                     "category": "Neutral",
                     "concern": "Naive",
                     "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
-                    "confidenceScore": "5"
+                    "confidenceScore": "2"
                 }
             ],
             "containerWidget": {
@@ -267,37 +267,41 @@ invg = [
                 "referenceThreat": "Hate Crime"
             },
             "socialMediaWidget": {
-                "source": 'Facebook group "JOM - Jews of Melbourne"',
-                "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
-                    "name": "Sheila Schwartz",
-                    "personOfInterest": {
-                        "isLit": True,
-                        "hoverText": "Sheila Schwartz is a member of the community.",
-                        "entityOfInterestWidget": ""
+                "widgetTitleBar": {
+                    "createdDatetime": "2024/01/03 09:22:00",
+                    "source": {
+                        "platform": "Facebook",
+                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
+                    },
+                    "author": {
+                        "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                        "name": "Bilal Elcheikh",
+                        "personOfInterest": {
+                            "isLit": False,
+                            "hoverText": "",
+                            "entityOfInterestWidget": ""
+                        }
                     }
                 },
-                "content": {
-                    "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-                    "postDatetime": "2024/02/25 10:07:00",
-                    "reacts": {
-                        "likes": 17,
-                        "loves": 3,
-                        "cares": 9,
-                        "hahas": 0,
-                        "wows": 1,
-                        "sads": 1,
-                        "angry": 2
-                    },
-                    "shares": 2,
-                    "totalComments": 15,
-                    "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
-                },
-                "triggers": [],
-                "mapIcon": "",
-                "latitude": "",
-                "longitude": "",
-                "createDate": ""
+                "widgetBody": {
+                    "source": "Melbourne Islamic Lectures, Classes & Events",
+                    "content": {
+                        "text": "“They are controlling the world and the brave people are suffering",
+                        "postDatetime": "2024/01/03 09:22:00",
+                        "reacts": {
+                            "likes": 47,
+                            "loves": 0,
+                            "cares": 0,
+                            "hahas": 0,
+                            "wows": 0,
+                            "sads": 0,
+                            "angry": 0
+                        },
+                        "shares": 4,
+                        "totalComments": 47,
+                        "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
+                    }
+                }
             },
             "assumptionsTable": [
                 {
