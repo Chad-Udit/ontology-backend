@@ -2176,7 +2176,7 @@ q17 = {
 }
 
 q18 = {
-    "conversation": "### Incident Report\n\n**Incident:** Suspicious person watching JC homes (#236754)\n**Person of Interest:** Bilal Elcheikh (#258483)\n\n---\n\n**Details:**\n\n- **Description:**\n  Incident of a suspicious person watching JC homes (#236754) and alerting problematic iconography by the person of interest (#258483) connected.\n\n- **Risk Levels:**\n  - **Incident #236754:**\n    - **Previous Risk Level:** Low\n    - **New Risk Level:** High\n  - **Person of Interest - Bilal Elcheikh:**\n    - **Current Risk Level:** High\n\n- **Policy Note:**\n  The level of risk for incident (#236754) now exceeds the threshold for opening a case according to JC policy.\n\n---\n\n**Action Required:**\nEvent triggered: **event3_incident_raised**\n\n---\n\n**Payload:**\n- **Knowledge:** None\n- **Widget Type:** N/A\n- **Action Key:** event3_incident_raised",
+    "conversation": "### Incident Report\n\nIncident: Suspicious person watching JC homes (#236754)\nPerson of Interest: Bilal Elcheikh (#258483)\n\n---\n\nDetails:\n\n- Description:\n  Incident of a suspicious person watching JC homes (#236754) and alerting problematic iconography by the person of interest (#258483) connected.\n\n- Risk Levels:\n  - Incident #236754:\n    - Previous Risk Level: Low\n    - New Risk Level: High\n  - Person of Interest - Bilal Elcheikh:\n    - Current Risk Level: High\n\n- Policy Note:\n  The level of risk for incident (#236754) now exceeds the threshold for opening a case according to JC policy.\n\n---\n\nAction Required:",
     "payload": {
         "knowledge": [],
         "widgetType": "N/A",
