@@ -331,7 +331,8 @@ invg = [
                     "assignee": "John Dou",
                     "id": "123456789",
                     "actionsMenu": [
-                        "Open"
+                        "Suspect",
+                        "Incident"
                     ]
                 },
                 "widgetBody": {
@@ -344,7 +345,7 @@ invg = [
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
-                        "Rule: 'Suspect in one incident added as person of interest in another incident"
+                        "Rule: 'Suspect in one Incident added as person of interest in another incident"
                     ]
                 }
             }
