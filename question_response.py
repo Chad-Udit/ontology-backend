@@ -121,160 +121,7 @@ invg = [
                         "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
                     },
                     "author": {
-                        "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                        "name": "Bilal Elcheikh",
-                        "personOfInterest": {
-                            "isLit": False,
-                            "hoverText": "",
-                            "entityOfInterestWidget": ""
-                        }
-                    }
-                },
-                "widgetBody": {
-                    "source": "Melbourne Islamic Lectures, Classes & Events",
-                    "content": {
-                        "text": "“They are controlling the world and the brave people are suffering",
-                        "postDatetime": "2024/01/03 09:22:00",
-                        "reacts": {
-                            "likes": 47,
-                            "loves": 0,
-                            "cares": 0,
-                            "hahas": 0,
-                            "wows": 0,
-                            "sads": 0,
-                            "angry": 0
-                        },
-                        "shares": 4,
-                        "totalComments": 47,
-                        "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
-                    }
-                }
-            },
-            "assumptionsTable": [
-                {
-                    "category": "Hate Crime",
-                    "concern": "Physical harm to JC members",
-                    "assumption": "Suspect implies to tanigble threat",
-                    "confidenceScore": "9"
-                },
-                {
-                    "category": "General Crime",
-                    "concern": "Property crime",
-                    "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
-                    "confidenceScore": "2"
-                },
-                {
-                    "category": "Neutral",
-                    "concern": "Naive",
-                    "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
-                    "confidenceScore": "2"
-                }
-            ],
-            "containerWidget": {
-                "widgetTitleBar": {
-                    "timestamp": "2024/02/25 10:56:00",
-                    "containerType": "Notification",
-                    "policyScore": "Critical",
-                    "assignee": "John Dou",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "Open"
-                    ]
-                },
-                "widgetBody": {
-                    "content": "Unusual Iconography By a Person of interest",
-                    "sourceType": "Social media",
-                    "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
-                    "actionButtons": [
-                        "Open"
-                    ],
-                    "referenceThreat": "Hate Crime",
-                    "referenceUseCase": "",
-                    "tigger": [
-                        "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
-                    ]
-                }
-            }
-        },
-        "type": "event2",
-        "actionKey": "event2_init"
-    },
-     {
-       "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
-       "widget": "Multiple",
-       "id": "1234560090",
-       "isVisible": False,
-       "data": {
-           "notificationPanel": {
-               "type": "Notification",
-               "timestamp": "4/3/2024 10:36:00",
-               "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
-               "sourceType": "Social media"
-           },
-           "contextPanel": {
-               "type": "Notification",
-               "timestamp": "4/3/2024 10:36:00",
-               "content": "Detected iconography will be shaed with Ontology owner",
-               "sourceType": "Ontological Rule",
-               "referenceThreat": "Hate Crime"
-           },
-           "containerWidget": {
-               "widgetTitleBar": {
-                   "timestamp": "2024/04/03 13:23:00",
-                   "containerType": "Notification",
-                   "policyScore": "Medium",
-                   "assignee": "John Dou",
-                   "id": "123456789",
-                   "actionsMenue": [
-                       "Open"
-                   ]
-               },
-               "widgetBody": {
-                   "content": "Incident generated based on ontological rule based on undocumented iconography pattern",
-                   "sourceType": "Social media",
-                   "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
-                   "actionButtons": [
-                       "Open"
-                   ],
-                   "referenceThreat": "Hate Crime",
-                   "referenceUseCase": "",
-                   "tigger": [
-                       "Rule: 'Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
-                   ]
-               }
-           }
-       },
-       "type": "event2",
-       "actionKey": "event2_end"
-   },
-    {
-        "content": "Potential Merge of Incident",
-        "widget": "Multiple",
-        "id": "12345600",
-        "isVisible": False,
-        "data": {
-            "notificationPanel": {
-                "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
-                "content": "New alert received: Potential merge of Incident",
-                "sourceType": "Social media"
-            },
-            "contextPanel": {
-                "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
-                "content": "New alert received: Potential merge of incidents",
-                "sourceType": "Social media",
-                "referenceThreat": "Hate Crime"
-            },
-            "socialMediaWidget": {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/01/03 09:22:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
-                    },
-                    "author": {
-                        "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                        "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
                         "name": "Bilal Elcheikh",
                         "personOfInterest": {
                             "isLit": False,
@@ -331,12 +178,116 @@ invg = [
                     "assignee": "John Dou",
                     "id": "123456789",
                     "actionsMenu": [
-                        "Suspect",
-                        "Incident"
+                        "More"
                     ]
                 },
                 "widgetBody": {
-                    "content": "Potential Merge of Incident",
+                    "content": "Unusual Iconography By a Person of interest",
+                    "sourceType": "Social media",
+                    "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
+                    "actionButtons": [
+                        "More"
+                    ],
+                    "referenceThreat": "Hate Crime",
+                    "referenceUseCase": "",
+                    "tigger": [
+                        "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+                    ]
+                }
+            }
+        },
+        "type": "event2",
+        "actionKey": "event2_init"
+    },
+    {
+        "content": "Potential merge of incidents",
+        "widget": "Multiple",
+        "id": "12345600",
+        "isVisible": False,
+        "data": {
+            "notificationPanel": {
+                "type": "Notification",
+                "timestamp": "2024/02/25 10:56:00",
+                "content": "New alert received: Potential merge of incidents",
+                "sourceType": "Social media"
+            },
+            "contextPanel": {
+                "type": "Notification",
+                "timestamp": "2024/02/25 10:56:00",
+                "content": "New alert received: Potential merge of incidents",
+                "sourceType": "Social media",
+                "referenceThreat": "Hate Crime"
+            },
+            "socialMediaWidget": {
+                "widgetTitleBar": {
+                    "createdDatetime": "2024/02/25 10:07:00",
+                    "source": {
+                        "platform": "Facebook",
+                        "logoUrl": "URL_to_Facebook_Logo"
+                    },
+                    "author": {
+                        "image": "URL_to_Author_Image_Provided_by_Ben",
+                        "name": "Sheila Schwartz",
+                        "personOfInterest": {
+                            "isLit": True,
+                            "hoverText": "Sheila Schwartz is a member of the community.",
+                            "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
+                        }
+                    }
+                },
+                "widgetBody": {
+                    "source": "Facebook group 'JOM - Jews of Melbourne'",
+                    "content": {
+                        "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
+                        "postDatetime": "2024/02/25 10:07:00",
+                        "reacts": {
+                            "likes": 17,
+                            "loves": 3,
+                            "cares": 9,
+                            "hahas": 0,
+                            "wows": 2,
+                            "sads": 1,
+                            "angry": 1
+                        },
+                        "shares": 2,
+                        "totalComments": 15,
+                        "originalPostLink": "URL_to_Original_Post"
+                    }
+                }
+            },
+            "assumptionsTable": [
+                {
+                    "category": "Hate Crime",
+                    "concern": "Physical harm to JC members",
+                    "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
+                    "confidenceScore": "5"
+                },
+                {
+                    "category": "General Crime",
+                    "concern": "Property crime",
+                    "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
+                    "confidenceScore": "5"
+                },
+                {
+                    "category": "Neutral",
+                    "concern": "Naive",
+                    "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
+                    "confidenceScore": "5"
+                }
+            ],
+            "containerWidget": {
+                "widgetTitleBar": {
+                    "timestamp": "2024/02/25 10:56:00",
+                    "containerType": "Notification",
+                    "policyScore": "Critical",
+                    "assignee": "John Dou",
+                    "id": "123456789",
+                    "actionsMenu": [
+                        "Open"
+                    ]
+                },
+                "widgetBody": {
+                    "content": "Unusual Iconography By a Person of interest",
                     "sourceType": "Ontoligical rule",
                     "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
                     "actionButtons": [
@@ -345,7 +296,7 @@ invg = [
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
-                        "Rule: 'Suspect in one Incident added as person of interest in another incident"
+                        "Rule: 'Suspect in one incident added as person of interest in another incident"
                     ]
                 }
             }
@@ -372,26 +323,6 @@ invg = [
                 "sourceType": "Ontological rule",
                 "referenceThreat": "Hate Crime"
             },
-             "assumptionsTable": [
-                {
-                    "category": "Hate Crime",
-                    "concern": "Physical harm to JC members",
-                    "assumption": "Suspect implies to tanigble threat",
-                    "confidenceScore": "5"
-                },
-                {
-                    "category": "General Crime",
-                    "concern": "Property crime",
-                    "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
-                    "confidenceScore": "5"
-                },
-                {
-                    "category": "Neutral",
-                    "concern": "Naive",
-                    "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
-                    "confidenceScore": "5"
-                }
-            ],
             "containerWidget": {
                 "widgetTitleBar": {
                     "timestamp": "2024/04/14 10:56:00",
@@ -400,7 +331,7 @@ invg = [
                     "assignee": "John Dou",
                     "id": "123456789",
                     "actionsMenu": [
-                        "Show"
+                        "Open"
                     ]
                 },
                 "widgetBody": {
@@ -408,7 +339,7 @@ invg = [
                     "sourceType": "Ontoligical rule",
                     "source": "Date Of Intrest 'Jeewis Independce Day Pared'",
                     "actionButtons": [
-                        "Show"
+                        "Ontology Widget"
                     ],
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
@@ -607,620 +538,1477 @@ q3 = {
     "conversation": "Sure, the JC Ontology contains the following significant dates of interest. Hover over each for more information",
     "payload": {
         "knowledge": [
-    {
-        "holiday": "Rosh Hashanah",
-        "duration": "2 days",
-        "frequency": "First and second day of the Jewish month of Tishrei",
-        "effectiveHours": "Full day",
-        "reference": "https://simple.wikipedia.org/wiki/Rosh_Hashanah",
-        "exactDates": "Sept 8th & 9th",
-        "startDate": "Sept 8th",
-        "endDate": "Sept 9th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Yom Kippur",
-        "duration": "1 day",
-        "frequency": "Tenth day of the Jewish month of Tishrei",
-        "effectiveHours": "Full day (fasting)",
-        "reference": "https://simple.wikipedia.org/wiki/Yom_Kippur",
-        "exactDates": "Sept 24th",
-        "startDate": "Sept 24th",
-        "endDate": "Sept 24th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Sukkot",
-        "duration": "7-8 days",
-        "frequency": "Fifteenth day of Tishrei to twenty-second or twenty-third of Tishrei",
-        "effectiveHours": "Varies by day",
-        "reference": "https://en.wikipedia.org/wiki/Sukkot",
-        "exactDates": "Sept 23rd - Sept 30th or Oct 1st",
-        "startDate": "Sept 23rd",
-        "endDate": "Sept 30th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover",
-        "duration": "7-8 days",
-        "frequency": "Fifteenth day of the Jewish month of Nissan",
-        "effectiveHours": "Varies by day",
-        "reference": "https://simple.wikipedia.org/wiki/Passover",
-        "exactDates": "April 8th - April 15th or 16th",
-        "startDate": "April 8th",
-        "endDate": "April 15th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Shavuot",
-        "duration": "1-2 days",
-        "frequency": "Sixth and seventh day of the Jewish month of Sivan",
-        "effectiveHours": "Full day",
-        "reference": "https://simple.wikipedia.org/wiki/Shavuot",
-        "exactDates": "May 15th & 16th or 16th only",
-        "startDate": "May 15th",
-        "endDate": "May 16th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Christmas Day",
-        "duration": "1 day",
-        "frequency": "December 25th",
-        "effectiveHours": "Full day",
-        "reference": "https://en.wikipedia.org/wiki/Christmas",
-        "exactDates": "December 25th",
-        "startDate": "December 25th",
-        "endDate": "December 25th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Christianity",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Good Friday",
-        "duration": "1 day",
-        "frequency": "Friday before Easter Sunday",
-        "effectiveHours": "Full day (commemoration)",
-        "reference": "https://en.wikipedia.org/wiki/Good_Friday",
-        "exactDates": "April 12th",
-        "startDate": "April 12th",
-        "endDate": "April 12th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Christianity",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Easter Sunday",
-        "duration": "1 day",
-        "frequency": "First Sunday after the full moon following the vernal equinox",
-        "effectiveHours": "Full day",
-        "reference": "https://en.wikipedia.org/wiki/Easter",
-        "exactDates": "April 14th",
-        "startDate": "April 14th",
-        "endDate": "April 14th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Christianity",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Eid al-Fitr",
-        "duration": "1-3 days",
-        "frequency": "First day of the Islamic month of Shawwal",
-        "effectiveHours": "Full day",
-        "reference": "https://en.wikipedia.org/wiki/Eid_al_Fitr",
-        "exactDates": "May 10th or 11th",
-        "startDate": "May 10th",
-        "endDate": "May 11th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Eid al-Adha",
-        "duration": "4 days",
-        "frequency": "Tenth day of Dhu al-Hijjah (Islamic calendar)",
-        "effectiveHours": "Full day",
-        "reference": "https://en.wikipedia.org/wiki/Eid_al_Adha",
-        "exactDates": "July 19th - 22nd",
-        "startDate": "July 19th",
-        "endDate": "July 22nd",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Fast of Esther",
-        "duration": "1 day",
-        "frequency": "13th day of Adar II (Hebrew calendar) - Observance",
-        "effectiveHours": "Full day",
-        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-        "exactDates": "Thursday, March 21",
-        "startDate": "Thursday, March 21",
-        "endDate": "Thursday, March 21",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Purim Eve",
-        "duration": "1 day",
-        "frequency": "Eve of Purim - Observance",
-        "effectiveHours": "Full day",
-        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-        "exactDates": "Saturday, March 23",
-        "startDate": "Saturday, March 23",
-        "endDate": "Saturday, March 23",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Purim (Tel Aviv)",
-        "duration": "1 day",
-        "frequency": "14th day of Adar II (Hebrew calendar) - Local Holiday",
-        "effectiveHours": "Full day",
-        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-        "exactDates": "Sunday, March 24",
-        "startDate": "Sunday, March 24",
-        "endDate": "Sunday, March 24",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Shushan Purim (Jerusalem)",
-        "duration": "1 day",
-        "frequency": "15th day of Adar II (Hebrew calendar) - Local Holiday",
-        "effectiveHours": "Varies by day",
-        "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
-        "exactDates": "Monday, March 25",
-        "startDate": "Monday, March 25",
-        "endDate": "Monday, March 25",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover Eve",
-        "duration": "7-8 days",
-        "frequency": "14th day of Nisan (Hebrew calendar) - Observance",
-        "effectiveHours": "Varies by day",
-        "reference": "https://www.hebcal.com/holidays/pesach-2024",
-        "exactDates": "Monday, April 22",
-        "startDate": "Monday, April 22",
-        "endDate": "Monday, April 22",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover (Day 1)",
-        "duration": "7-8 days",
-        "frequency": "15th day of Nisan (Hebrew calendar) - National Holiday",
-        "effectiveHours": "Full day",
-        "reference": "https://www.hebcal.com/holidays/pesach-2024",
-        "exactDates": "Tuesday, April 23",
-        "startDate": "Tuesday, April 23",
-        "endDate": "Tuesday, April 23",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover (Day 2)",
-        "duration": "7-8 days",
-        "frequency": "16th day of Nisan (Hebrew calendar) - Observance",
-        "effectiveHours": "Varies",
-        "reference": "https://www.hebcal.com/holidays/pesach-2024",
-        "exactDates": "Wednesday, April 24",
-        "startDate": "Wednesday, April 24",
-        "endDate": "Wednesday, April 24",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover (Days 3-4-5)",
-        "duration": "7-8 days",
-        "frequency": "17th, 18th, 19th days of Nisan (Hebrew calendar) - Observance",
-        "effectiveHours": "Varies by day",
-        "reference": "https://www.hebcal.com/holidays/pesach-2024",
-        "exactDates": "Thursday-Friday-Saturday, April 25-26-27",
-        "startDate": "April 25th",
-        "endDate": "April 27th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Passover (Days 6-7)",
-        "duration": "7-8 days",
-        "frequency": "20th, 21st days of Nisan (Hebrew calendar) - Observance",
-        "effectiveHours": "Varies by day",
-        "reference": "https://www.hebcal.com/holidays/pesach-2024",
-        "exactDates": "Sunday-Monday, April 28-29",
-        "startDate": "April 28th",
-        "endDate": "April 29th",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Yom HaShoah",
-        "duration": "1 day",
-        "frequency": "Holocaust Remembrance Day: Remembers the Jewish victims of the Holocaust - Observance",
-        "effectiveHours": "Varies by day",
-        "reference": "https://www.timeanddate.com/holidays/israel/yom-hashoah",
-        "exactDates": "Monday, May 6",
-        "startDate": "Monday, May 6",
-        "endDate": "Monday, May 6",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Yom HaZikaron",
-        "duration": "1 day",
-        "frequency": "Israeli Memorial Day: Honors Israeli soldiers and civilians killed in wars and terrorist attacks - Observance",
-        "effectiveHours": "Full day",
-        "reference": "https://www.hebcal.com/holidays/yom-hazikaron-2024",
-        "exactDates": "Monday, May 13",
-        "startDate": "Monday, May 13",
-        "endDate": "Monday, May 13",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Yom HaAtzmaut",
-        "duration": "1 day",
-        "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
-        "effectiveHours": "Full day",
-        "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
-        "exactDates": "Tuesday, May 14",
-        "startDate": "Tuesday, May 14",
-        "endDate": "Tuesday, May 14",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Lag BaOmer",
-        "duration": "1 day",
-        "frequency": "33rd day of the Omer counting between Passover and Shavuot - Observance traditionally associated with Rabbi Shimon bar Yochai",
-        "effectiveHours": "Full day",
-        "reference": "https://www.hebcal.com/holidays/lag-baomer-2024",
-        "exactDates": "Sunday, May 26",
-        "startDate": "Sunday, May 26",
-        "endDate": "Sunday, May 26",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Jerusalem Day",
-        "duration": "1 day",
-        "frequency": "Reunification of Jerusalem: Marks the reunification of East and West Jerusalem after the Six-Day War in 1967 - Observance",
-        "effectiveHours": "Full day",
-        "reference": "https://www.timeanddate.com/calendar/custom.html?country=34",
-        "exactDates": "Wednesday, June 5",
-        "startDate": "Wednesday, June 5",
-        "endDate": "Wednesday, June 5",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Shavuot Eve",
-        "duration": "1 day",
-        "frequency": "Eve of Shavuot - Observance",
-        "effectiveHours": "Full day",
-        "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
-        "exactDates": "Tuesday, June 11",
-        "startDate": "Tuesday, June 11",
-        "endDate": "Tuesday, June 11",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Shavuot",
-        "duration": "1 day",
-        "frequency": "Festival of Weeks: Celebrates the giving of the Torah on Mount Sinai and the wheat harvest - National Holiday",
-        "effectiveHours": "Full day",
-        "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
-        "exactDates": "Wednesday, June 12",
-        "startDate": "Wednesday, June 12",
-        "endDate": "Wednesday, June 12",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Judaism",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Muharram 1 (Islamic New Year)",
-        "duration": "1 day",
-        "frequency": "1st day of the Islamic calendar",
-        "effectiveHours": "Full day",
-        "reference": "https://en.wikipedia.org/wiki/Islamic_New_Year",
-        "exactDates": "Needs Islamic Calendar Check",
-        "startDate": "",
-        "endDate": "",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Ashura",
-        "duration": "1 day",
-        "frequency": "10th day of Muharram (commemorates death of Hussein)",
-        "effectiveHours": "Varies",
-        "reference": "https://simple.wikipedia.org/wiki/Day_of_Ashura",
-        "exactDates": "Needs Islamic Calendar Check",
-        "startDate": "",
-        "endDate": "",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Mawlid an-Nabi",
-        "duration": "1-3 days",
-        "frequency": "Birthday of the Prophet Muhammad",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Mawlid",
-        "exactDates": "Needs Islamic Calendar Check",
-        "startDate": "",
-        "endDate": "",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Laylat al-Qadr",
-        "duration": "1 night",
-        "frequency": "Night of Power (believed to be the night Quran revealed)",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
-        "exactDates": "Needs Islamic Calendar Check",
-        "startDate": "",
-        "endDate": "",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Ramadan",
-        "duration": "29-30 days",
-        "frequency": "Month of fasting and prayer",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Ramadan",
-        "exactDates": "March 10 - April 8, 2024",
-        "startDate": "March 10",
-        "endDate": "April 8",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Eid al-Fitr",
-        "duration": "3-4 days",
-        "frequency": "Festival of Breaking the Fast (end of Ramadan)",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
-        "exactDates": "April 9-10, 2024",
-        "startDate": "April 9",
-        "endDate": "April 10",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Hajj",
-        "duration": "5-6 days",
-        "frequency": "Pilgrimage to Mecca (once in a lifetime for Muslims who are able)",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Hajj",
-        "exactDates": "June 14 - June 19, 2024",
-        "startDate": "June 14",
-        "endDate": "June 19",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Eid al-Adha",
-        "duration": "4 days",
-        "frequency": "Festival of Sacrifice (commemorates Abraham's sacrifice)",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Eid_al-Adha",
-        "exactDates": "June 16-19, 2024",
-        "startDate": "June 16",
-        "endDate": "June 19",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Arafah (Day of Arafah)",
-        "duration": "1 day",
-        "frequency": "Day of standing on Arafah during Hajj",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Day_of_Arafah",
-        "exactDates": "June 15, 2024",
-        "startDate": "June 15",
-        "endDate": "June 15",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    },
-    {
-        "holiday": "Muharram",
-        "duration": "1 day",
-        "frequency": "First month of the Islamic calendar",
-        "effectiveHours": "Varies",
-        "reference": "https://en.wikipedia.org/wiki/Islamic_calendar",
-        "exactDates": "Sunday 7th July 2024",
-        "startDate": "Sunday 7th July 2024",
-        "endDate": "Sunday 7th July 2024",
-        "related": {},
-        "policyScore": "",
-        "justification": "",
-        "religion": "Islam",
-        "type": "",
-        "relatedEntities": {},
-        "createDate": ""
-    }
-],
-
+            {
+                "holiday": "Rosh Hashanah",
+                "duration": "2 days",
+                "frequency": "First and second day of the Jewish month of Tishrei",
+                "effectiveHours": "Full day",
+                "reference": "https://simple.wikipedia.org/wiki/Rosh_Hashanah",
+                "exactDates": "Sept 8th & 9th",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Yom Kippur",
+                "duration": "1 day",
+                "frequency": "Tenth day of the Jewish month of Tishrei",
+                "effectiveHours": "Full day (fasting)",
+                "reference": "https://simple.wikipedia.org/wiki/Yom_Kippur",
+                "exactDates": "Sept 24th",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Sukkot",
+                "duration": "7-8 days",
+                "frequency": "Fifteenth day of Tishrei to twenty-second or twenty-third of Tishrei",
+                "effectiveHours": "Varies by day",
+                "reference": "https://en.wikipedia.org/wiki/Sukkot",
+                "exactDates": "Sept 23rd - Sept 30th or Oct 1st",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover",
+                "duration": "7-8 days",
+                "frequency": "Fifteenth day of the Jewish month of Nissan",
+                "effectiveHours": "Varies by day",
+                "reference": "https://simple.wikipedia.org/wiki/Passover",
+                "exactDates": "April 8th - April 15th or 16th",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Shavuot",
+                "duration": "1-2 days",
+                "frequency": "Sixth and seventh day of the Jewish month of Sivan",
+                "effectiveHours": "Full day",
+                "reference": "https://simple.wikipedia.org/wiki/Shavuot",
+                "exactDates": "May 15th & 16th or 16th only",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Christmas Day",
+                "duration": "1 day",
+                "frequency": "December 25th",
+                "effectiveHours": "Full day",
+                "reference": "https://en.wikipedia.org/wiki/Christmas",
+                "exactDates": "December 25th",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Christianity",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Good Friday",
+                "duration": "1 day",
+                "frequency": "Friday before Easter Sunday",
+                "effectiveHours": "Full day (commemoration)",
+                "reference": "https://en.wikipedia.org/wiki/Good_Friday",
+                "exactDates": "April 12th",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Christianity",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Easter Sunday",
+                "duration": "1 day",
+                "frequency": "First Sunday after the full moon following the vernal equinox",
+                "effectiveHours": "Full day",
+                "reference": "https://en.wikipedia.org/wiki/Easter",
+                "exactDates": "April 14th",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Christianity",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Fitr",
+                "duration": "1-3 days",
+                "frequency": "First day of the Islamic month of Shawwal",
+                "effectiveHours": "Full day",
+                "reference": "https://en.wikipedia.org/wiki/Eid_al_Fitr",
+                "exactDates": "May 10th or 11th",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Adha",
+                "duration": "4 days",
+                "frequency": "Tenth day of Dhu al-Hijjah (Islamic calendar)",
+                "effectiveHours": "Full day",
+                "reference": "https://en.wikipedia.org/wiki/Eid_al_Adha",
+                "exactDates": "July 19th - 22nd",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Fast of Esther",
+                "duration": "1 day",
+                "frequency": "13th day of Adar II (Hebrew calendar) - Observance",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+                "exactDates": "Thursday, March 21",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Purim Eve",
+                "duration": "1 day",
+                "frequency": "Eve of Purim - Observance",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+                "exactDates": "Saturday, March 23",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Purim (Tel Aviv)",
+                "duration": "1 day",
+                "frequency": "14th day of Adar II (Hebrew calendar) - Local Holiday",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+                "exactDates": "Sunday, March 24",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Shushan Purim (Jerusalem)",
+                "duration": "1 day",
+                "frequency": "15th day of Adar II (Hebrew calendar) - Local Holiday",
+                "effectiveHours": "Varies by day",
+                "reference": "https://www.timeanddate.com/holidays/israel/ta-anit-esther",
+                "exactDates": "Monday, March 25",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover Eve",
+                "duration": "7-8 days",
+                "frequency": "14th day of Nisan (Hebrew calendar) - Observance",
+                "effectiveHours": "Varies by day",
+                "reference": "https://www.hebcal.com/holidays/pesach-2024",
+                "exactDates": "Wednesday, April 22",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover (Day 1)",
+                "duration": "7-8 days",
+                "frequency": "15th day of Nisan (Hebrew calendar) - National Holiday",
+                "effectiveHours": "Full day",
+                "reference": "https://www.hebcal.com/holidays/pesach-2024",
+                "exactDates": "Wednesday, April 23",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover (Day 2)",
+                "duration": "7-8 days",
+                "frequency": "16th day of Nisan (Hebrew calendar) - Observance",
+                "effectiveHours": "Varies",
+                "reference": "https://www.hebcal.com/holidays/pesach-2024",
+                "exactDates": "Wednesday, April 24",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover (Days 3-4-5)",
+                "duration": "7-8 days",
+                "frequency": "17th, 18th, 19th days of Nisan (Hebrew calendar) - Observance",
+                "effectiveHours": "Varies by day",
+                "reference": "https://www.hebcal.com/holidays/pesach-2024",
+                "exactDates": "Thursday-Friday-Saturday, April 25-26-27",
+                "related": {},
+                "policyScore": "",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Passover (Days 6-7)",
+                "duration": "7-8 days",
+                "frequency": "20th, 21st days of Nisan (Hebrew calendar) - Observance",
+                "effectiveHours": "Varies by day",
+                "reference": "https://www.hebcal.com/holidays/pesach-2024",
+                "exactDates": "Sunday-Monday, April 28-29",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Yom HaShoah",
+                "duration": "1 day",
+                "frequency": "Holocaust Remembrance Day: Remembers the Jewish victims of the Holocaust - Observance",
+                "effectiveHours": "Varies by day",
+                "reference": "https://www.timeanddate.com/holidays/israel/yom-hashoah",
+                "exactDates": "Monday, May 6",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Yom HaZikaron",
+                "duration": "1 day",
+                "frequency": "Israeli Memorial Day: Honors Israeli soldiers and civilians killed in wars and terrorist attacks - Observance",
+                "effectiveHours": "Full day",
+                "reference": "https://www.hebcal.com/holidays/yom-hazikaron-2024",
+                "exactDates": "Monday, May 13",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Yom HaAtzmaut",
+                "duration": "1 day",
+                "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
+                "exactDates": "Tuesday, May 14",
+                "related": "",
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Lag BaOmer",
+                "duration": "1 day",
+                "frequency": "33rd day of the Omer counting between Passover and Shavuot - Observance traditionally associated with Rabbi Shimon bar Yochai",
+                "effectiveHours": "Full day",
+                "reference": "https://www.hebcal.com/holidays/lag-baomer-2024",
+                "exactDates": "Sunday, May 26",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Jerusalem Day",
+                "duration": "1 day",
+                "frequency": "Reunification of Jerusalem: Marks the reunification of East and West Jerusalem after the Six-Day War in 1967 - Observance",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/calendar/custom.html?country=34",
+                "exactDates": "Wednesday, June 5",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Shavuot Eve",
+                "duration": "1 day",
+                "frequency": "Eve of Shavuot - Observance",
+                "effectiveHours": "Full day",
+                "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+                "exactDates": "Tuesday, June 11",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Shavuot",
+                "duration": "1 day",
+                "frequency": "Festival of Weeks: Celebrates the giving of the Torah on Mount Sinai and the wheat harvest - National Holiday",
+                "effectiveHours": "Full day",
+                "reference": "https://www.hebcal.com/holidays/shavuot-2024?i=on",
+                "exactDates": "Wednesday, June 12",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Muharram 1 (Islamic New Year)",
+                "duration": "1 Day",
+                "frequency": "1st day of the Islamic calendar",
+                "effectiveHours": "Full Day",
+                "reference": "https://en.wikipedia.org/wiki/Islamic_New_Year",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Ashura",
+                "duration": "1 Day",
+                "frequency": "10th day of Muharram (commemorates death of Hussein)",
+                "effectiveHours": "Varies",
+                "reference": "https://simple.wikipedia.org/wiki/Day_of_Ashura",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Mawlid an-Nabi",
+                "duration": "1-3 Days",
+                "frequency": "Birthday of the Prophet Muhammad",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Mawlid",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Laylat al-Qadr",
+                "duration": "1 Night",
+                "frequency": "Night of Power (believed to be the night Quran revealed)",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Ramadan",
+                "duration": "29-30 Days",
+                "frequency": "Month of fasting and prayer",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Ramadan",
+                "exactDates": "March 10 - April 8, 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Fitr",
+                "duration": "3-4 Days",
+                "frequency": "Festival of Breaking the Fast (end of Ramadan)",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Eid_al-Fitr",
+                "exactDates": "April 9-10, 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Hajj",
+                "duration": "5-6 Days",
+                "frequency": "Pilgrimage to Mecca (once in a lifetime for Muslims who are able)",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Hajj",
+                "exactDates": "June 14 - June 19, 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Adha",
+                "duration": "4 Days",
+                "frequency": "Festival of Sacrifice (commemorates Abraham's sacrifice)",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Eid_al-Adha",
+                "exactDates": "June 16-19, 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Arafah (Day of Arafah)",
+                "duration": "1 Day",
+                "frequency": "Day of standing on Arafah during Hajj",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Day_of_Arafah",
+                "exactDates": "June 15, 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Muharram",
+                "duration": "1 Day",
+                "frequency": "First month of the Islamic calendar",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Islamic_calendar",
+                "exactDates": "Sunday 7th July 2024",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Shaban",
+                "duration": "1 Month",
+                "frequency": "Eighth month of the Islamic calendar",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Sha%27ban",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Dhul-Hijjah",
+                "duration": "1 Month",
+                "frequency": "Twelfth month of the Islamic calendar",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Dhu_al-Hijja",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Rajab",
+                "duration": "1 Month",
+                "frequency": "Seventh month of the Islamic calendar",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Rajab",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Jummah (Friday Prayer)",
+                "duration": "1 Day (Prayer Service)",
+                "frequency": "Every Friday",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Friday_prayer",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Laylat al-Bara'a (Night of Forgiveness)",
+                "duration": "1 Night",
+                "frequency": "15th night of Shaban (seeking forgiveness from Allah)",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Ashura al-Bara'a (Day of Forgiveness)",
+                "duration": "1 Day",
+                "frequency": "Follows Laylat al-Bara'a",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Night_of_Power",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Mawlid al-Imam Ali (Birthday of Ali)",
+                "duration": "1-3 Days",
+                "frequency": "Birthday of Imam Ali, son-in-law of Prophet Muhammad",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Ali",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Miraj (Night Journey)",
+                "duration": "1 Night",
+                "frequency": "Night of Prophet Muhammad's journey to Jerusalem and Heaven",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Isra' wal-Miraj",
+                "duration": "1 Night",
+                "frequency": "Combination of Night Journey and Ascension to Heaven",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Isra%27_and_Mi%27raj",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Ghadeer",
+                "duration": "1 Day",
+                "frequency": "Commemorated with special prayers, sermons, and gatherings, particularly emphasizing the leadership of Imam Ali.",
+                "effectiveHours": "Varies",
+                "reference": "https://en.wikipedia.org/wiki/Eid_al-Ghadir",
+                "exactDates": "18th of Dhu al-Hijjah",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam Shia",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Mubahila",
+                "duration": "1 Day",
+                "frequency": "Marked by special prayers and gatherings to remember the event of Mubahila.",
+                "effectiveHours": "Varies",
+                "reference": "",
+                "exactDates": "24th of Dhu al-Hijjah",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam Shia",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Mab'ath",
+                "duration": "1 Day",
+                "frequency": "Commemorated with prayers, recitation of Quranic verses, and reflections on the significance of Prophet Muhammad's mission.",
+                "effectiveHours": "Varies",
+                "reference": "",
+                "exactDates": "27th of Rajab",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam Shia",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Eid al-Zahra",
+                "duration": "1 Day",
+                "frequency": "Celebrated with prayers, lectures, and gatherings highlighting the virtues of Fatimah al-Zahra.",
+                "effectiveHours": "Varies",
+                "reference": "",
+                "exactDates": "9th of Rabi' al-Awwal",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam Shia",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Islamic Revolution Victory Day",
+                "duration": "1 Day",
+                "frequency": "Commemorates the victory of the Iranian Revolution in 1979, leading to the overthrow of the Pahlavi dynasty and the establishment of the Islamic Republic of Iran.",
+                "effectiveHours": "Varies",
+                "reference": "",
+                "exactDates": "22 Bahman/February 11th",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nowruz",
+                "duration": "1 Day",
+                "frequency": "Persian New Year, celebrated as the beginning of spring and the first day of the Iranian calendar.",
+                "effectiveHours": "1 Farvardin/March 21st",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Islamic Republic Day",
+                "duration": "1 Day",
+                "frequency": "Marks the anniversary of the establishment of the Islamic Republic of Iran on April 1st, 1979.",
+                "effectiveHours": "12 Farvardin/April 1st",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Martyrs' Day",
+                "duration": "1 Day",
+                "frequency": "Honors those who lost their lives in service to the country, particularly during the Iran-Iraq War (1980-1988) and other conflicts.",
+                "effectiveHours": "13 Aban/November 3rd",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Quds Day",
+                "duration": "1 Day",
+                "frequency": "An annual event initiated by Ayatollah Khomeini to express support for the Palestinian people and opposition to Israel's control over Jerusalem.",
+                "effectiveHours": "Last Friday of Ramadan",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Student Day",
+                "duration": "1 Day",
+                "frequency": "Commemorates the anniversary of the 1953 Iranian student protests against the visit of then U.S. Vice President Richard Nixon to Tehran and the killing of three students by the Shah's forces.",
+                "effectiveHours": "16 Azar/December 7th",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Revolution Day",
+                "duration": "1 Day",
+                "frequency": "Celebrates the victory of the Islamic Revolution in 1979.",
+                "effectiveHours": "01-Feb",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Martyrdom of Imam Ali",
+                "duration": "1 Day",
+                "frequency": "Commemorates the assassination of Imam Ali, the cousin and son-in-law of Prophet Muhammad and the first Imam of Shia Islam.",
+                "effectiveHours": "21 Ramadan",
+                "reference": "",
+                "exactDates": "22 Bahman/February 11th",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Islam Shia",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nationalization of Oil Industry Day",
+                "duration": "1 Day",
+                "frequency": "Marks the anniversary of the nationalization of the Iranian oil industry under the leadership of Prime Minister Mohammad Mossadegh in 1951.",
+                "effectiveHours": "20 Esfand/March 11th",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Death Anniversary of Ayatollah Khomeini",
+                "duration": "1 Day",
+                "frequency": "Commemorates the death of Ayatollah Ruhollah Khomeini, the founder of the Islamic Republic of Iran and the leader of the Iranian Revolution.",
+                "effectiveHours": "04-Jun",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Iran",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nakba Day",
+                "duration": "1 Day",
+                "frequency": 'Commemorates the Palestinian exodus, or "Nakba," which occurred following the 1948 Arab-Israeli War, resulting in the displacement of hundreds of thousands of Palestinians from their homes.',
+                "effectiveHours": "15-May",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Land Day",
+                "duration": "1 Day",
+                "frequency": 'Marks the anniversary of protests and general strikes held in 1976 to protest against Israeli government plans to expropriate land from Palestinian citizens of Israel.',
+                "effectiveHours": "30-Mar",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Prisoner's Day",
+                "duration": "1 Day",
+                "frequency": 'Honors Palestinian prisoners held in Israeli jails and commemorates their struggles and sacrifices.',
+                "effectiveHours": "17-Apr",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Jerusalem Day",
+                "duration": "1 Day",
+                "frequency": 'Celebrates the Palestinian and Arab cultural, religious, and historical ties to Jerusalem, particularly in opposition to Israeli control over the city.',
+                "effectiveHours": "Last Friday of Ramadan",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Al-Naksa Day",
+                "duration": "1 Day",
+                "frequency": 'Commemorates the displacement of Palestinians following the Six-Day War in 1967, during which Israel occupied the West Bank, Gaza Strip, East Jerusalem, and other territories.',
+                "effectiveHours": "05-Jun",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Balfour Declaration Day",
+                "duration": "1 Day",
+                "frequency": 'Marks the anniversary of the Balfour Declaration issued in 1917 by the British government, which expressed support for the establishment of a "national home for the Jewish people" in Palestine.',
+                "effectiveHours": "02-Nov",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Gaza Flotilla Raid Anniversary",
+                "duration": "1 Day",
+                "frequency": 'Remembers the raid by Israeli forces on a flotilla of ships attempting to break the Israeli blockade of the Gaza Strip in 2010, resulting in several deaths and international condemnation.',
+                "effectiveHours": "15-May",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nakba Day",
+                "duration": "1 Day",
+                "frequency": 'Commemorates the Palestinian exodus, or "Nakba," which occurred following the 1948 Arab-Israeli War, resulting in the displacement of hundreds of thousands of Palestinians from their homes.',
+                "effectiveHours": "31-May",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Great March of Return",
+                "duration": "15 days",
+                "frequency": 'A series of protests and demonstrations along the Gaza-Israel border, calling for the right of return for Palestinian refugees and an end to the Israeli blockade of Gaza.',
+                "effectiveHours": "30 March - 15 May",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "International Day of Solidarity with the Palestinian People",
+                "duration": "1 Day",
+                "frequency": 'Recognized by the United Nations, this day aims to promote awareness and support for the Palestinian cause.',
+                "effectiveHours": "29-Nov",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Martyr's Day",
+                "duration": "1 Day",
+                "frequency": 'Honors Palestinian martyrs who have died in the struggle for Palestinian rights and independence.',
+                "effectiveHours": "07-Apr",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Palestinian Children's Day",
+                "duration": "1 Day",
+                "frequency": 'Raises awareness about the rights and well-being of Palestinian children, who often face violence, displacement, and discrimination.',
+                "effectiveHours": "05-Apr",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Al-Aqsa Intifada Anniversary",
+                "duration": "1 Day",
+                "frequency": 'Marks the beginning of the second Palestinian uprising in 2000, triggered by a visit by then-Israeli opposition leader Ariel Sharon to the Al-Aqsa Mosque compound in Jerusalem.',
+                "effectiveHours": "28-Sep",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Gaza's Independence Day",
+                "duration": "1 Day",
+                "frequency": 'A day to celebrate Gaza"s resistance against Israeli occupation and its right to self-determination.',
+                "effectiveHours": "26-Aug",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Armed Struggle Day",
+                "duration": "1 Day",
+                "frequency": 'A day to honor Palestinian resistance fighters and their sacrifices in the struggle against Israeli occupation and colonization.',
+                "effectiveHours": "09-Dec",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Palestinian Youth Day",
+                "duration": "1 Day",
+                "frequency": 'A day to celebrate the role of Palestinian youth in the struggle for freedom, justice, and self-determination.',
+                "effectiveHours": "12-Aug",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Jenin Martyrs' Day",
+                "duration": "1 Day",
+                "frequency": 'A day to remember and honor the martyrs of the Israeli massacre in the Jenin refugee camp in 2002, and to reaffirm the Palestinian right to resist occupation.',
+                "effectiveHours": "09-Apr",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Right to Education Day",
+                "duration": "1 Day",
+                "frequency": 'A day to highlight the challenges faced by Palestinian students and educators under Israeli occupation, including attacks on schools, restrictions on movement, and lack of resources.',
+                "effectiveHours": "24-Jan",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Palestinian Cultural Heritage Day",
+                "duration": "1 Day",
+                "frequency": 'A day to celebrate Palestinian culture, heritage, and identity, and to resist Israeli efforts to erase or appropriate Palestinian history and heritage.',
+                "effectiveHours": "18-Nov",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Day of the Palestinian Woman",
+                "duration": "1 Day",
+                "frequency": 'A day to celebrate the role of Palestinian women in the struggle for freedom, justice, and equality, and to highlight their contributions to Palestinian society.',
+                "effectiveHours": "08-Mar",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Day of the Palestinian Farmer",
+                "duration": "1 Day",
+                "frequency": 'A day to honor Palestinian farmers and their steadfastness in the face of Israeli land confiscation, settlement expansion, and agricultural destruction.',
+                "effectiveHours": "25-Oct",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Palestine",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Cedar Revolution Anniversary",
+                "duration": "1 Day",
+                "frequency": 'Commemorative events, including speeches, gatherings, and sometimes protests, may take place throughout the day, particularly in the evening.',
+                "effectiveHours": "14-Feb",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Lebanon",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Kidnapped Sheikh Abdel Karim Obeid",
+                "duration": "1 Day",
+                "frequency": 'On 28 July 1989, Israeli commandos kidnapped Sheikh Abdel Karim Obeid, the leader of Hezbollah.',
+                "effectiveHours": "28-Jul",
+                "reference": "https://en.wikipedia.org/wiki/Hezbollah",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Hezbollah",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Assassination of Abbas al-Musawi",
+                "duration": "1 Day",
+                "frequency": 'On 16 February 1992, Israeli helicopters attacked a motorcade in southern Lebanon, killing the Hezbollah leader Abbas al-Musawi, his wife, son, and four others.',
+                "effectiveHours": "16-Feb",
+                "reference": "https://en.wikipedia.org/wiki/Hezbollah",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Hezbollah",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Assassination of Rida Yasin",
+                "duration": "1 Day",
+                "frequency": 'On 31 March 1995, Rida Yasin, also known as Abu Ali, was killed by a single rocket fired from an Israeli helicopter while in a car near Derdghaya in the Israeli security zone 10 km east of Tyre. Yasin was a senior military commander in southern Lebanon.',
+                "effectiveHours": "31-Mar",
+                "reference": "https://en.wikipedia.org/wiki/Hezbollah",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Hezbollah",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Assasination of Imad Mughnieh",
+                "duration": "1 Day",
+                "frequency": 'On 12 February 2008, Imad Mughnieh was killed by a car bomb in Damascus, Syria.',
+                "effectiveHours": "12-Feb",
+                "reference": "https://en.wikipedia.org/wiki/Hezbollah",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Hezbollah",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Madrid Train Bombings",
+                "duration": "1 Day",
+                "frequency": 'Coordinated bombings targeting commuter trains in Madrid, Spain, killed 191 people and injured over 2,000 others.',
+                "effectiveHours": "11-Mar-04",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "London Bombings",
+                "duration": "1 Day",
+                "frequency": 'A series of coordinated suicide bombings targeting London"s public transportation system, including three underground trains and one double-decker bus, resulted in 52 deaths and over 700 injuries.',
+                "effectiveHours": "07-Jul-05",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Paris Attacks",
+                "duration": "1 Day",
+                "frequency": 'A series of coordinated terrorist attacks occurred in Paris, France, targeting multiple locations including the Bataclan theater, Stade de France, and various restaurants and bars, resulting in 130 deaths and hundreds of injuries.',
+                "effectiveHours": "13-Nov-15",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Brussels Bombings",
+                "duration": "1 Day",
+                "frequency": 'Coordinated suicide bombings targeted Brussels Airport and a metro station in central Brussels, Belgium, resulting in 32 deaths and over 300 injuries.',
+                "effectiveHours": "22-Mar-16",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Manchester Arena Bombing",
+                "duration": "1 Day",
+                "frequency": 'A suicide bombing occurred at the Manchester Arena in Manchester, United Kingdom, following a concert by Ariana Grande, resulting in 22 deaths and hundreds of injuries, mostly young concertgoers.',
+                "effectiveHours": "22-May-17",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nice Truck Attack",
+                "duration": "1 Day",
+                "frequency": 'A truck was deliberately driven into crowds celebrating Bastille Day on the Promenade des Anglais in Nice, France, resulting in 86 deaths and over 400 injuries.',
+                "effectiveHours": "14-Jul-16",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Berlin Christmas Market Attack",
+                "duration": "1 Day",
+                "frequency": 'A truck was driven into a Christmas market at Breitscheidplatz in Berlin, Germany, killing 12 people and injuring 56 others.',
+                "effectiveHours": "19-Dec-16",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Stockholm Truck Attack",
+                "duration": "1 Day",
+                "frequency": 'A hijacked truck was driven into pedestrians on Drottninggatan, a busy shopping street in Stockholm, Sweden, resulting in 5 deaths and several injuries.',
+                "effectiveHours": "07-Apr-17",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Westminster Bridge Attack",
+                "duration": "1 Day",
+                "frequency": 'A vehicle was driven into pedestrians on Westminster Bridge in London, United Kingdom, before crashing into the perimeter fence of the Palace of Westminster. The attacker then fatally stabbed a police officer before being shot dead by police. Five people were killed, including the assailant, and around 50 others were injured.',
+                "effectiveHours": "22-Mar-17",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "London Bridge and Borough Market Attack",
+                "duration": "1 Day",
+                "frequency": 'A van was driven into pedestrians on London Bridge, followed by stabbings in nearby Borough Market, London, United Kingdom. Eight people were killed and 48 others were injured before the attackers were shot dead by police.',
+                "effectiveHours": "03-Jun-17",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Vienna Shooting",
+                "duration": "1 Day",
+                "frequency": 'Multiple gunmen opened fire in the inner city of Vienna, Austria, targeting bars and restaurants. Four people were killed, including the attacker, and over 20 others were injured.',
+                "effectiveHours": "02-Nov-20",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "Nice Basilica Attack",
+                "duration": "1 Day",
+                "frequency": 'A knife-wielding attacker killed three people and injured several others in a terrorist attack at the Notre-Dame Basilica in Nice, France.',
+                "effectiveHours": "29-Oct-20",
+                "reference": "",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            },
+            {
+                "holiday": "September 11 attacks",
+                "duration": "1 Day",
+                "frequency": 'The September 11 attacks, commonly known as 9/11, were four coordinated Islamist suicide terrorist attacks carried out by al-Qaeda against the United States on September 11, 2001.',
+                "effectiveHours": "11-Sep",
+                "reference": "https://en.wikipedia.org/wiki/September_11_attacks",
+                "exactDates": "",
+                "related": {},
+                "policyScore": "low",
+                "justification": "",
+                "religion": "World Wide Attacks",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
+            }
+        ],
         "widgetType": "CALENDAR_TABLE",
         "actionKey": "km_calender"
     }
@@ -1311,228 +2099,216 @@ q5 = {
                 ]
             },
             {
-                "routeInfo": {
-                    "routeId": "route_02",
-                    "name": "Route 2",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.85823172945748,
-                        "longitude": 145.0012220143936,
-                        "name": "Route 02 Location A"
+                "routeId": "route_02",
+                "name": "Route 2",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.85823172945748,
+                    "longitude": 145.0012220143936,
+                    "name": "Route 02 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.87647994406377,
+                    "longitude": 145.00672201444084,
+                    "name": "Route 02 Location B"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.87575092409285,
+                        "longitude": 144.99788618375482,
+                        "name": "Route 2 Waypoint 1"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.85823172945748,
+                        "startLongitude": 145.0012220143936,
+                        "endLatitude": -37.87575092409285,
+                        "endLongitude": 144.99788618375482,
+                        "distance": 0,
+                        "geometry": "LineString"
                     },
-                    "endPoint": {
-                        "latitude": -37.87647994406377,
-                        "longitude": 145.00672201444084,
-                        "name": "Route 02 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.87575092409285,
-                            "longitude": 144.99788618375482,
-                            "name": "Route 2 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.85823172945748,
-                            "startLongitude": 145.0012220143936,
-                            "endLatitude": -37.87575092409285,
-                            "endLongitude": 144.99788618375482,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.87575092409285,
-                            "startLongitude": 144.99788618375482,
-                            "endLatitude": -37.87647994406377,
-                            "endLongitude": 145.00672201444084,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.87575092409285,
+                        "startLongitude": 144.99788618375482,
+                        "endLatitude": -37.87647994406377,
+                        "endLongitude": 145.00672201444084,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             },
             {
-                "routeInfo": {
-                    "routeId": "route_03",
-                    "name": "Route 03",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86505973011853,
-                        "longitude": 145.00008564509523,
-                        "name": "Route 03 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.86802311745351,
-                        "longitude": 145.02513871441968,
-                        "name": "Route 03 Location B"
-                    },
-                    "waypoints": [
+                "routeId": "route_03",
+                "name": "Route 03",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.86505973011853,
+                    "longitude": 145.00008564509523,
+                    "name": "Route 03 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.86802311745351,
+                    "longitude": 145.02513871441968,
+                    "name": "Route 03 Location B"
+                },
+                "waypoints": [
 
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86505973011853,
-                            "startLongitude": 145.00008564509523,
-                            "endLatitude": -37.86802311745351,
-                            "endLongitude": 145.02513871441968,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.86505973011853,
+                        "startLongitude": 145.00008564509523,
+                        "endLatitude": -37.86802311745351,
+                        "endLongitude": 145.02513871441968,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             },
             {
-                "routeInfo": {
-                    "routeId": "route_04",
-                    "name": "Route 04",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86136178614754,
-                        "longitude": 145.00072454508552,
-                        "name": "Route 04 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.86433413529329,
-                        "longitude": 145.0256740064601,
-                        "name": "Route 04 Location B"
-                    },
-                    "waypoints": [],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86136178614754,
-                            "startLongitude": 145.00072454508552,
-                            "endLatitude": -37.86433413529329,
-                            "endLongitude": 145.0256740064601,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                "routeId": "route_04",
+                "name": "Route 04",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.86136178614754,
+                    "longitude": 145.00072454508552,
+                    "name": "Route 04 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.86433413529329,
+                    "longitude": 145.0256740064601,
+                    "name": "Route 04 Location B"
+                },
+                "waypoints": [],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.86136178614754,
+                        "startLongitude": 145.00072454508552,
+                        "endLatitude": -37.86433413529329,
+                        "endLongitude": 145.0256740064601,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }, {
-                "routeInfo": {
-                    "routeId": "route_05",
-                    "name": "Route 05",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86837415772959,
-                        "longitude": 144.9996436757866,
-                        "name": "Route 05 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.87145750588331,
-                        "longitude": 145.02481037579437,
-                        "name": "Route 05 Location B"
-                    },
-                    "waypoints": [],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86837415772959,
-                            "startLongitude": 144.9996436757866,
-                            "endLatitude": -37.87145750588331,
-                            "endLongitude": 145.02481037579437,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                "routeId": "route_05",
+                "name": "Route 05",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.86837415772959,
+                    "longitude": 144.9996436757866,
+                    "name": "Route 05 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.87145750588331,
+                    "longitude": 145.02481037579437,
+                    "name": "Route 05 Location B"
+                },
+                "waypoints": [],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.86837415772959,
+                        "startLongitude": 144.9996436757866,
+                        "endLatitude": -37.87145750588331,
+                        "endLongitude": 145.02481037579437,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }, {
-                "routeInfo": {
-                    "routeId": "route_06",
-                    "name": "Route 06",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.88379099853342,
-                        "longitude": 145.02278753719258,
-                        "name": "Route 06 Location A"
+                "routeId": "route_06",
+                "name": "Route 06",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.88379099853342,
+                    "longitude": 145.02278753719258,
+                    "name": "Route 06 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.88473011088435,
+                    "longitude": 145.03794178377814,
+                    "name": "Route 06 Location B"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.88386557573352,
+                        "longitude": 145.02939367582627,
+                        "name": "Route 06 Waypoint 1"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.88379099853342,
+                        "startLongitude": 145.02278753719258,
+                        "endLatitude": -37.88386557573352,
+                        "endLongitude": 145.02939367582627,
+                        "distance": 0,
+                        "geometry": "LineString"
                     },
-                    "endPoint": {
-                        "latitude": -37.88473011088435,
-                        "longitude": 145.03794178377814,
-                        "name": "Route 06 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.88386557573352,
-                            "longitude": 145.02939367582627,
-                            "name": "Route 06 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.88379099853342,
-                            "startLongitude": 145.02278753719258,
-                            "endLatitude": -37.88386557573352,
-                            "endLongitude": 145.02939367582627,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.88386557573352,
-                            "startLongitude": 145.02939367582627,
-                            "endLatitude": -37.88473011088435,
-                            "endLongitude": 145.03794178377814,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.88386557573352,
+                        "startLongitude": 145.02939367582627,
+                        "endLatitude": -37.88473011088435,
+                        "endLongitude": 145.03794178377814,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }, {
-                "routeInfo": {
-                    "routeId": "route_07",
-                    "name": "Route 07",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.882584437122006,
-                        "longitude": 144.99688375308853,
-                        "name": "Route 07 Location A"
+                "routeId": "route_07",
+                "name": "Route 07",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.882584437122006,
+                    "longitude": 144.99688375308853,
+                    "name": "Route 07 Location A"
+                },
+                "endPoint": {
+                    "latitude": -37.87893323086871,
+                    "longitude": 145.02333564513006,
+                    "name": "Route 07 Location B"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.88580326963413,
+                        "longitude": 145.0217448530963,
+                        "name": "Route 07 Waypoint 1"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.882584437122006,
+                        "startLongitude": 144.99688375308853,
+                        "endLatitude": -37.88580326963413,
+                        "endLongitude": 145.0217448530963,
+                        "distance": 0,
+                        "geometry": "LineString"
                     },
-                    "endPoint": {
-                        "latitude": -37.87893323086871,
-                        "longitude": 145.02333564513006,
-                        "name": "Route 07 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.88580326963413,
-                            "longitude": 145.0217448530963,
-                            "name": "Route 07 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.882584437122006,
-                            "startLongitude": 144.99688375308853,
-                            "endLatitude": -37.88580326963413,
-                            "endLongitude": 145.0217448530963,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.88580326963413,
-                            "startLongitude": 145.0217448530963,
-                            "endLatitude": -37.87893323086871,
-                            "endLongitude": 145.02333564513006,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.88580326963413,
+                        "startLongitude": 145.0217448530963,
+                        "endLatitude": -37.87893323086871,
+                        "endLongitude": 145.02333564513006,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
@@ -2176,7 +2952,7 @@ q17 = {
 }
 
 q18 = {
-    "conversation": "### Incident Report\n\nIncident: Suspicious person watching JC homes (#236754)\nPerson of Interest: Bilal Elcheikh (#258483)\n\n---\n\nDetails:\n\n- Description:\n  Incident of a suspicious person watching JC homes (#236754) and alerting problematic iconography by the person of interest (#258483) connected.\n\n- Risk Levels:\n  - Incident #236754:\n    - Previous Risk Level: Low\n    - New Risk Level: High\n  - Person of Interest - Bilal Elcheikh:\n    - Current Risk Level: High\n\n- Policy Note:\n  The level of risk for incident (#236754) now exceeds the threshold for opening a case according to JC policy.\n\n---\n\nAction Required:",
+    "conversation": "Incident suspicious person watching JC homes(#236754),  and alert problematic iconography by person of interest(#258483) connected.Incident suspicious person watching JC homes(#236754) new level of risk is Raised from Low to HighPerson of interest Bilal Elcheikh new level of risk is High Note that level of risk for incident(#236754)  now exceeds the threashold for opening a case according to JC policy",
     "payload": {
         "knowledge": [],
         "widgetType": "N/A",
@@ -2220,31 +2996,38 @@ q19 = {
                 }
             }
         ],
-        "widgetType": "N/A",
+        "widgetType": "CONTAINER_WIDGET",
         "actionKey": "event3_case_created"
     }
 }
 
 q21 = {
-    "conversation": "Found More Post",
+    "conversation": "More Post Found!!",
     "payload": {
-        "knowledge": [
-            {
-                "source": 'Bilal Elcheikh',
+        "knowledge": [{
+            "widgetTitleBar": {
+                "createdDatetime": "2024/02/16 10:55:00",
+                "source": {
+                    "platform": "Facebook",
+                    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
+                },
                 "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "image": "https://drive.google.com/file/d/1MBVZ43j5lileHg43EuUtXISlJuPfVR8T",
                     "name": "Bilal Elcheikh",
                     "personOfInterest": {
-                        "isLit": "",
+                        "isLit": False,
                         "hoverText": "",
                         "entityOfInterestWidget": ""
                     }
-                },
+                }
+            },
+            "widgetBody": {
+                "source": "Bilal Elcheikh",
                 "content": {
                     "text": "أرجو ممن يقرأ هذا المنشور أن يعلق بأي كلمة لأن منشوراتي لا تصل إلى أصدقائي بسبب سياسة الفيسبوك العفنة. ",
                     "postDatetime": "2024/02/16 10:55:00",
                     "reacts": {
-                        "likes": 6,
+                        "likes": 21,
                         "loves": 0,
                         "cares": 0,
                         "hahas": 0,
@@ -2254,341 +3037,54 @@ q21 = {
                     },
                     "shares": 0,
                     "totalComments": 3,
-                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
-                },
-                "triggers": [],
-                "mapIcon": "",
-                "latitude": "-37.87792237",
-                "longitude": "145.0071774",
-                "createDate": ""
-            },
+                    "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
+                }
+            }
+        },
             {
-                "source": 'Bilal Elcheikh',
-                "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
-                    "name": "Bilal Elcheikh",
-                    "personOfInterest": {
-                        "isLit": "",
-                        "hoverText": "",
-                        "entityOfInterestWidget": ""
+                "widgetTitleBar": {
+                    "createdDatetime": "2024/01/03 12:44:00",
+                    "source": {
+                        "platform": "Facebook",
+                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
+                    },
+                    "author": {
+                        "image": "https://drive.google.com/file/d/1MBVZ43j5lileHg43EuUtXISlJuPfVR8T",
+                        "name": "Bilal Elcheikh",
+                        "personOfInterest": {
+                            "isLit": False,
+                            "hoverText": "",
+                            "entityOfInterestWidget": ""
+                        }
                     }
                 },
-                "content": {
-                    "text": 'Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project.',
-                    "postDatetime": "2024/01/03 12:24:00",
-                    "reacts": {
-                        "likes": 25,
-                        "loves": 0,
-                        "cares": 0,
-                        "hahas": 0,
-                        "wows": 0,
-                        "sads": 0,
-                        "angry": 0
-                    },
-                    "shares": 0,
-                    "totalComments": 2,
-                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
-                },
-                "triggers": [],
-                "mapIcon": "",
-                "latitude": "-37.87792237",
-                "longitude": "145.0071774",
-                "createDate": ""
-            },
-        ]
-    },
-    "widgetType": "N/A",
-    "actionKey": "event2_more_post"
-}
-
-q23 = {
-    "conversation": "Last Year Routes is in Canvas",
-    "payload": {
-        "knowledge": [
-            {
-                "routeId": "route_01",
-                "name": "Route 1",
-                "totalDistance": 0,
-                "estimatedTime": 0,
-                "startPoint": {
-                    "latitude": -37.85898296252439,
-                    "longitude": 145.0103583837135,
-                    "name": "Location A",
-                    "mapIcon": "",
-                    "createDate": "",
-                    "createUser": "",
-                    "imageUrl": ""
-                },
-                "endPoint": {
-                    "latitude": -37.87864327974311,
-                    "longitude": 145.02319421444597,
-                    "name": "Location B",
-                    "mapIcon": "",
-                    "createDate": "",
-                    "createUser": "",
-                    "imageUrl": ""
-                },
-                "waypoints": [
-                    {
-                        "latitude": -37.87668319158373,
-                        "longitude": 145.00710838375733,
-                        "name": "Route 1 Waypoint 1",
-                        "mapIcon": "",
-                        "createDate": "",
-                        "createUser": "",
-                        "imageUrl": ""
+                "widgetBody": {
+                    "source": "Bilal Elcheikh",
+                    "content": {
+                        "text": "Alhamdulillah! We are thrilled to announce that our Orphan Appeal online campaign has raised an incredible $54,000 in just 5 days! This generous contribution will go towards supporting orphaned children through the ISNA World Aid Afghanistan Orphan Project and the Australian International Aid Gaza and Syria Orphan Project",
+                        "postDatetime": "2024/01/03 12:44:00",
+                        "reacts": {
+                            "likes": 17,
+                            "loves": 0,
+                            "cares": 0,
+                            "hahas": 0,
+                            "wows": 0,
+                            "sads": 0,
+                            "angry": 0
+                        },
+                        "shares": 0,
+                        "totalComments": 1,
+                        "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
                     }
-                ],
-                "pathSegments": [
-                    {
-                        "pathId": "path_segment_1",
-                        "startLatitude": -37.85898296252439,
-                        "startLongitude": 145.0103583837135,
-                        "endLatitude": -37.87668319158373,
-                        "endLongitude": 145.00710838375733,
-                        "distance": 0,
-                        "geometry": "LineString"
-                    },
-                    {
-                        "pathId": "path_segment_2",
-                        "startLatitude": -37.87668319158373,
-                        "startLongitude": 145.00710838375733,
-                        "endLatitude": -37.87864327974311,
-                        "endLongitude": 145.02319421444597,
-                        "distance": 0,
-                        "geometry": "LineString"
-                    }
-                ]
-            },
-            {
-                "routeInfo": {
-                    "routeId": "route_02",
-                    "name": "Route 2",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.85823172945748,
-                        "longitude": 145.0012220143936,
-                        "name": "Route 02 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.87647994406377,
-                        "longitude": 145.00672201444084,
-                        "name": "Route 02 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.87575092409285,
-                            "longitude": 144.99788618375482,
-                            "name": "Route 2 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.85823172945748,
-                            "startLongitude": 145.0012220143936,
-                            "endLatitude": -37.87575092409285,
-                            "endLongitude": 144.99788618375482,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.87575092409285,
-                            "startLongitude": 144.99788618375482,
-                            "endLatitude": -37.87647994406377,
-                            "endLongitude": 145.00672201444084,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
-            },
-            {
-                "routeInfo": {
-                    "routeId": "route_03",
-                    "name": "Route 03",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86505973011853,
-                        "longitude": 145.00008564509523,
-                        "name": "Route 03 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.86802311745351,
-                        "longitude": 145.02513871441968,
-                        "name": "Route 03 Location B"
-                    },
-                    "waypoints": [
-
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86505973011853,
-                            "startLongitude": 145.00008564509523,
-                            "endLatitude": -37.86802311745351,
-                            "endLongitude": 145.02513871441968,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
-            },
-            {
-                "routeInfo": {
-                    "routeId": "route_04",
-                    "name": "Route 04",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86136178614754,
-                        "longitude": 145.00072454508552,
-                        "name": "Route 04 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.86433413529329,
-                        "longitude": 145.0256740064601,
-                        "name": "Route 04 Location B"
-                    },
-                    "waypoints": [],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86136178614754,
-                            "startLongitude": 145.00072454508552,
-                            "endLatitude": -37.86433413529329,
-                            "endLongitude": 145.0256740064601,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
-            }, {
-                "routeInfo": {
-                    "routeId": "route_05",
-                    "name": "Route 05",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.86837415772959,
-                        "longitude": 144.9996436757866,
-                        "name": "Route 05 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.87145750588331,
-                        "longitude": 145.02481037579437,
-                        "name": "Route 05 Location B"
-                    },
-                    "waypoints": [],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.86837415772959,
-                            "startLongitude": 144.9996436757866,
-                            "endLatitude": -37.87145750588331,
-                            "endLongitude": 145.02481037579437,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
-            }, {
-                "routeInfo": {
-                    "routeId": "route_06",
-                    "name": "Route 06",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.88379099853342,
-                        "longitude": 145.02278753719258,
-                        "name": "Route 06 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.88473011088435,
-                        "longitude": 145.03794178377814,
-                        "name": "Route 06 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.88386557573352,
-                            "longitude": 145.02939367582627,
-                            "name": "Route 06 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.88379099853342,
-                            "startLongitude": 145.02278753719258,
-                            "endLatitude": -37.88386557573352,
-                            "endLongitude": 145.02939367582627,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.88386557573352,
-                            "startLongitude": 145.02939367582627,
-                            "endLatitude": -37.88473011088435,
-                            "endLongitude": 145.03794178377814,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
-                }
-            }, {
-                "routeInfo": {
-                    "routeId": "route_07",
-                    "name": "Route 07",
-                    "totalDistance": 0,
-                    "estimatedTime": 0,
-                    "startPoint": {
-                        "latitude": -37.882584437122006,
-                        "longitude": 144.99688375308853,
-                        "name": "Route 07 Location A"
-                    },
-                    "endPoint": {
-                        "latitude": -37.87893323086871,
-                        "longitude": 145.02333564513006,
-                        "name": "Route 07 Location B"
-                    },
-                    "waypoints": [
-                        {
-                            "latitude": -37.88580326963413,
-                            "longitude": 145.0217448530963,
-                            "name": "Route 07 Waypoint 1"
-                        }
-                    ],
-                    "pathSegments": [
-                        {
-                            "pathId": "path_segment_1",
-                            "startLatitude": -37.882584437122006,
-                            "startLongitude": 144.99688375308853,
-                            "endLatitude": -37.88580326963413,
-                            "endLongitude": 145.0217448530963,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        },
-                        {
-                            "pathId": "path_segment_2",
-                            "startLatitude": -37.88580326963413,
-                            "startLongitude": 145.0217448530963,
-                            "endLatitude": -37.87893323086871,
-                            "endLongitude": 145.02333564513006,
-                            "distance": 0,
-                            "geometry": "LineString"
-                        }
-                    ]
                 }
             }
         ],
-        "widgetType": "MAP_ROUTES",
-        "actionKey": "event_4_routes"
+        "widgetType": "SOCIAL_MEDIA_WIDGET",
+        "actionKey": "event2_more_post"
     }
 }
+
+q23 = q5
 
 q24 = {
     "conversation": "Case #277652 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Add to canvas?",
@@ -2626,7 +3122,7 @@ q24 = {
                 }
             }
         ],
-        "widgetType": "N/A",
+        "widgetType": "CONTAINER_WIDGET",
         "actionKey": "event4_case_found"
     }
 
@@ -2637,12 +3133,8 @@ q25 = {
     "payload": {
         "knowledge": [
             {
-                "type": "Notification",
-                "timestamp": "2024/04/14 10:56:00",
-                "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
-                "sourceType": "Ontological rule",
-                "referenceThreat": "Hate Crime"
-            },
+                "assumption": "Major correlation to property crime in the area"
+            }
         ],
         "widgetType": "N/A",
         "actionKey": "event4_update_crime"
