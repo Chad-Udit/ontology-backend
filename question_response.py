@@ -372,7 +372,7 @@ km = [
                 "timestamp": "2023/01/15 09:32:00",
                 "content": "Ontology: Jewish Communities",
                 "sourceType": "Smith Consulting Inc.",
-                "referenceThreat": "Terrorist"
+                "referenceThreat": "Hate Crime"
             },
             "containerWidget": {
                 "widgetTitleBar": {
