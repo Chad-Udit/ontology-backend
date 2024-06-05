@@ -2882,7 +2882,7 @@ q11 = {
             {"date": "30.03.2024", "Negative Speech Posts": 5, "Positive Speech Posts": 5, "Neutral Speech Posts": 5},
             {"date": "31.03.2024", "Negative Speech Posts": 12, "Positive Speech Posts": 12, "Neutral Speech Posts": 12}
         ],
-        "widgetType": "N/A",
+        "widgetType": "HISTOGRAM_WIDGET",
         "actionKey": "event1_hate_speech_pattern"
     }
 }
