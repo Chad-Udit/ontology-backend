@@ -2448,7 +2448,7 @@ q8 = {
 }
 
 q9 = {
-    "conversation": "Here are property crimes in the region requested",
+    "conversation": "Add latest property crime report dated 31.12.23 from Melbourne police publications [https://www.crimestatistics.vic.gov.au/]",
     "payload": {
         "knowledge": [
             {
@@ -2829,7 +2829,7 @@ q10 = {
                 "assumption": "minor correlation to property crime in the area"
             }
         ],
-        "widgetType": "N/A",
+        "widgetType": "PROPERTY_CRIME_TABLE",
         "actionKey": "event1_update_property_crime"
     }
 }
