@@ -2831,7 +2831,7 @@ q10 = {
 }
 
 q11 = {
-    "conversation": "Added Patterns of Hate Speech",
+    "conversation": "Following histogram shows hate speech in the are in the past three month, across available sources",
     "payload": {
         "knowledge": [
             {"date": "01.03.2024", "Negative Speech Posts": 5, "Positive Speech Posts": 5, "Neutral Speech Posts": 5},
