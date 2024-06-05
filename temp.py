@@ -103,7 +103,8 @@ question_mappings = {
         "add a note that the event in Orrong and Glen Eiira was performed by a municipality worker, claiming he was mapping out routes for garbage disposal",
         "include note about Orrong and Glen Eiira event involving municipality worker mapping garbage disposal routes",
         "append note regarding Orrong and Glen Eiira incident with municipality worker and garbage disposal route mapping",
-        "attach note to Orrong and Glen Eiira event involving municipality worker mapping garbage disposal routes"
+        "attach note to Orrong and Glen Eiira event involving municipality worker mapping garbage disposal routes",
+        "Add a note that the event in Orrong and Glen Eiira was a performed by a municipality worker, claiming he was mapping out routes for garbage disposal, and increase neutral reference use case value by one with a reason of related to garbage disposal route mapping and decrease all other reference use cases by two"
     ],
     "question9": [
         "show on the map recent property crimes in the area",
