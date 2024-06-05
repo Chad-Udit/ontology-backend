@@ -2816,7 +2816,7 @@ q9 = {
                 ]
             }
         ],
-        "widgetType": "N/A",
+        "widgetType": "PROPERTY_CRIME_TABLE",
         "actionKey": "event1_display_property_crimes"
     }
 }
