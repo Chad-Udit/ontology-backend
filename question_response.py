@@ -21,12 +21,30 @@ invg = [
             "socialMediaWidget": {
                 "source": 'Facebook group "JOM - Jews of Melbourne"',
                 "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/QmeByB5aF7ohe2Zz4AuUktNdCAdgTWQi56CjJHWacpH5Pf",
+                    "image": "http://dynamite.ddns.net/washington_img/sheila-schwartz.png",
                     "name": "Sheila Schwartz",
                     "personOfInterest": {
-                        "isLit": True,
-                        "hoverText": "Sheila Schwartz is a member of the community.",
-                        "entityOfInterestWidget": ""
+                        "name": "Sheila Schwartz",
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/sheila-schwartz.png",
+                            "http://dynamite.ddns.net/washington_img/sheila-schwartz.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Antisemitic comment on Facebook",
+                        "address": "123 Maple Avenue, Melbourne VIC 3130",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "",
+                        "longitude": "",
+                        "gender": "female"
                     }
                 },
                 "content": {
@@ -43,12 +61,12 @@ invg = [
                     },
                     "shares": 2,
                     "totalComments": 15,
-                    "originalPostLink": "https://bafybeiel2p664urroduayhdgtjfurgrabn2vbixxozxevxnwhu2jfxk2na.ipfs.dweb.link/"
+                    "originalPostLink": "http://dynamite.ddns.net/washington_img/jom-sheila-schwartz-post-2024-02-05-10-07.png"
                 },
                 "triggers": [],
                 "mapIcon": "",
-                "latitude": "",
-                "longitude": "",
+                "latitude": "-37.87793930776059",
+                "longitude": "145.00714523915582",
                 "createDate": ""
             },
             "assumptionsTable": [
@@ -2429,7 +2447,7 @@ q7 = {
             {
                 "source": 'Facebook group "Melbourne, Victoria, Australia"',
                 "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
                     "personOfInterest": {
                         "isLit": "",
