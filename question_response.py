@@ -2045,36 +2045,42 @@ q5 = {
         "knowledge": [
             {
                 "routeId": "route_01",
-                "name": "Route 1",
+                "name": "GCMC Route 1",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.85898296252439,
                     "longitude": 145.0103583837135,
-                    "name": "Location A",
+                    "name": "450-388 Orrong Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": ""
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-start-point.png",
+                    "address": "450-388 Orrong Rd, Armadale VIC 3143, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.87864327974311,
                     "longitude": 145.02319421444597,
-                    "name": "Location B",
+                    "name": "377 State Route 22, Caulfield VIC 3162, Australia",
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": ""
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-end-point.png",
+                    "address": "377 State Route 22, Caulfield VIC 3162, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
                     {
                         "latitude": -37.87668319158373,
                         "longitude": 145.00710838375733,
-                        "name": "Route 1 Waypoint 1",
+                        "name": "42C4+RV8 Caulfield North, Victoria, Australia",
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": ""
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point01.png",
+                        "address": "42C4+RV8 Caulfield North, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
@@ -2100,24 +2106,42 @@ q5 = {
             },
             {
                 "routeId": "route_02",
-                "name": "Route 2",
+                "name": "GCMC Route 2",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.85823172945748,
                     "longitude": 145.0012220143936,
-                    "name": "Route 02 Location A"
+                    "name": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-start-point.png",
+                    "address": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.87647994406377,
                     "longitude": 145.00672201444084,
-                    "name": "Route 02 Location B"
+                    "name": "238-232 State Route 22, Elsternwick VIC 3185, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-end-point.png",
+                    "address": "238-232 State Route 22, Elsternwick VIC 3185, Australia ",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
                     {
                         "latitude": -37.87575092409285,
                         "longitude": 144.99788618375482,
-                        "name": "Route 2 Waypoint 1"
+                        "name": "168 Hotham St, St Kilda East VIC 3183, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point01.png",
+                        "address": "168 Hotham St, St Kilda East VIC 3183, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
@@ -2143,18 +2167,30 @@ q5 = {
             },
             {
                 "routeId": "route_03",
-                "name": "Route 03",
+                "name": "GCMC Route 3",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.86505973011853,
                     "longitude": 145.00008564509523,
-                    "name": "Route 03 Location A"
+                    "name": "42M2+C2J, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-start-point.png",
+                    "address": "42M2+C2J, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.86802311745351,
                     "longitude": 145.02513871441968,
-                    "name": "Route 03 Location B"
+                    "name": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-end-point.png",
+                    "address": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
 
@@ -2173,18 +2209,30 @@ q5 = {
             },
             {
                 "routeId": "route_04",
-                "name": "Route 04",
+                "name": "GCMC Route 4",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.86136178614754,
                     "longitude": 145.00072454508552,
-                    "name": "Route 04 Location A"
+                    "name": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route-04-start-point.png",
+                    "address": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.86433413529329,
                     "longitude": 145.0256740064601,
-                    "name": "Route 04 Location B"
+                    "name": "Alma Rd, Armadale VIC 3143, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-end-point.png",
+                    "address": "Alma Rd, Armadale VIC 3143, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [],
                 "pathSegments": [
@@ -2198,20 +2246,33 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
-            }, {
+            },
+            {
                 "routeId": "route_05",
-                "name": "Route 05",
+                "name": "GCMC Route 5",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.86837415772959,
                     "longitude": 144.9996436757866,
-                    "name": "Route 05 Location A"
+                    "name": "4XJX+5QQ St Kilda East, Victoria, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-start-point.png",
+                    "address": "4XJX+5QQ St Kilda East, Victoria, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.87145750588331,
                     "longitude": 145.02481037579437,
-                    "name": "Route 05 Location B"
+                    "name": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-end-point.png",
+                    "address": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [],
                 "pathSegments": [
@@ -2227,24 +2288,42 @@ q5 = {
                 ]
             }, {
                 "routeId": "route_06",
-                "name": "Route 06",
+                "name": "GCMC Route 6",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.88379099853342,
                     "longitude": 145.02278753719258,
-                    "name": "Route 06 Location A"
+                    "name": "428C+2XG Caulfield, Victoria, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-start-point.png",
+                    "address": "428C+2XG Caulfield, Victoria, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.88473011088435,
                     "longitude": 145.03794178377814,
-                    "name": "Route 06 Location B"
+                    "name": "Neerim Rd, Glen Huntly VIC 3163, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-end-point.png",
+                    "address": "Neerim Rd, Glen Huntly VIC 3163, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
                     {
                         "latitude": -37.88386557573352,
                         "longitude": 145.02939367582627,
-                        "name": "Route 06 Waypoint 1"
+                        "name": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point01.png",
+                        "address": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
@@ -2269,24 +2348,42 @@ q5 = {
                 ]
             }, {
                 "routeId": "route_07",
-                "name": "Route 07",
+                "name": "GCMC Route 7",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
                     "latitude": -37.882584437122006,
                     "longitude": 144.99688375308853,
-                    "name": "Route 07 Location A"
+                    "name": "4X8W+FRF Elsternwick, Victoria, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-start-point.png",
+                    "address": "4X8W+FRF Elsternwick, Victoria, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
                     "latitude": -37.87893323086871,
                     "longitude": 145.02333564513006,
-                    "name": "Route 07 Location B"
+                    "name": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-end-point.png",
+                    "address": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
                     {
                         "latitude": -37.88580326963413,
                         "longitude": 145.0217448530963,
-                        "name": "Route 07 Waypoint 1"
+                        "name": "427C+6QV Caulfield, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point01.png",
+                        "address": "427C+6QV Caulfield, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
@@ -5416,8 +5513,8 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
-        "description": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/north-eastern-jewish-centre.png",
+        "description": "Welcome to North Eastern Jewish Centre. We are a local and vibrant community serving the North Eastern suburbs of Melbourne. All are welcome.",
         "sensitivity": "",
         "social": "",
         "createDate": "",
@@ -5523,8 +5620,8 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
-        "description": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/melbourne-hebrew-congregation.png",
+        "description": 'Melbourne Hebrew Congregation (Hebrew: ק"ק שארית ישראל), affectionately referred to as ‘Toorak Shule’ or ‘MHC’, is the oldest Jewish congregation in Melbourne, Victoria, Australia. Formed in 1841, MHC was originally located on Burke Street in Melbourne CBD, before moving to its current location at 2/8 Toorak Road, South Yarra.',
         "sensitivity": "",
         "social": "",
         "createDate": "",
@@ -5588,8 +5685,8 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
-        "description": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/east-melbourne-hebrew-congregation.jpeg",
+        "description": "The Melbourne City Synagogue is your first stop for all your jewish needs in Melbourne, Australia. We offer inspiring prayer services, engaging classes, open Shabbat dinners, tours, visitor services and many other activities. Easy walking distance from the city’s hotels, hospitals and universities.",
         "sensitivity": "",
         "social": "",
         "createDate": "",
@@ -5670,8 +5767,8 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
-        "description": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/north-eastern-jewish-centre.png",
+        "description": "Welcome to North Eastern Jewish Centre. We are a local and vibrant community serving the North Eastern suburbs of Melbourne. All are welcome.",
         "sensitivity": "",
         "social": "",
         "createDate": "",
@@ -5713,7 +5810,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/adass-israel-synagogue-of-melbourne.png",
         "description": "",
         "sensitivity": "",
         "social": "",
@@ -5764,8 +5861,8 @@ ontology_data = [
         },
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "",
-        "description": "",
+        "imageUrl": "http://dynamite.ddns.net/washington_img/jewish-community-council-of-victoria.png",
+        "description": "THE JCCV IS THE RECOGNISED ROOF BODY AND VOICE OF VICTORIAN JEWRY WITHIN BOTH THE JEWISH AND WIDER COMMUNITIES.",
         "sensitivity": "",
         "social": "",
         "createDate": "",
