@@ -2450,9 +2450,27 @@ q7 = {
                     "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
                     "personOfInterest": {
-                        "isLit": "",
-                        "hoverText": "",
-                        "entityOfInterestWidget": ""
+                        "name": "Matthew Smith",
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/matthew-smith.png",
+                            "http://dynamite.ddns.net/washington_img/matthew-smith.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Antisemitic comment on Facebook",
+                        "address": "150-148 Orrong Rd, Caulfield North VIC 3161, Australia",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "-37.877930839269666",
+                        "longitude": "145.00718815458592",
+                        "gender": "male"
                     }
                 },
                 "content": {
@@ -2480,12 +2498,30 @@ q7 = {
             {
                 "source": 'Facebook group "Melbourne, Victoria, Australia"',
                 "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
                     "personOfInterest": {
-                        "isLit": "",
-                        "hoverText": "",
-                        "entityOfInterestWidget": ""
+                        "name": "Matthew Smith",
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/matthew-smith.png",
+                            "http://dynamite.ddns.net/washington_img/matthew-smith.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Antisemitic comment on Facebook",
+                        "address": "150-148 Orrong Rd, Caulfield North VIC 3161, Australia",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "-37.877930839269666",
+                        "longitude": "145.00718815458592",
+                        "gender": "male"
                     }
                 },
                 "content": {
@@ -2513,12 +2549,30 @@ q7 = {
             {
                 "source": 'Melbourne',
                 "author": {
-                    "image": "https://coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                    "image": "http://dynamite.ddns.net/washington_img/emily-johnson.png",
                     "name": "Emily Johnson",
                     "personOfInterest": {
-                        "isLit": "",
-                        "hoverText": "",
-                        "entityOfInterestWidget": ""
+                        "name": "Emily Johnson",
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/emily-johnson.png",
+                            "http://dynamite.ddns.net/washington_img/emily-johnson.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Antisemitic comment on Facebook",
+                        "address": "46 Bay St, Brighton VIC 3186, Australia",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "-37.90392483114177",
+                        "longitude": "144.99082071225754",
+                        "gender": "female"
                     }
                 },
                 "content": {
