@@ -2940,7 +2940,7 @@ q10 = {
                 "assumption": "minor correlation to property crime in the area"
             }
         ],
-        "widgetType": "PROPERTY_CRIME_TABLE",
+        "widgetType": "N/A",
         "actionKey": "event1_update_property_crime"
     }
 }
