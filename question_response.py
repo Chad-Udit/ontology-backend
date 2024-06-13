@@ -120,53 +120,67 @@ invg = [
         "data": {
             "notificationPanel": {
                 "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
+                "timestamp": "2024/04/03 10:36:00",
                 "content": "Problematic Iconography by Person of Interest.",
                 "sourceType": "Social media"
             },
             "contextPanel": {
                 "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
-                "content": "Problematic Iconography by Person of Interest.",
+                "timestamp": "2024/04/03 10:36:00",
+                "content": "Unusual iconography by person of interest",
                 "sourceType": "Social media",
                 "referenceThreat": "Hate Crime"
             },
             "socialMediaWidget": {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/01/03 09:22:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1200px-Facebook_logo_36x36.svg.png"
-                    },
-                    "author": {
-                        "image": "coral-selective-salmon-68.mypinata.cloud/ipfs/Qmbqz6jK62FzGMxBPaK5JCZamRTxW4zpQYT64u6kkzErZt",
+                "source": "Melbourne Islamic Lectures, Classes & Events",
+                "author": {
+                    "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                    "name": "Bilal Elcheikh",
+                    "personOfInterest": {
                         "name": "Bilal Elcheikh",
-                        "personOfInterest": {
-                            "isLit": False,
-                            "hoverText": "",
-                            "entityOfInterestWidget": ""
-                        }
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Clashed with young Jews near a synagogue",
+                        "address": "38 King Street, Melbourne VIC 3810",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "-37.81917446939586",
+                        "longitude": "144.9571733511706",
+                        "gender": "male"
                     }
                 },
-                "widgetBody": {
-                    "source": "Melbourne Islamic Lectures, Classes & Events",
-                    "content": {
-                        "text": "“They are controlling the world and the brave people are suffering",
-                        "postDatetime": "2024/01/03 09:22:00",
-                        "reacts": {
-                            "likes": 47,
-                            "loves": 0,
-                            "cares": 0,
-                            "hahas": 0,
-                            "wows": 0,
-                            "sads": 0,
-                            "angry": 0
-                        },
-                        "shares": 4,
-                        "totalComments": 47,
-                        "originalPostLink": "https://www.facebook.com/MelbourneIslamicLecturesAndEvents"
-                    }
-                }
+                "content": {
+                    "text": "They are controlling the world and the brave people are suffering",
+                    "postDatetime": "2024/04/03 09:22:00",
+                    "reacts": {
+                        "likes": 47,
+                        "loves": 0,
+                        "cares": 0,
+                        "hahas": 0,
+                        "wows": 0,
+                        "sads": 0,
+                        "angry": 0
+                    },
+                    "shares": 4,
+                    "totalComments": 47,
+                    "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-original-post.png"
+                },
+                "triggers": [],
+                "mapIcon": "",
+                "latitude": "",
+                "longitude": "",
+                "createDate": ""
             },
             "assumptionsTable": [
                 {
@@ -190,26 +204,20 @@ invg = [
             ],
             "containerWidget": {
                 "widgetTitleBar": {
-                    "timestamp": "2024/02/25 10:56:00",
+                    "timestamp": "2024/04/03 10:36:00",
                     "containerType": "Notification",
-                    "policyScore": "Critical",
-                    "assignee": "John Dou",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "More"
-                    ]
+                    "policyScore": "Medium",
+                    "assignee": "invg",
+                    "id": "10003"
                 },
                 "widgetBody": {
                     "content": "Unusual Iconography By a Person of interest",
                     "sourceType": "Social media",
                     "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
-                    "actionButtons": [
-                        "More"
-                    ],
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
-                        "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+                        "Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
                     ]
                 }
             }
