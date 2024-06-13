@@ -2487,7 +2487,7 @@ q7 = {
                     },
                     "shares": 0,
                     "totalComments": 3,
-                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
+                    "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-original-post.png"
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -2538,7 +2538,7 @@ q7 = {
                     },
                     "shares": 0,
                     "totalComments": 2,
-                    "originalPostLink": "https://www.facebook.com/groups/489882223164579/"
+                    "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-update-post.png"
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -2589,7 +2589,7 @@ q7 = {
                     },
                     "shares": 2,
                     "totalComments": 3,
-                    "originalPostLink": "https://www.facebook.com/groups/27176700640/"
+                    "originalPostLink": "http://dynamite.ddns.net/washington_img/emilly-johnson-original-post.png"
                 },
                 "triggers": [],
                 "mapIcon": "",
