@@ -62,7 +62,8 @@ invg = [
                     "shares": 2,
                     "totalComments": 15,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/jom-sheila-schwartz-post-2024-02-05-10-07.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -176,7 +177,8 @@ invg = [
                     "shares": 4,
                     "totalComments": 47,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-original-post.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -280,7 +282,8 @@ invg = [
                         "shares": 2,
                         "totalComments": 15,
                         "originalPostLink": "",
-                        "translatedText": ""
+                        "translatedText": "",
+                        "linguisticAnalytics": ""
                     }
                 }
             },
@@ -2584,7 +2587,8 @@ q7 = {
                     "shares": 0,
                     "totalComments": 3,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-original-post.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -2636,7 +2640,8 @@ q7 = {
                     "shares": 0,
                     "totalComments": 2,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-update-post.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -2688,7 +2693,8 @@ q7 = {
                     "shares": 2,
                     "totalComments": 3,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/emilly-johnson-original-post.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -3313,7 +3319,8 @@ q21 = {
                     "shares": 0,
                     "totalComments": 2,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post01.png",
-                    "translatedText": "“O Muslim, there is a Jew behind me. Come and kill him” {حتى يقول الشجر والحجر: يا مسلم، يا عبدالله، هذا يهودي تعال فاقتله}"
+                    "translatedText": "",
+                    "linguisticAnalytics": "Potnetial antisemitic connotation: Phrase from the Hadith: “O Muslim, there is a Jew behind me. Come and kill him” {حتى يقول الشجر والحجر: يا مسلم، يا عبدالله، هذا يهودي تعال فاقتله}"
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -3365,7 +3372,8 @@ q21 = {
                     "shares": 0,
                     "totalComments": 3,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post02.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
@@ -3417,7 +3425,8 @@ q21 = {
                     "shares": 0,
                     "totalComments": 1,
                     "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post03.png",
-                    "translatedText": ""
+                    "translatedText": "",
+                    "linguisticAnalytics": ""
                 },
                 "triggers": [],
                 "mapIcon": "",
