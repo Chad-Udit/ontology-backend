@@ -190,8 +190,8 @@ invg = [
                 {
                     "category": "Hate Crime",
                     "concern": "Physical harm to JC members",
-                    "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
-                    "confidenceScore": "5"
+                    "assumption": "Suspect implies to tangible threat",
+                    "confidenceScore": "9"
                 },
                 {
                     "category": "General Crime",
