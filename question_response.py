@@ -2045,19 +2045,46 @@ q4 = {
     "payload": {
         "knowledge": [
             {
-                "crimeType": "Cyber Crime",
-                "description": "Crimes committed using computers or over the internet.",
-                "commonTypes": "Phishing, Malware, Ransomware"
+                "risk": "28",
+                "useCase": "Hate Crime",
+                "impactLevel": "Very High",
+                "probability": "Physical harm to JC members"
             },
             {
-                "crimeType": "General Crime",
-                "description": "Crimes affecting persons or properties not specifically categorized as hate crimes.",
-                "commonTypes": "Theft, Vandalism, Burglary"
+                "risk": "44",
+                "useCase": "Hate Crime",
+                "impactLevel": "Low",
+                "probability": "Harassment"
             },
             {
-                "crimeType": "Hate Crime",
-                "description": "Crimes motivated by biases against a race, religion, ethnicity, or sexual orientation.",
-                "commonTypes": "Religious institutions, Minority communities"
+                "risk": "42",
+                "useCase": "Hate Crime",
+                "impactLevel": "Medium",
+                "probability": "Economic impact to JC businesses"
+            },
+            {
+                "risk": "44",
+                "useCase": "General Crime",
+                "impactLevel": "Very High",
+                "probability": "Physical harm to JC members"
+            },
+            {
+                "risk": "44",
+                "useCase": "General Crime",
+                "impactLevel": "Very High",
+                "probability": "Property Crime"
+            },
+            {
+                "risk": "40",
+                "useCase": "General Crime",
+                "impactLevel": "Medium",
+                "probability": "Vice"
+            },
+            {
+                "risk": "35",
+                "useCase": "General Crime",
+                "impactLevel": "High",
+                "probability": "Petty crime"
             }
         ],
         "widgetType": "CRIME_OVERVIEW_TABLE",
