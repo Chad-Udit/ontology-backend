@@ -377,6 +377,64 @@ invg = [
         },
         "type": "event4",
         "actionKey": "event4_init"
+    },
+    {
+        "content": "High risk to JC children while unattended",
+        "widget": "Multiple",
+        "id": "5",
+        "isVisible": True,
+        "data": {
+            "notificationPanel": {
+                "type": "Alert",
+                "timestamp": "2024/04/14 10:56:00",
+                "content": "Very high risk ",
+                "sourceType": "Horizon Scanning rule"
+            },
+            "contextPanel": {
+                "type": "Very High Alert",
+                "timestamp": "2024/04/20 18:534:00",
+                "content": "High risk to JC children while unattended",
+                "sourceType": "Horizon Scanning Rule",
+                "referenceThreat": "Hate Crime"
+            },
+            "containerWidget": {
+                "widgetTitleBar": {
+                    "timestamp": "",
+                    "containerType": "Alert",
+                    "policyScore": "Very High",
+                    "assignee": "invg",
+                    "id": "10005"
+                },
+                "widgetBody": {
+                    "content": "High Risk to JC children while unattended",
+                    "sourceType": "Horizon Scanning rule",
+                    "source": "",
+                    "referenceThreat": "General Crime",
+                    "referenceUseCase": "",
+                    "tigger": [
+                        "+4 conditions identified indicating  Very High risk to the JC children"
+                    ]
+                }
+            },
+            "referenceScenarioWidget": {
+                "widgetTitleBar": {
+                    "timestamp": "2024/04/20 18:34:00",
+                    "useCase": "High Risk to JC children while unattended",
+                    "useCaseIdentifier": "#100009"
+                },
+                "widgetBody": {
+                    "mindMap": [],
+                    "threatLevel": "",
+                    "currentProbability": "",
+                    "useCaseJustification": "",
+                    "relatedEntities": [],
+                    "relatedLocations": [],
+                    "relatedContainers": []
+                }
+            }
+        },
+        "type": "event5",
+        "actionKey": "event5_init"
     }
 ]
 
