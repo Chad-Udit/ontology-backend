@@ -3417,7 +3417,7 @@ q21 = {
                 "createDate": ""
             }
         ],
-        "widgetType": "SOCIAL_MEDIA_WIDGET",
+        "widgetType": "SIMILAR_POSTS_TABLE",
         "actionKey": "event2_more_post"
     }
 }
