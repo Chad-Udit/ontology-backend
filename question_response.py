@@ -127,7 +127,7 @@ invg = [
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/03 10:36:00",
-                "content": "Unusual iconography by person of interest",
+                "content": "Notification: Unusual iconography by person of interest",
                 "sourceType": "Social media",
                 "referenceThreat": "Hate Crime"
             },
@@ -240,7 +240,7 @@ invg = [
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/02/25 10:56:00",
-                "content": "New alert received: Potential merge of incidents",
+                "content": "Notification: New alert received: Potential merge of incidents",
                 "sourceType": "Social media",
                 "referenceThreat": "Hate Crime"
             },
@@ -345,7 +345,7 @@ invg = [
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/14 10:56:00",
-                "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+                "content": "Notification: Date Of Intrest 'Jeewis Independce Day Pared'",
                 "sourceType": "Ontological rule",
                 "referenceThreat": "Hate Crime"
             },
@@ -393,7 +393,7 @@ invg = [
             "contextPanel": {
                 "type": "Very High Alert",
                 "timestamp": "2024/04/20 18:534:00",
-                "content": "High risk to JC children while unattended",
+                "content": "Very High Alert: High risk to JC children while unattended",
                 "sourceType": "Horizon Scanning Rule",
                 "referenceThreat": "Hate Crime"
             },
