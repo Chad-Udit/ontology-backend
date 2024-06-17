@@ -382,7 +382,7 @@ invg = [
         "content": "High risk to JC children while unattended",
         "widget": "Multiple",
         "id": "5",
-        "isVisible": True,
+        "isVisible": False,
         "data": {
             "notificationPanel": {
                 "type": "Alert",
