@@ -193,7 +193,7 @@ invg = [
                     "category": "Hate Crime",
                     "concern": "Physical harm to JC members",
                     "assumption": "Tangible threat by a person of interest",
-                    "confidenceScore": "9"
+                    "confidenceScore": "7"
                 },
                 {
                     "category": "Hate Crime",
