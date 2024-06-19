@@ -44,7 +44,8 @@ invg = [
                         "mapIcon": "",
                         "latitude": "",
                         "longitude": "",
-                        "gender": "female"
+                        "gender": "female",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -159,7 +160,8 @@ invg = [
                         "mapIcon": "",
                         "latitude": "-37.81917446939586",
                         "longitude": "144.9571733511706",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -190,20 +192,20 @@ invg = [
                 {
                     "category": "Hate Crime",
                     "concern": "Physical harm to JC members",
-                    "assumption": "Suspect implies to tangible threat",
+                    "assumption": "Tangible threat by a person of interest",
                     "confidenceScore": "9"
                 },
                 {
-                    "category": "General Crime",
-                    "concern": "Property crime",
-                    "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
-                    "confidenceScore": "5"
+                    "category": "Hate Crime",
+                    "concern": "Physical harm to JC members",
+                    "assumption": "Rhetorical speech with no tangible threat",
+                    "confidenceScore": "4"
                 },
                 {
                     "category": "Neutral",
                     "concern": "Naive",
-                    "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
-                    "confidenceScore": "5"
+                    "assumption": "Naive discussion",
+                    "confidenceScore": "2"
                 }
             ],
             "containerWidget": {
@@ -236,108 +238,114 @@ invg = [
         "isVisible": False,
         "data": {
             "notificationPanel": {
-                "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
-                "content": "New alert received: Potential merge of incidents",
-                "sourceType": "Social media"
+                "type": "Alert",
+                "timestamp": "2024/04/03 13:02:00",
+                "content": "Auto Generated: Potential Merge of Incidents",
+                "sourceType": "Ontological rule"
             },
             "contextPanel": {
-                "type": "Notification",
-                "timestamp": "2024/02/25 10:56:00",
-                "content": "Notification: New alert received: Potential merge of incidents",
-                "sourceType": "Social media",
+                "type": "Alert",
+                "timestamp": "2024/04/03 13:02:00",
+                "content": "Alert: Potential Merge of Incidents",
+                "sourceType": "Ontological rule",
                 "referenceThreat": "Hate Crime"
             },
-            "socialMediaWidget": {
-                "widgetTitleBar": {
-                    "createdDatetime": "2024/02/25 10:07:00",
-                    "source": {
-                        "platform": "Facebook",
-                        "logoUrl": "URL_to_Facebook_Logo"
-                    },
-                    "author": {
-                        "image": "URL_to_Author_Image_Provided_by_Ben",
-                        "name": "Sheila Schwartz",
-                        "personOfInterest": {
-                            "isLit": True,
-                            "hoverText": "Sheila Schwartz is a member of the community.",
-                            "entityOfInterestWidget": "URL_or_ID_to_Entity_of_Interest_Widget"
-                        }
-                    }
-                },
-                "widgetBody": {
-                    "source": "Facebook group 'JOM - Jews of Melbourne'",
-                    "content": {
-                        "text": "Just seen a suspicious-looking man seemingly take a bunch of pictures of our house at Briggs st in Caulfield... I’m a little creeped out, did anyone else see something like that?",
-                        "postDatetime": "2024/02/25 10:07:00",
-                        "reacts": {
-                            "likes": 17,
-                            "loves": 3,
-                            "cares": 9,
-                            "hahas": 0,
-                            "wows": 2,
-                            "sads": 1,
-                            "angry": 1
-                        },
-                        "shares": 2,
-                        "totalComments": 15,
-                        "originalPostLink": "",
-                        "translatedText": "",
-                        "linguisticAnalytics": ""
-                    }
-                }
-            },
-            "assumptionsTable": [
-                {
-                    "category": "Hate Crime",
-                    "concern": "Physical harm to JC members",
-                    "assumption": "Suspect may be surveilling JC property/people planning a hate crime",
-                    "confidenceScore": "5"
-                },
-                {
-                    "category": "General Crime",
-                    "concern": "Property crime",
-                    "assumption": "Suspect may be surveilling JC property/people, planning robbery or theft",
-                    "confidenceScore": "5"
-                },
-                {
-                    "category": "Neutral",
-                    "concern": "Naive",
-                    "assumption": "Suspect may be scoping out the area for professional/sightseeing reasons",
-                    "confidenceScore": "5"
-                }
-            ],
             "containerWidget": {
                 "widgetTitleBar": {
-                    "timestamp": "2024/02/25 10:56:00",
-                    "containerType": "Notification",
-                    "policyScore": "Critical",
-                    "assignee": "John Dou",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "Open"
-                    ]
+                    "timestamp": "2024/04/03 13:02:00",
+                    "containerType": "Alert",
+                    "policyScore": "High",
+                    "assignee": "invg",
+                    "id": "10004"
                 },
                 "widgetBody": {
-                    "content": "Unusual Iconography By a Person of interest",
-                    "sourceType": "Ontoligical rule",
-                    "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
-                    "actionButtons": [
-                        "Ontology Widget"
-                    ],
+                    "content": "Potential Merge of Incidents",
+                    "sourceType": "Ontological rule",
+                    "source": "SSocial Media",
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
-                        "Rule: 'Suspect in one incident added as person of interest in another incident"
+                        "Suspect in one incident added as person of interest in another incident"
                     ]
                 }
-            }
+            },
+            "ontologyWidget": {
+                "containerWidgets": [
+                    {
+                        "widgetTitleBar": {
+                            "timestamp": "2024/02/05 10:50:00",
+                            "containerType": "Closed",
+                            "policyScore": "Medium",
+                            "assignee": "invg",
+                            "id": "10002"
+                        },
+                        "widgetBody": {
+                            "content": "Suspicious Person Watching JC Homes",
+                            "sourceType": "Social media",
+                            "source": "Facebook group 'JOM - Jews of Melbourne'",
+                            "referenceThreat": "Hate Crime",
+                            "referenceUseCase": "Discussion about potential physical threat",
+                            "tigger": [
+                                "+5 keywords in a post on source of interest FB group"
+                            ]
+                        }
+                    },
+                    {
+                        "widgetTitleBar": {
+                            "timestamp": "2024/04/03 13:02:00",
+                            "containerType": "Alert",
+                            "policyScore": "High",
+                            "assignee": "invg",
+                            "id": "10006"
+                        },
+                        "widgetBody": {
+                            "content": "Potential Merge of Incidents",
+                            "sourceType": "Ontological rule",
+                            "source": "Social Media",
+                            "referenceThreat": "Hate Crime",
+                            "referenceUseCase": "",
+                            "tigger": [
+                                "Suspect in one incident added as person of interest in another incident"
+                            ]
+                        }
+                    }
+                ],
+                "personOfInterestWidgets": [
+                    {
+                        "name": "Bilal Elcheikh",
+                        "status": "",
+                        "type": "",
+                        "createDate": "",
+                        "imageUrls": [
+                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                        ],
+                        "relatedContainers": [],
+                        "interestLevel": "",
+                        "justification": "Clashed with young Jews near a synagogue",
+                        "address": "38 King Street, Melbourne VIC 3810",
+                        "occupation": "",
+                        "workplace": "",
+                        "placeOfBirth": "",
+                        "dateOfBirth": "",
+                        "associatedEntities": [],
+                        "mapIcon": "",
+                        "latitude": "-37.81917446939586",
+                        "longitude": "144.9571733511706",
+                        "gender": "male",
+                        "isPersonOfInterest": True
+                    }
+                ],
+                "rules": [
+                    "Suspect in one incident added as person of interest in another incident"
+                ]
+            },
         },
         "type": "event3",
         "actionKey": "event3_init"
     },
     {
-        "content": "Potential Date Of Intrest",
+        "content": "Potential Date Of Interest",
         "widget": "Multiple",
         "id": "4",
         "isVisible": True,
@@ -409,7 +417,7 @@ invg = [
                     "containerType": "Alert",
                     "policyScore": "Very High",
                     "assignee": "invg",
-                    "id": "10005"
+                    "id": "10007"
                 },
                 "widgetBody": {
                     "content": "High Risk to JC children while unattended",
@@ -426,7 +434,7 @@ invg = [
                 "widgetTitleBar": {
                     "timestamp": "2024/04/20 18:34:00",
                     "useCase": "High Risk to JC children while unattended",
-                    "useCaseIdentifier": "#100009"
+                    "useCaseIdentifier": "10009"
                 },
                 "widgetBody": {
                     "mindMap": [],
@@ -2569,7 +2577,8 @@ q7 = {
                         "mapIcon": "",
                         "latitude": "-37.877930839269666",
                         "longitude": "145.00718815458592",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -2622,7 +2631,8 @@ q7 = {
                         "mapIcon": "",
                         "latitude": "-37.877930839269666",
                         "longitude": "145.00718815458592",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -2675,7 +2685,8 @@ q7 = {
                         "mapIcon": "",
                         "latitude": "-37.90392483114177",
                         "longitude": "144.99082071225754",
-                        "gender": "female"
+                        "gender": "female",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -3262,7 +3273,8 @@ q16 = {
                     "mapIcon": "",
                     "latitude": "-37.82149239768852",
                     "longitude": "145.03510711225425",
-                    "gender": "male"
+                    "gender": "male",
+                    "isPersonOfInterest": False
                 }
             },
             "content": {
@@ -3306,7 +3318,7 @@ q17 = {
 }
 
 q18 = {
-    "conversation": "Incident suspicious person watching JC homes(#236754),  and alert problematic iconography by person of interest(#258483) connected.Incident suspicious person watching JC homes(#236754) new level of risk is Raised from Low to HighPerson of interest Bilal Elcheikh new level of risk is High Note that level of risk for incident(#236754)  now exceeds the threashold for opening a case according to JC policy",
+    "conversation": "Incident #10001 (“Suspicious person watching JC homes”), incident #10002 Problematic iconography by person of interest) are connected to alert #10005 (“Potential merge of incidents”).\nIncident #10001 - level of risk raised from Low to High. \nIncident #10002 - level of risk raised from Low to High. \nAlert #10005 - level of risk raised from Low to High. \nPerson of interest Bilal Elcheikh - level of risk raised to High.",
     "payload": {
         "knowledge": [],
         "widgetType": "N/A",
@@ -3385,7 +3397,8 @@ q21 = {
                         "mapIcon": "",
                         "latitude": "-37.82149239768852",
                         "longitude": "145.03510711225425",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -3438,7 +3451,8 @@ q21 = {
                         "mapIcon": "",
                         "latitude": "-37.82149239768852",
                         "longitude": "145.03510711225425",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
@@ -3491,7 +3505,8 @@ q21 = {
                         "mapIcon": "",
                         "latitude": "-37.82149239768852",
                         "longitude": "145.03510711225425",
-                        "gender": "male"
+                        "gender": "male",
+                        "isPersonOfInterest": False
                     }
                 },
                 "content": {
