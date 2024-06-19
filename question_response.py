@@ -196,7 +196,7 @@ invg = [
                     "confidenceScore": "7"
                 },
                 {
-                    "category": "Hate Crime",
+                    "category": "General Crime",
                     "concern": "Physical harm to JC members",
                     "assumption": "Rhetorical speech with no tangible threat",
                     "confidenceScore": "4"
