@@ -261,7 +261,7 @@ invg = [
                 "widgetBody": {
                     "content": "Potential Merge of Incidents",
                     "sourceType": "Ontological rule",
-                    "source": "SSocial Media",
+                    "source": "Social Media",
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
