@@ -2120,43 +2120,792 @@ q4 = {
                 "risk": "28",
                 "useCase": "Hate Crime",
                 "impactLevel": "Very High",
-                "probability": "Physical harm to JC members"
+                "probability": "Physical harm to JC members",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "44",
                 "useCase": "Hate Crime",
                 "impactLevel": "Low",
-                "probability": "Harassment"
+                "probability": "Harassment",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "42",
                 "useCase": "Hate Crime",
                 "impactLevel": "Medium",
-                "probability": "Economic impact to JC businesses"
+                "probability": "Economic impact to JC businesses",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "44",
                 "useCase": "General Crime",
                 "impactLevel": "Very High",
-                "probability": "Physical harm to JC members"
+                "probability": "Physical harm to JC members",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "44",
                 "useCase": "General Crime",
                 "impactLevel": "Very High",
-                "probability": "Property Crime"
+                "probability": "Property Crime",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "40",
                 "useCase": "General Crime",
                 "impactLevel": "Medium",
-                "probability": "Vice"
+                "probability": "Vice",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             },
             {
                 "risk": "35",
                 "useCase": "General Crime",
                 "impactLevel": "High",
-                "probability": "Petty crime"
+                "probability": "Petty crime",
+                "mindMap": {
+                    "widgetTitleBar": {
+                        "threatName": "Nuclear threat",
+                        "case": "10001",
+                        "sources": [
+                            "LinkedIn",
+                            "THe New York Times"
+                        ],
+                        "locations": [
+                            "Melbourne",
+                            "Australia",
+                            "London",
+                            "United Kingdom"
+                        ]
+                    },
+                    "widgetBody": {
+                        "threatLevel": "Medium",
+                        "data": [
+                            {
+                                "id": "1",
+                                "label": "Reference Threat",
+                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "2",
+                                    "3"
+                                ]
+                            },
+                            {
+                                "id": "2",
+                                "label": "Impact",
+                                "description": "Very High",
+                                "policyScore": "",
+                                "children": []
+                            },
+                            {
+                                "id": "3",
+                                "label": "Current aggregate threat level",
+                                "description": "",
+                                "policyScore": "Medium",
+                                "children": []
+                            },
+                            {
+                                "id": "4",
+                                "label": "Reference Scenario",
+                                "description": "Attack from stolen nuclear weapon",
+                                "policyScore": "",
+                                "children": [
+                                    "3",
+                                    "5"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Nuclear Weapon stolen from NATO country",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "5",
+                                "label": "",
+                                "description": "Weapon stolen from Belgium",
+                                "policyScore": "",
+                                "children": [
+                                    "6"
+                                ]
+                            },
+                            {
+                                "id": "6",
+                                "label": "Threat Level",
+                                "description": "Low",
+                                "policyScore": "",
+                                "children": [
+                                    "7"
+                                ]
+                            },
+                            {
+                                "id": "7",
+                                "label": "Rules",
+                                "description": "If two persons of interest enters Belgium at the same time",
+                                "policyScore": "",
+                                "children": [
+                                    "8"
+                                ]
+                            },
+                            {
+                                "id": "8",
+                                "label": "",
+                                "description": "Increase Threat Level to",
+                                "policyScore": "Medium",
+                                "children": [
+                                    "9"
+                                ]
+                            },
+                            {
+                                "id": "9",
+                                "label": "Activate",
+                                "description": "Deeper Analysis",
+                                "policyScore": "",
+                                "children": []
+                            }
+                        ]
+                    }
+                }
             }
         ],
         "widgetType": "CRIME_OVERVIEW_TABLE",
