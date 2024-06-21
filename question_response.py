@@ -4380,33 +4380,21 @@ q23 = {
 }
 
 q24 = {
-    "conversation": "Case #277652 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Add to canvas?",
+    "conversation": "Case #10002 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Please click dialog map widget to show on the canves",
     "payload": {
         "knowledge": [
             {
-                "datetime": "2024/02/24 10:50:00",
-                "type": "Case",
-                "policyScore": "High",
-                "assignedTo": "Analyst name"
-            },
-            {
                 "widgetTitleBar": {
-                    "timestamp": "2024/02/24 11:26:00",
+                    "timestamp": "2024/04/14 10:56:00",
                     "containerType": "Case",
-                    "policyScore": "High",
-                    "assignee": "John Dou",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "Open"
-                    ]
+                    "policyScore": "Very High",
+                    "assignee": "invg",
+                    "id": "10010"
                 },
                 "widgetBody": {
-                    "content": "Created a case #277652",
-                    "sourceType": "Ontology Rule",
-                    "source": "Combined Both Incident",
-                    "actionButtons": [
-                        "More"
-                    ],
+                    "content": "Potential threat to 2024 independence day parade",
+                    "sourceType": "Ontological rule",
+                    "source": "Ontological rule",
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
