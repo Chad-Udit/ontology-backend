@@ -4387,7 +4387,7 @@ q24 = {
                 "widgetTitleBar": {
                     "timestamp": "2024/04/14 10:56:00",
                     "containerType": "Case",
-                    "policyScore": "Very High",
+                    "policyScore": "Critical",
                     "assignee": "invg",
                     "id": "10010"
                 },
