@@ -4288,7 +4288,96 @@ q21 = {
     }
 }
 
-q23 = q5
+q23 = {
+    "conversation": "Here is the route you have requested. Please click to view on the map",
+    "payload": {
+        "knowledge": [
+            {
+                "routeId": "route_01",
+                "name": "Parade Starting Place",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.867424156780146,
+                    "longitude": 145.0114090105325,
+                    "name": "572 Inkerman Rd, Caulfield North VIC 3161",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/parade-location01.jpg",
+                    "address": "572 Inkerman Rd, Caulfield North VIC 3161",
+                    "justification": "Parade Starting Place"
+                },
+                "endPoint": {
+                    "latitude": -37.878043388286684,
+                    "longitude": 145.00717870159605,
+                    "name": "Glen Eira Rd & Orrong Rd",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/glen-eira-rd-and-orrong-rd.png",
+                    "address": "Glen Eira Rd & Orrong Rd",
+                    "justification": "Parade Ending Place"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.870970758065766,
+                        "longitude": 145.01116895282934,
+                        "name": "Balcava Road",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/balcava-rd.png",
+                        "address": "Balcava Road",
+                        "justification": "Parade Turning Point 01"
+                    },
+                    {
+                        "latitude": -37.87067644959381,
+                        "longitude": 145.00860878436694,
+                        "name": "Orrong Road",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/balcava-rd.png",
+                        "address": "Orrong Road",
+                        "justification": "Parade Turning Point 02"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.867424156780146,
+                        "startLongitude": 145.0114090105325,
+                        "endLatitude": -37.870970758065766,
+                        "endLongitude": 145.01116895282934,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.870970758065766,
+                        "startLongitude": 145.01116895282934,
+                        "endLatitude": -37.87067644959381,
+                        "endLongitude": 145.00860878436694,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_3",
+                        "startLatitude": -37.87067644959381,
+                        "startLongitude": 145.00860878436694,
+                        "endLatitude": -37.878043388286684,
+                        "endLongitude": 145.00717870159605,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
+            }
+        ],
+        "widgetType": "MAP_ROUTES",
+        "actionKey": "event_4_parade_routes"
+    }
+}
 
 q24 = {
     "conversation": "Case #277652 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Add to canvas?",
