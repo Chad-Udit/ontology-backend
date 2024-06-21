@@ -269,7 +269,7 @@ invg = [
                     ]
                 }
             },
-            "ontologyWidget": {
+            "visualRuleWidget": {
                 "containerWidgets": [
                     {
                         "widgetTitleBar": {
