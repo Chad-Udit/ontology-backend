@@ -4403,7 +4403,7 @@ q24 = {
                 }
             }
         ],
-        "widgetType": "CONTAINER_WIDGET",
+        "widgetType": "",
         "actionKey": "event4_case_found"
     }
 
