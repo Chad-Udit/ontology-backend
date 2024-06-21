@@ -415,7 +415,7 @@ invg = [
                 "widgetTitleBar": {
                     "timestamp": "",
                     "containerType": "Alert",
-                    "policyScore": "Very High",
+                    "policyScore": "Critical",
                     "assignee": "invg",
                     "id": "10007"
                 },
