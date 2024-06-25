@@ -3027,14 +3027,69 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.87575092409285,
-                        "longitude": 144.99788618375482,
+                        "latitude": -37.87691935851016,
+                        "longitude": 144.99799708264493,
                         "name": "168 Hotham St, St Kilda East VIC 3183, Australia",
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
                         "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point01.png",
                         "address": "168 Hotham St, St Kilda East VIC 3183, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87803055216035,
+                        "longitude": 145.0071821466648,
+                        "name": "42C4+RV8 Caulfield North, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point01.png",
+                        "address": "42C4+RV8 Caulfield North, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87622464632861,
+                        "longitude": 145.00753145490634,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point03.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.876150566790024,
+                        "longitude": 145.0069494603261,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.876151412001484,
+                        "longitude": 145.00688302720823,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87614717765477,
+                        "longitude": 145.00688839162888,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
@@ -3043,17 +3098,44 @@ q5 = {
                         "pathId": "path_segment_1",
                         "startLatitude": -37.85823172945748,
                         "startLongitude": 145.0012220143936,
-                        "endLatitude": -37.87575092409285,
-                        "endLongitude": 144.99788618375482,
+                        "endLatitude": -37.87691935851016,
+                        "endLongitude": 144.99799708264493,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.87575092409285,
-                        "startLongitude": 144.99788618375482,
-                        "endLatitude": -37.87647994406377,
-                        "endLongitude": 145.00672201444084,
+                        "startLatitude": -37.87691935851016,
+                        "startLongitude": 144.99799708264493,
+                        "endLatitude": -37.87803055216035,
+                        "endLongitude": 145.0071821466648,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_3",
+                        "startLatitude": -37.87803055216035,
+                        "startLongitude": 145.0071821466648,
+                        "endLatitude": -37.87622464632861,
+                        "endLongitude": 145.00753145490634,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_4",
+                        "startLatitude": -37.87622464632861,
+                        "startLongitude": 145.00753145490634,
+                        "endLatitude": -37.876151412001484,
+                        "endLongitude": 145.00688302720823,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_5",
+                        "startLatitude": -37.876151412001484,
+                        "startLongitude": 145.00688302720823,
+                        "endLatitude": -37.87614717765477,
+                        "endLongitude": 145.00688839162888,
                         "distance": 0,
                         "geometry": "LineString"
                     }
