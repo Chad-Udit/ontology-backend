@@ -3288,8 +3288,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.86433413529329,
-                    "longitude": 145.0256740064601,
+                    "latitude": -37.86560666765781,
+                    "longitude": 145.0254797568514,
                     "name": "Alma Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3298,14 +3298,55 @@ q5 = {
                     "address": "Alma Rd, Armadale VIC 3143, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
-                "waypoints": [],
+                "waypoints": [
+                    {
+                        "latitude": -37.861388771229436,
+                        "longitude": 145.00093370948002,
+                        "name": "42Q2+F75 St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-way-point01.png",
+                        "address": "42Q2+F75 St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.86262624042734,
+                        "longitude": 145.00070956543235,
+                        "name": "42Q2+F9 St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-way-point02.png",
+                        "address": "42Q2+F9 St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
+                ],
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
                         "startLatitude": -37.86136178614754,
                         "startLongitude": 145.00072454508552,
-                        "endLatitude": -37.86433413529329,
-                        "endLongitude": 145.0256740064601,
+                        "endLatitude": -37.861388771229436,
+                        "endLongitude": 145.00093370948002,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.861388771229436,
+                        "startLongitude": 145.00093370948002,
+                        "endLatitude": -37.86262624042734,
+                        "endLongitude": 145.00070956543235,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_3",
+                        "startLatitude": -37.86262624042734,
+                        "startLongitude": 145.00070956543235,
+                        "endLatitude": -37.86560666765781,
+                        "endLongitude": 145.0254797568514,
                         "distance": 0,
                         "geometry": "LineString"
                     }
