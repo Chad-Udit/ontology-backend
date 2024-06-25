@@ -3432,6 +3432,67 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
+            },
+            {
+                "routeId": "route_06",
+                "name": "GCMC Route 6",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.88379099853342,
+                    "longitude": 145.02278753719258,
+                    "name": "428C+2XG Caulfield, Victoria, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-start-point.png",
+                    "address": "428C+2XG Caulfield, Victoria, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "endPoint": {
+                    "latitude": -37.88473011088435,
+                    "longitude": 145.03794178377814,
+                    "name": "Neerim Rd, Glen Huntly VIC 3163, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-end-point.png",
+                    "address": "Neerim Rd, Glen Huntly VIC 3163, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.88386557573352,
+                        "longitude": 145.02939367582627,
+                        "name": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point01.png",
+                        "address": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.88379099853342,
+                        "startLongitude": 145.02278753719258,
+                        "endLatitude": -37.88386557573352,
+                        "endLongitude": 145.02939367582627,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.88386557573352,
+                        "startLongitude": 145.02939367582627,
+                        "endLatitude": -37.88473011088435,
+                        "endLongitude": 145.03794178377814,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
