@@ -2997,6 +2997,67 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
+            },
+            {
+                "routeId": "route_02",
+                "name": "GCMC Route 2",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.85826184890915,
+                    "longitude": 145.00149290028932,
+                    "name": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-start-point.png",
+                    "address": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "endPoint": {
+                    "latitude": -37.87647994406377,
+                    "longitude": 145.00672201444084,
+                    "name": "238-232 State Route 22, Elsternwick VIC 3185, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-end-point.png",
+                    "address": "238-232 State Route 22, Elsternwick VIC 3185, Australia ",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.87575092409285,
+                        "longitude": 144.99788618375482,
+                        "name": "168 Hotham St, St Kilda East VIC 3183, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point01.png",
+                        "address": "168 Hotham St, St Kilda East VIC 3183, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.85823172945748,
+                        "startLongitude": 145.0012220143936,
+                        "endLatitude": -37.87575092409285,
+                        "endLongitude": 144.99788618375482,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.87575092409285,
+                        "startLongitude": 144.99788618375482,
+                        "endLatitude": -37.87647994406377,
+                        "endLongitude": 145.00672201444084,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
