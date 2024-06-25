@@ -3196,8 +3196,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.86505973011853,
-                    "longitude": 145.00008564509523,
+                    "latitude": -37.8650744942938,
+                    "longitude": 145.0002699990461,
                     "name": "42M2+C2J, St Kilda East VIC 3183, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3207,8 +3207,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.86802311745351,
-                    "longitude": 145.02513871441968,
+                    "latitude": -37.868096122371874,
+                    "longitude": 145.0255812616727,
                     "name": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3218,15 +3218,54 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "waypoints": [
-
+                    {
+                        "latitude": -37.866454213712544,
+                        "longitude": 145.00004438842407,
+                        "name": "42M2+C2 St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-way-point01.png",
+                        "address": "42M2+C2 St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.86960602599332,
+                        "longitude": 145.0252848222804,
+                        "name": "42M2+C2 St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-way-point02.png",
+                        "address": "42M2+C2 St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
                 ],
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.86505973011853,
-                        "startLongitude": 145.00008564509523,
-                        "endLatitude": -37.86802311745351,
-                        "endLongitude": 145.02513871441968,
+                        "startLatitude": -37.8650744942938,
+                        "startLongitude": 145.0002699990461,
+                        "endLatitude": -37.866454213712544,
+                        "endLongitude": 145.00004438842407,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.866454213712544,
+                        "startLongitude": 145.00004438842407,
+                        "endLatitude": -37.86960602599332,
+                        "endLongitude": 145.0252848222804,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.86960602599332,
+                        "startLongitude": 145.0252848222804,
+                        "endLatitude": -37.868096122371874,
+                        "endLongitude": 145.0255812616727,
                         "distance": 0,
                         "geometry": "LineString"
                     }
