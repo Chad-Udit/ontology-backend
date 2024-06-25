@@ -3288,8 +3288,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.86560666765781,
-                    "longitude": 145.0254797568514,
+                    "latitude": -37.8656188431499,
+                    "longitude": 145.0252148887021,
                     "name": "Alma Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3345,8 +3345,8 @@ q5 = {
                         "pathId": "path_segment_3",
                         "startLatitude": -37.86262624042734,
                         "startLongitude": 145.00070956543235,
-                        "endLatitude": -37.86560666765781,
-                        "endLongitude": 145.0254797568514,
+                        "endLatitude": -37.8656188431499,
+                        "endLongitude": 145.0252148887021,
                         "distance": 0,
                         "geometry": "LineString"
                     }
