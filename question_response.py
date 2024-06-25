@@ -3015,8 +3015,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87647994406377,
-                    "longitude": 145.00672201444084,
+                    "latitude": -37.87641870473924,
+                    "longitude": 145.00664431060017,
                     "name": "238-232 State Route 22, Elsternwick VIC 3185, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3091,6 +3091,28 @@ q5 = {
                         "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87617523020693,
+                        "longitude": 145.0067730566373,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87624615547985,
+                        "longitude": 145.0066919198118,
+                        "name": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "address": "42C4+QVM St Kilda East, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
@@ -3136,6 +3158,33 @@ q5 = {
                         "startLongitude": 145.00688302720823,
                         "endLatitude": -37.87614717765477,
                         "endLongitude": 145.00688839162888,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_6",
+                        "startLatitude": -37.87614717765477,
+                        "startLongitude": 145.00688839162888,
+                        "endLatitude": -37.87617523020693,
+                        "endLongitude": 145.0067730566373,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_7",
+                        "startLatitude": -37.87614717765477,
+                        "startLongitude": 145.00688839162888,
+                        "endLatitude": -37.87624615547985,
+                        "endLongitude": 145.0066919198118,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_8",
+                        "startLatitude": -37.87624615547985,
+                        "startLongitude": 145.0066919198118,
+                        "endLatitude": -37.87641870473924,
+                        "endLongitude": 145.00664431060017,
                         "distance": 0,
                         "geometry": "LineString"
                     }
