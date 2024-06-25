@@ -2934,8 +2934,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87864327974311,
-                    "longitude": 145.02319421444597,
+                    "latitude": -37.87866973559664,
+                    "longitude": 145.02353617882395,
                     "name": "377 State Route 22, Caulfield VIC 3162, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -2946,14 +2946,25 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.87668319158373,
-                        "longitude": 145.00710838375733,
+                        "latitude": -37.87803055216035,
+                        "longitude": 145.0071821466648,
                         "name": "42C4+RV8 Caulfield North, Victoria, Australia",
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
                         "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point01.png",
                         "address": "42C4+RV8 Caulfield North, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.8800239581363,
+                        "longitude": 145.02328236253268,
+                        "name": "42R6+C45 Armadale, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point02.png",
+                        "address": "42R6+C45 Armadale, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
@@ -2962,17 +2973,26 @@ q5 = {
                         "pathId": "path_segment_1",
                         "startLatitude": -37.85900626618482,
                         "startLongitude": 145.0107473174901,
-                        "endLatitude": -37.87668319158373,
-                        "endLongitude": 145.00710838375733,
+                        "endLatitude": -37.87803055216035,
+                        "endLongitude": 145.0071821466648,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.87668319158373,
-                        "startLongitude": 145.00710838375733,
-                        "endLatitude": -37.87864327974311,
-                        "endLongitude": 145.02319421444597,
+                        "startLatitude": -37.87803055216035,
+                        "startLongitude": 145.0071821466648,
+                        "endLatitude": -37.8800239581363,
+                        "endLongitude": 145.02328236253268,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_3",
+                        "startLatitude": -37.8800239581363,
+                        "startLongitude": 145.02328236253268,
+                        "endLatitude": -37.87866973559664,
+                        "endLongitude": 145.02353617882395,
                         "distance": 0,
                         "geometry": "LineString"
                     }
