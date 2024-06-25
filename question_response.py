@@ -3189,6 +3189,48 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
+            },
+            {
+                "routeId": "route_03",
+                "name": "GCMC Route 3",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.86505973011853,
+                    "longitude": 145.00008564509523,
+                    "name": "42M2+C2J, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-start-point.png",
+                    "address": "42M2+C2J, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "endPoint": {
+                    "latitude": -37.86802311745351,
+                    "longitude": 145.02513871441968,
+                    "name": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-end-point.png",
+                    "address": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "waypoints": [
+
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.86505973011853,
+                        "startLongitude": 145.00008564509523,
+                        "endLatitude": -37.86802311745351,
+                        "endLongitude": 145.02513871441968,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
