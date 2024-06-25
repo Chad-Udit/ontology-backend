@@ -2117,10 +2117,10 @@ q4 = {
     "payload": {
         "knowledge": [
             {
-                "risk": "28",
-                "useCase": "Hate Crime",
-                "impactLevel": "Very High",
-                "probability": "Physical harm to JC members",
+                "risk": "Very High",
+                "useCase": "Physical harm to JC members",
+                "impactLevel": "Hate Crime",
+                "probability": "28",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2230,10 +2230,10 @@ q4 = {
                 }
             },
             {
-                "risk": "44",
-                "useCase": "Hate Crime",
-                "impactLevel": "Low",
-                "probability": "Harassment",
+                "risk": "Low",
+                "useCase": "Harassment",
+                "impactLevel": "Hate Crime",
+                "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2343,10 +2343,10 @@ q4 = {
                 }
             },
             {
-                "risk": "42",
-                "useCase": "Hate Crime",
-                "impactLevel": "Medium",
-                "probability": "Economic impact to JC businesses",
+                "risk": "Medium",
+                "useCase": "Economic impact to JC businesses",
+                "impactLevel": "Hate Crime",
+                "probability": "42",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2456,10 +2456,10 @@ q4 = {
                 }
             },
             {
-                "risk": "44",
-                "useCase": "General Crime",
-                "impactLevel": "Very High",
-                "probability": "Physical harm to JC members",
+                "risk": "Very High",
+                "useCase": "Physical harm to JC members",
+                "impactLevel": "General Crime",
+                "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2569,10 +2569,10 @@ q4 = {
                 }
             },
             {
-                "risk": "44",
-                "useCase": "General Crime",
-                "impactLevel": "Very High",
-                "probability": "Property Crime",
+                "risk": "Very High",
+                "useCase": "Property Crime",
+                "impactLevel": "General Crime",
+                "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2682,10 +2682,10 @@ q4 = {
                 }
             },
             {
-                "risk": "40",
-                "useCase": "General Crime",
-                "impactLevel": "Medium",
-                "probability": "Vice",
+                "risk": "Medium",
+                "useCase": "Vice",
+                "impactLevel": "General Crime",
+                "probability": "40",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
@@ -2795,10 +2795,10 @@ q4 = {
                 }
             },
             {
-                "risk": "35",
-                "useCase": "General Crime",
-                "impactLevel": "High",
-                "probability": "Petty crime",
+                "risk": "High",
+                "useCase": "Petty crime",
+                "impactLevel": "General Crime",
+                "probability": "35",
                 "mindMap": {
                     "widgetTitleBar": {
                         "threatName": "Nuclear threat",
