@@ -3439,9 +3439,9 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.88379099853342,
-                    "longitude": 145.02278753719258,
-                    "name": "428C+2XG Caulfield, Victoria, Australia",
+                    "latitude": -37.883757100562164,
+                    "longitude": 145.0225735909943,
+                    "name": "428F+F4M Caulfield, Victoria, Australia",
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
@@ -3450,8 +3450,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.88473011088435,
-                    "longitude": 145.03794178377814,
+                    "latitude": -37.88490789353148,
+                    "longitude": 145.03713713443855,
                     "name": "Neerim Rd, Glen Huntly VIC 3163, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3462,33 +3462,213 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.88386557573352,
-                        "longitude": 145.02939367582627,
-                        "name": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "latitude": -37.884892309173374,
+                        "longitude": 145.02234694432366,
+                        "name": "319 Hawthorn Rd, Caulfield VIC 3162, Australia",
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
                         "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point01.png",
-                        "address": "147B Bambra Rd, Caulfield VIC 3162, Australia",
+                        "address": "319 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88524208211542,
+                        "longitude": 145.0252179175788,
+                        "name": "302-298 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point02.png",
+                        "address": "302-298 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88524345097674,
+                        "longitude": 145.02532149594802,
+                        "name": "26-30 Masters St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "address": "26-30 Masters St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88536487506857,
+                        "longitude": 145.0263111984514,
+                        "name": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "address": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88527384791694,
+                        "longitude": 145.0269629752643,
+                        "name": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "address": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88525585416541,
+                        "longitude": 145.02722180841727,
+                        "name": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "address": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88550141558914,
+                        "longitude": 145.02921200751842,
+                        "name": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point04.png",
+                        "address": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.885191830507516,
+                        "longitude": 145.02926913092088,
+                        "name": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point04.png",
+                        "address": "27 Briggs St, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88518971359331,
+                        "longitude": 145.02927114257773,
+                        "name": "150-152 Bambra Rd, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point05.png",
+                        "address": "150-152 Bambra Rd, Caulfield VIC 3162, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88626930625789,
+                        "longitude": 145.03817767365305,
+                        "name": "150 Bambra Rd, Caulfield VIC 3162, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point06.png",
+                        "address": "150 Bambra Rd, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.88379099853342,
-                        "startLongitude": 145.02278753719258,
-                        "endLatitude": -37.88386557573352,
-                        "endLongitude": 145.02939367582627,
+                        "startLatitude": -37.883757100562164,
+                        "startLongitude": 145.0225735909943,
+                        "endLatitude": -37.884892309173374,
+                        "endLongitude": 145.02234694432366,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.88386557573352,
-                        "startLongitude": 145.02939367582627,
-                        "endLatitude": -37.88473011088435,
-                        "endLongitude": 145.03794178377814,
+                        "startLatitude": -37.884892309173374,
+                        "startLongitude": 145.02234694432366,
+                        "endLatitude": -37.88524208211542,
+                        "endLongitude": 145.0252179175788,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_3",
+                        "startLatitude": -37.88524208211542,
+                        "startLongitude": 145.0252179175788,
+                        "endLatitude": -37.88524345097674,
+                        "endLongitude": 145.02532149594802,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_4",
+                        "startLatitude": -37.88524345097674,
+                        "startLongitude": 145.02532149594802,
+                        "endLatitude": -37.88536487506857,
+                        "endLongitude": 145.0263111984514,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_4",
+                        "startLatitude": -37.88536487506857,
+                        "startLongitude": 145.0263111984514,
+                        "endLatitude": -37.88527384791694,
+                        "endLongitude": 145.0269629752643,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_5",
+                        "startLatitude": -37.88527384791694,
+                        "startLongitude": 145.0269629752643,
+                        "endLatitude": -37.88525585416541,
+                        "endLongitude": 145.02722180841727,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_6",
+                        "startLatitude": -37.88525585416541,
+                        "startLongitude": 145.02722180841727,
+                        "endLatitude": -37.88550141558914,
+                        "endLongitude": 145.02921200751842,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_6",
+                        "startLatitude": -37.88550141558914,
+                        "startLongitude": 145.02921200751842,
+                        "endLatitude": -37.885191830507516,
+                        "endLongitude": 145.02926913092088,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_7",
+                        "startLatitude": -37.885191830507516,
+                        "startLongitude": 145.02926913092088,
+                        "endLatitude": -37.88518971359331,
+                        "endLongitude": 145.02927114257773,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_8",
+                        "startLatitude": -37.88518971359331,
+                        "startLongitude": 145.02927114257773,
+                        "endLatitude": -37.88626930625789,
+                        "endLongitude": 145.03817767365305,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_9",
+                        "startLatitude": -37.88626930625789,
+                        "startLongitude": 145.03817767365305,
+                        "endLatitude": -37.88490789353148,
+                        "endLongitude": 145.03713713443855,
                         "distance": 0,
                         "geometry": "LineString"
                     }
