@@ -2923,8 +2923,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.85898296252439,
-                    "longitude": 145.0103583837135,
+                    "latitude": -37.86041078637295,
+                    "longitude": 145.0105153820487,
                     "name": "450-388 Orrong Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -2934,8 +2934,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87864327974311,
-                    "longitude": 145.02319421444597,
+                    "latitude": -37.90217088597553,
+                    "longitude": 145.15172045177263,
                     "name": "377 State Route 22, Caulfield VIC 3162, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -2946,8 +2946,8 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.87668319158373,
-                        "longitude": 145.00710838375733,
+                        "latitude": -37.87804133459398,
+                        "longitude": 145.00718499225886,
                         "name": "42C4+RV8 Caulfield North, Victoria, Australia",
                         "mapIcon": "",
                         "createDate": "",
@@ -2960,19 +2960,19 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.85898296252439,
-                        "startLongitude": 145.0103583837135,
-                        "endLatitude": -37.87668319158373,
-                        "endLongitude": 145.00710838375733,
+                        "startLatitude": -37.86041078637295,
+                        "startLongitude": 145.0105153820487,
+                        "endLatitude": -37.87804133459398,
+                        "endLongitude":  145.00718499225886,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.87668319158373,
-                        "startLongitude": 145.00710838375733,
-                        "endLatitude": -37.87864327974311,
-                        "endLongitude": 145.02319421444597,
+                        "startLatitude": -37.87804133459398,
+                        "startLongitude":  145.00718499225886,
+                        "endLatitude": -37.90217088597553,
+                        "endLongitude": 145.15172045177263,
                         "distance": 0,
                         "geometry": "LineString"
                     }
@@ -2984,8 +2984,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.85823172945748,
-                    "longitude": 145.0012220143936,
+                    "latitude": -37.85918538665177,
+                    "longitude": 145.00135828801763,
                     "name": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -2995,8 +2995,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87647994406377,
-                    "longitude": 145.00672201444084,
+                    "latitude": -37.88807129445167,
+                    "longitude": 145.05248730583455,
                     "name": "238-232 State Route 22, Elsternwick VIC 3185, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3007,8 +3007,8 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.87575092409285,
-                        "longitude": 144.99788618375482,
+                        "latitude": -37.876912527382714,
+                        "longitude": 144.99799872046287,
                         "name": "168 Hotham St, St Kilda East VIC 3183, Australia",
                         "mapIcon": "",
                         "createDate": "",
@@ -3021,19 +3021,19 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.85823172945748,
-                        "startLongitude": 145.0012220143936,
-                        "endLatitude": -37.87575092409285,
-                        "endLongitude": 144.99788618375482,
+                        "startLatitude": -37.85918538665177,
+                        "startLongitude": 145.00135828801763,
+                        "endLatitude": -37.876912527382714,
+                        "endLongitude": 144.99799872046287,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
                         "startLatitude": -37.87575092409285,
-                        "startLongitude": 144.99788618375482,
-                        "endLatitude": -37.87647994406377,
-                        "endLongitude": 145.00672201444084,
+                        "startLongitude": 144.99799872046287,
+                        "endLatitude": -37.876912527382714,
+                        "endLongitude": 145.05248730583455,
                         "distance": 0,
                         "geometry": "LineString"
                     }
@@ -3045,8 +3045,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.86505973011853,
-                    "longitude": 145.00008564509523,
+                    "latitude": -37.86645421959435,
+                    "longitude": 145.0000316738451,
                     "name": "42M2+C2J, St Kilda East VIC 3183, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3056,8 +3056,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.86802311745351,
-                    "longitude": 145.02513871441968,
+                    "latitude": -37.869604169115945,
+                    "longitude": 145.02528194143645,
                     "name": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3066,16 +3066,14 @@ q5 = {
                     "address": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
-                "waypoints": [
-
-                ],
+                "waypoints": [],
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.86505973011853,
-                        "startLongitude": 145.00008564509523,
-                        "endLatitude": -37.86802311745351,
-                        "endLongitude": 145.02513871441968,
+                        "startLatitude": -37.86645421959435,
+                        "startLongitude": 145.0000316738451,
+                        "endLatitude": -37.869604169115945,
+                        "endLongitude": 145.02528194143645,
                         "distance": 0,
                         "geometry": "LineString"
                     }
@@ -3087,8 +3085,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.86136178614754,
-                    "longitude": 145.00072454508552,
+                    "latitude": -37.86262038306524,
+                    "longitude": 145.00069711255767,
                     "name": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3098,8 +3096,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.86433413529329,
-                    "longitude": 145.0256740064601,
+                    "latitude": -37.865614309303716,
+                    "longitude": 145.02595198620688,
                     "name": "Alma Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3112,10 +3110,10 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.86136178614754,
-                        "startLongitude": 145.00072454508552,
-                        "endLatitude": -37.86433413529329,
-                        "endLongitude": 145.0256740064601,
+                        "startLatitude": -37.86262038306524,
+                        "startLongitude": 145.00069711255767,
+                        "endLatitude": -37.865614309303716,
+                        "endLongitude": 145.02595198620688,
                         "distance": 0,
                         "geometry": "LineString"
                     }
@@ -3127,8 +3125,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.86837415772959,
-                    "longitude": 144.9996436757866,
+                    "latitude": -37.86951312215352,
+                    "longitude": 144.99943745851064,
                     "name": "4XJX+5QQ St Kilda East, Victoria, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3138,8 +3136,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87145750588331,
-                    "longitude": 145.02481037579437,
+                    "latitude": -37.87265270507416,
+                    "longitude": 145.02471103039122,
                     "name": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3152,22 +3150,23 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.86837415772959,
-                        "startLongitude": 144.9996436757866,
-                        "endLatitude": -37.87145750588331,
-                        "endLongitude": 145.02481037579437,
+                        "startLatitude": -37.86951312215352,
+                        "startLongitude": 144.99943745851064,
+                        "endLatitude": -37.87265270507416,
+                        "endLongitude": 145.02471103039122,
                         "distance": 0,
                         "geometry": "LineString"
                     }
                 ]
-            }, {
+            },
+            {
                 "routeId": "route_06",
                 "name": "GCMC Route 6",
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.88379099853342,
-                    "longitude": 145.02278753719258,
+                    "latitude": -37.88489407493766,
+                    "longitude": 145.02234983212,
                     "name": "428C+2XG Caulfield, Victoria, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3177,8 +3176,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.88473011088435,
-                    "longitude": 145.03794178377814,
+                    "latitude": -37.88921149101746,
+                    "longitude": 145.05707150798622,
                     "name": "Neerim Rd, Glen Huntly VIC 3163, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3189,8 +3188,8 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.88386557573352,
-                        "longitude": 145.02939367582627,
+                        "latitude": -37.88518707035596,
+                        "longitude": 145.02928123709486,
                         "name": "147B Bambra Rd, Caulfield VIC 3162, Australia",
                         "mapIcon": "",
                         "createDate": "",
@@ -3203,19 +3202,19 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.88379099853342,
-                        "startLongitude": 145.02278753719258,
-                        "endLatitude": -37.88386557573352,
-                        "endLongitude": 145.02939367582627,
+                        "startLatitude": -37.88489407493766,
+                        "startLongitude": 145.02234983212,
+                        "endLatitude": -37.88518707035596,
+                        "endLongitude": 145.02928123709486,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.88386557573352,
-                        "startLongitude": 145.02939367582627,
-                        "endLatitude": -37.88473011088435,
-                        "endLongitude": 145.03794178377814,
+                        "startLatitude": -37.88518707035596,
+                        "startLongitude": 145.02234983212,
+                        "endLatitude": -37.88921149101746,
+                        "endLongitude": 145.05707150798622,
                         "distance": 0,
                         "geometry": "LineString"
                     }
@@ -3226,8 +3225,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.882584437122006,
-                    "longitude": 144.99688375308853,
+                    "latitude": -37.88381564727177,
+                    "longitude": 144.99705561435016,
                     "name": "4X8W+FRF Elsternwick, Victoria, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3237,8 +3236,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87893323086871,
-                    "longitude": 145.02333564513006,
+                    "latitude": -37.88002182869697,
+                    "longitude": 145.02329254198494,
                     "name": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3249,8 +3248,8 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.88580326963413,
-                        "longitude": 145.0217448530963,
+                        "latitude": -37.88689488086905,
+                        "longitude": 145.02196749472563,
                         "name": "427C+6QV Caulfield, Victoria, Australia",
                         "mapIcon": "",
                         "createDate": "",
@@ -3263,19 +3262,19 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.882584437122006,
-                        "startLongitude": 144.99688375308853,
-                        "endLatitude": -37.88580326963413,
-                        "endLongitude": 145.0217448530963,
+                        "startLatitude": -37.88381564727177,
+                        "startLongitude": 144.99705561435016,
+                        "endLatitude": -37.88689488086905,
+                        "endLongitude": 145.02196749472563,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.88580326963413,
-                        "startLongitude": 145.0217448530963,
-                        "endLatitude": -37.87893323086871,
-                        "endLongitude": 145.02333564513006,
+                        "startLatitude": -37.88689488086905,
+                        "startLongitude": 145.02196749472563,
+                        "endLatitude": -37.88002182869697,
+                        "endLongitude": 145.02329254198494,
                         "distance": 0,
                         "geometry": "LineString"
                     }
