@@ -3691,8 +3691,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87893323086871,
-                    "longitude": 145.02333564513006,
+                    "latitude": -37.87897022097934,
+                    "longitude": 145.02349652971688,
                     "name": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3703,14 +3703,36 @@ q5 = {
                 },
                 "waypoints": [
                     {
-                        "latitude": -37.88580326963413,
-                        "longitude": 145.0217448530963,
-                        "name": "427C+6QV Caulfield, Victoria, Australia",
+                        "latitude": -37.88322158280501,
+                        "longitude": 144.9967979664793,
+                        "name": "4X8W+XQ6 Ripponlea, Victoria, Australia",
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
                         "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point01.png",
-                        "address": "427C+6QV Caulfield, Victoria, Australia",
+                        "address": "4X8W+XQ6 Ripponlea, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88382221519365,
+                        "longitude": 144.99726843053114,
+                        "name": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point02.png",
+                        "address": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.88689596763734,
+                        "longitude": 145.0219608466166,
+                        "name": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point03.png",
+                        "address": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
                 ],
@@ -3719,17 +3741,35 @@ q5 = {
                         "pathId": "path_segment_1",
                         "startLatitude": -37.882584437122006,
                         "startLongitude": 144.99688375308853,
-                        "endLatitude": -37.88580326963413,
-                        "endLongitude": 145.0217448530963,
+                        "endLatitude": -37.88322158280501,
+                        "endLongitude": 144.9967979664793,
                         "distance": 0,
                         "geometry": "LineString"
                     },
                     {
                         "pathId": "path_segment_2",
-                        "startLatitude": -37.88580326963413,
-                        "startLongitude": 145.0217448530963,
-                        "endLatitude": -37.87893323086871,
-                        "endLongitude": 145.02333564513006,
+                        "startLatitude": -37.88322158280501,
+                        "startLongitude": 144.9967979664793,
+                        "endLatitude": -37.88382221519365,
+                        "endLongitude": 144.99726843053114,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.8838222151936,
+                        "startLongitude": 144.99726843053114,
+                        "endLatitude": -37.88689596763734,
+                        "endLongitude": 145.0219608466166,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.88689596763734,
+                        "startLongitude": 145.0219608466166,
+                        "endLatitude": -37.87897022097934,
+                        "endLongitude": 145.02349652971688,
                         "distance": 0,
                         "geometry": "LineString"
                     }
