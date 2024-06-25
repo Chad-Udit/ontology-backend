@@ -3270,6 +3270,46 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
+            },
+            {
+                "routeId": "route_04",
+                "name": "GCMC Route 4",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.86136178614754,
+                    "longitude": 145.00072454508552,
+                    "name": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route-04-start-point.png",
+                    "address": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "endPoint": {
+                    "latitude": -37.86433413529329,
+                    "longitude": 145.0256740064601,
+                    "name": "Alma Rd, Armadale VIC 3143, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-end-point.png",
+                    "address": "Alma Rd, Armadale VIC 3143, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "waypoints": [],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.86136178614754,
+                        "startLongitude": 145.00072454508552,
+                        "endLatitude": -37.86433413529329,
+                        "endLongitude": 145.0256740064601,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
