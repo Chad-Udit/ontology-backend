@@ -3493,6 +3493,67 @@ q5 = {
                         "geometry": "LineString"
                     }
                 ]
+            },
+            {
+                "routeId": "route_07",
+                "name": "GCMC Route 7",
+                "totalDistance": 0,
+                "estimatedTime": 0,
+                "startPoint": {
+                    "latitude": -37.882584437122006,
+                    "longitude": 144.99688375308853,
+                    "name": "4X8W+FRF Elsternwick, Victoria, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-start-point.png",
+                    "address": "4X8W+FRF Elsternwick, Victoria, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "endPoint": {
+                    "latitude": -37.87893323086871,
+                    "longitude": 145.02333564513006,
+                    "name": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                    "mapIcon": "",
+                    "createDate": "",
+                    "createUser": "",
+                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-end-point.png",
+                    "address": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
+                    "justification": "Garbage Route Collection Melborne City"
+                },
+                "waypoints": [
+                    {
+                        "latitude": -37.88580326963413,
+                        "longitude": 145.0217448530963,
+                        "name": "427C+6QV Caulfield, Victoria, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point01.png",
+                        "address": "427C+6QV Caulfield, Victoria, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
+                ],
+                "pathSegments": [
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.882584437122006,
+                        "startLongitude": 144.99688375308853,
+                        "endLatitude": -37.88580326963413,
+                        "endLongitude": 145.0217448530963,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_2",
+                        "startLatitude": -37.88580326963413,
+                        "startLongitude": 145.0217448530963,
+                        "endLatitude": -37.87893323086871,
+                        "endLongitude": 145.02333564513006,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    }
+                ]
             }
         ],
         "widgetType": "MAP_ROUTES",
