@@ -2923,8 +2923,8 @@ q5 = {
                 "totalDistance": 0,
                 "estimatedTime": 0,
                 "startPoint": {
-                    "latitude": -37.85898296252439,
-                    "longitude": 145.0103583837135,
+                    "latitude": -37.85900626618482,
+                    "longitude": 145.0107473174901,
                     "name": "450-388 Orrong Rd, Armadale VIC 3143, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -2960,8 +2960,8 @@ q5 = {
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
-                        "startLatitude": -37.85898296252439,
-                        "startLongitude": 145.0103583837135,
+                        "startLatitude": -37.85900626618482,
+                        "startLongitude": 145.0107473174901,
                         "endLatitude": -37.87668319158373,
                         "endLongitude": 145.00710838375733,
                         "distance": 0,
