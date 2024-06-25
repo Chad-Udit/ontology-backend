@@ -3369,8 +3369,8 @@ q5 = {
                     "justification": "Garbage Route Collection Melborne City"
                 },
                 "endPoint": {
-                    "latitude": -37.87145750588331,
-                    "longitude": 145.02481037579437,
+                    "latitude": -37.871472822332386,
+                    "longitude": 145.02495054259592,
                     "name": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
                     "mapIcon": "",
                     "createDate": "",
@@ -3379,14 +3379,55 @@ q5 = {
                     "address": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
-                "waypoints": [],
+                "waypoints": [
+                    {
+                        "latitude": -37.869509010665496,
+                        "longitude": 144.99944573890562,
+                        "name": "315 Carlisle St, Balaclava VIC 3183, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-way-point01.png",
+                        "address": "315 Carlisle St, Balaclava VIC 3183, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    },
+                    {
+                        "latitude": -37.87265753721779,
+                        "longitude": 145.02474143609885,
+                        "name": "315 Carlisle St, Balaclava VIC 3183, Australia",
+                        "mapIcon": "",
+                        "createDate": "",
+                        "createUser": "",
+                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-way-point02.png",
+                        "address": "315 Carlisle St, Balaclava VIC 3183, Australia",
+                        "justification": "Garbage Route Collection Melborne City"
+                    }
+                ],
                 "pathSegments": [
                     {
                         "pathId": "path_segment_1",
                         "startLatitude": -37.86837415772959,
                         "startLongitude": 144.9996436757866,
-                        "endLatitude": -37.87145750588331,
-                        "endLongitude": 145.02481037579437,
+                        "endLatitude": -37.869509010665496,
+                        "endLongitude": 144.99944573890562,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.869509010665496,
+                        "startLongitude": 144.99944573890562,
+                        "endLatitude": -37.87265753721779,
+                        "endLongitude": 145.02474143609885,
+                        "distance": 0,
+                        "geometry": "LineString"
+                    },
+                    {
+                        "pathId": "path_segment_1",
+                        "startLatitude": -37.87265753721779,
+                        "startLongitude": 145.02474143609885,
+                        "endLatitude": -37.871472822332386,
+                        "endLongitude": 145.02495054259592,
                         "distance": 0,
                         "geometry": "LineString"
                     }
