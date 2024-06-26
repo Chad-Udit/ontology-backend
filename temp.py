@@ -14,7 +14,6 @@ from chains import (
     configure_llm_only_chain,
 
 )
-
 load_dotenv(".env")
 ollama_base_url = os.getenv("OLLAMA_BASE_URL")
 embedding_model_name = os.getenv("EMBEDDING_MODEL")
@@ -77,7 +76,7 @@ question_mappings = {
         "reference threats in ontology",
         "ontology reference threats"
     ],
-    "question5": [
+     "question5": [
         "show on the map routes of garbage collection",
         "display garbage collection routes on the map",
         "map garbage collection routes",
@@ -188,9 +187,7 @@ question_mappings = {
         "Cross reference this route with investigations in the past 12 months looking for high correlation"
     ],
     "question25": [
-        "convert container to Case and elevate risk level to Very High",
-        "convert container to case and elevate risk level to very high",
-        "convert container to Case"
+        "convert container to Case and elevate risk level to Very High"
     ]
 }
 
@@ -205,12 +202,11 @@ matcher = PhraseMatcher(nlp.vocab)
 for question in questions_docs:
     matcher.add("Question", [question])
 
-
 # Function to detect the nearest match and return the corresponding question number
 def detect_question(query):
     # Process the input query with spaCy
     doc = nlp(query)
-
+    
     # Find matches and near matches
     matches = matcher(doc)
     near_matches = []
@@ -248,7 +244,7 @@ def detect_question(query):
 
 def detect_question_llm(question):
     print("No Question Detatcted Calling LLM")
-    user_prompt = PROMPT.format(str(question_mappings), question)
+    user_prompt = PROMPT.format(str(question_mappings),question)
     print("PROMPT to LLM")
     # print(user_prompt)
     result = llm_chain({"question": user_prompt, "chat_history": []}, callbacks=[])
