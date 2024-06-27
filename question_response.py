@@ -4570,37 +4570,25 @@ q18 = {
 }
 
 q19 = {
-    "conversation": "Created a case #277652",
+    "conversation": "Created a case #10010",
     "payload": {
         "knowledge": [
-            {
-                "datetime": "2024/02/24 10:50:00",
-                "type": "Case",
-                "policyScore": "High",
-                "assignedTo": "Analyst name"
-            },
             {
                 "widgetTitleBar": {
                     "timestamp": "2024/02/25 11:26:00",
                     "containerType": "Case",
                     "policyScore": "High",
-                    "assignee": "John Dou",
-                    "id": "123456789",
-                    "actionsMenu": [
-                        "Open"
-                    ]
+                    "assignee": "invg",
+                    "id": "10010"
                 },
                 "widgetBody": {
-                    "content": "Created a case #277652",
+                    "content": "Created a case #10010",
                     "sourceType": "Ontology Rule",
                     "source": "Combined Both Incident",
-                    "actionButtons": [
-                        "More"
-                    ],
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
-                        "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+                        "Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
                     ]
                 }
             }
