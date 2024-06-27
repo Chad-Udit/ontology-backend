@@ -4571,9 +4571,7 @@ q18 = {
 
 q19 = {
     "conversation": "Created a case #10010",
-    "payload": {
-        "knowledge": [
-            {
+    "data": {
                 "widgetTitleBar": {
                     "timestamp": "2024/02/25 11:26:00",
                     "containerType": "Case",
@@ -4591,8 +4589,9 @@ q19 = {
                         "Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
                     ]
                 }
-            }
-        ],
+            },
+    "payload": {
+        "knowledge": [],
         "widgetType": "CONTAINER_WIDGET",
         "actionKey": "event3_case_created"
     }
