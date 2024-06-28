@@ -375,9 +375,9 @@ invg = [
                     ]
                 },
                 "widgetBody": {
-                    "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+                    "content": "Date Of Intrest 'Israel Independence Day Parade'",
                     "sourceType": "Ontoligical rule",
-                    "source": "Date Of Intrest 'Jeewis Independce Day Pared'",
+                    "source": "Date Of Intrest 'Israel Independence Day Parade'",
                     "actionButtons": [
                         "Ontology Widget"
                     ],
