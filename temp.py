@@ -187,7 +187,7 @@ question_mappings = {
         "Cross reference this route with investigations in the past 12 months looking for high correlation"
     ],
     "question25": [
-        "convert container to Case and elevate risk level to Very High"
+        "elevate risk level to very high and convert container to case"
     ]
 }
 
