@@ -4861,14 +4861,37 @@ q23 = {
 }
 
 q24 = {
-    "conversation": "Case #10002 'suspicious person watching JC homes' has over 85% locations overlapping with the above route. Please click dialog map widget to show on the canves",
+    "conversation": "Case #10002 'suspicious person watching JC homes' has over 85% locations overlapping with the above route.",
+    "formatting": {
+      "conversation": [
+        {
+          "text": "Case #10002 'suspicious person watching JC homes'",
+          "format": "anchortag",
+          "event": "event1",
+          "source": "containerWidget"
+        },
+        {
+          "text": "has over 85% locations overlapping with the above route.",
+          "format": "text",
+          "event": "",
+          "source": ""
+        }
+      ],
+      "buttons": [
+        "position": "bottomRight",
+        "text": "Add to canvas?",
+        "styles": "",
+        "event": "event1",
+        "action": "show_location"
+      ]
+    },
     "payload": {
         "knowledge": [
             {
                 "widgetTitleBar": {
                     "timestamp": "2024/04/14 10:56:00",
                     "containerType": "Case",
-                    "policyScore": "Critical",
+                    "policyScore": "Very High",
                     "assignee": "invg",
                     "id": "10010"
                 },
@@ -4887,7 +4910,6 @@ q24 = {
         "widgetType": "",
         "actionKey": "event4_case_found"
     }
-
 }
 
 q25 = {
