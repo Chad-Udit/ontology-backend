@@ -4878,11 +4878,13 @@ q24 = {
         }
       ],
       "buttons": [
-        "position": "bottomRight",
-        "text": "Add to canvas?",
-        "styles": "",
-        "event": "event1",
-        "action": "show_location"
+        {
+                "position": "bottomRight",
+                "text": "Add to canvas?",
+                "styles": "",
+                "event": "event1",
+                "action": "show_location"
+            }
       ]
     },
     "payload": {
