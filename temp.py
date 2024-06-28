@@ -47,7 +47,8 @@ question_mappings = {
         "list available data",
         "display available data",
         "available data",
-        "data available"
+        "data available",
+        "What data exists for this area?"
     ],
     "question2": [
         "i would like to add more data to jewish community",
