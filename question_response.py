@@ -107,7 +107,7 @@ invg = [
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "Discussion about potential physical threat",
                     "tigger": [
-                        "+5 keywords in a post on source of interest FB group"
+                        "+5 keywords in a post on source of interest"
                     ]
                 }
             }
@@ -286,7 +286,7 @@ invg = [
                             "referenceThreat": "Hate Crime",
                             "referenceUseCase": "Discussion about potential physical threat",
                             "tigger": [
-                                "+5 keywords in a post on source of interest FB group"
+                                "+5 keywords in a post on source of interest"
                             ]
                         }
                     },
