@@ -353,13 +353,13 @@ invg = [
             "notificationPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/14 10:56:00",
-                "content": "Date Of Intrest 'Jeewis Independce Day Pared'",
+                "content": "Date Of Intrest 'Israel Independence Day Parade'",
                 "sourceType": "Ontological rule"
             },
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/14 10:56:00",
-                "content": "Notification: Date Of Intrest 'Jeewis Independce Day Pared'",
+                "content": "Notification: Date Of Intrest 'Israel Independence Day Parade'",
                 "sourceType": "Ontological rule",
                 "referenceThreat": "Hate Crime"
             },
