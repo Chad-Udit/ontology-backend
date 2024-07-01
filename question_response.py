@@ -4561,7 +4561,7 @@ q17 = {
 }
 
 q18 = {
-    "conversation": "Incident #10001 (“Suspicious person watching JC homes”), incident #10002 Problematic iconography by person of interest) are connected to alert #10005 (“Potential merge of incidents”).\nIncident #10001 - level of risk raised from Low to High. \nIncident #10002 - level of risk raised from Low to High. \nAlert #10005 - level of risk raised from Low to High. \nPerson of interest Bilal Elcheikh - level of risk raised to High.",
+    "conversation": "Incident #10001 (“Suspicious person watching JC homes”), incident #10002 Problematic iconography by person of interest) are connected to alert #10004 (“Potential merge of incidents”).\nIncident #10001 - level of risk raised from Low to High. \nIncident #10002 - level of risk raised from Low to High. \nAlert #10004 - level of risk raised from Low to High. \nPerson of interest Bilal Elcheikh - level of risk raised to High.",
     "payload": {
         "knowledge": [],
         "widgetType": "N/A",
