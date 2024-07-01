@@ -4954,10 +4954,22 @@ q25 = {
     "data": {
         "assumptionsTable": [
             {
+                "category": "Hate Crime",
+                "concern": "Physical harm to JC members",
+                "assumption": "Tangible threat by a person of interest",
+                "confidenceScore": "1"
+            },
+            {
                 "category": "General Crime",
                 "concern": "Physical harm to JC members",
                 "assumption": "Major correlation to property crime in the area",
                 "confidenceScore": "9"
+            },
+            {
+                "category": "Neutral",
+                "concern": "Naive",
+                "assumption": "Naive discussion",
+                "confidenceScore": "1"
             }
         ],
         "containerWidget": {
