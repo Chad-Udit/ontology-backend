@@ -353,13 +353,13 @@ invg = [
             "notificationPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/14 10:56:00",
-                "content": "Date Of Intrest 'Israel Independence Day Parade'",
+                "content": "Date Of Interest 'Israel Independence Day Parade'",
                 "sourceType": "Ontological rule"
             },
             "contextPanel": {
                 "type": "Notification",
                 "timestamp": "2024/04/14 10:56:00",
-                "content": "Notification: Date Of Intrest 'Israel Independence Day Parade'",
+                "content": "Notification: Date Of Interest 'Israel Independence Day Parade'",
                 "sourceType": "Ontological rule",
                 "referenceThreat": "Hate Crime"
             },
@@ -387,6 +387,21 @@ invg = [
                         "Mass event related to a date of interest requires preparations"
                     ]
                 }
+            },
+            "calenderWidget": {
+                "holiday": "Yom HaAtzmaut",
+                "duration": "1 day",
+                "frequency": "Israeli Independence Day: Celebrates the establishment of the State of Israel - National Holiday",
+                "effectiveHours": "Full day",
+                "reference": "https://www.timeanddate.com/holidays/israel/yom-haatzmaut",
+                "exactDates": "Tuesday, May 14",
+                "related": "",
+                "policyScore": "low",
+                "justification": "",
+                "religion": "Judaism",
+                "type": "",
+                "relatedEntities": {},
+                "createDate": ""
             }
         },
         "type": "event4",
