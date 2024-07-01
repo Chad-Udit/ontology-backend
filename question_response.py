@@ -4635,7 +4635,7 @@ q19 = {
             "id": "10004"
         },
         "widgetBody": {
-            "content": "Created a case #10010",
+            "content": "Created a case #10004",
             "sourceType": "Ontology Rule",
             "source": "Combined Both Incident",
             "referenceThreat": "Hate Crime",
@@ -4967,7 +4967,7 @@ q25 = {
                     "containerType": "Case",
                     "policyScore": "Very High",
                     "assignee": "invg",
-                    "id": "10010"
+                    "id": "10005"
                 },
                 "widgetBody": {
                     "content": "Potential threat to 2024 independence day parade",
