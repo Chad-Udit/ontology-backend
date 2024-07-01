@@ -4943,8 +4943,25 @@ q24 = {
         ]
     },
     "payload": {
-        "knowledge": [
-            {
+        "knowledge": [],
+        "widgetType": "",
+        "actionKey": "event4_case_found"
+    }
+}
+
+q25 = {
+    "conversation": "Increased the General Crime Risk Level associated to the incident",
+    "payload": {
+        "data": {
+            "assumptionsTable": [
+                {
+                    "category": "General Crime",
+                    "concern": "Physical harm to JC members",
+                    "assumption": "Major correlation to property crime in the area",
+                    "confidenceScore": "9"
+                }
+            ],
+            "containerWidget": {
                 "widgetTitleBar": {
                     "timestamp": "2024/04/14 10:56:00",
                     "containerType": "Case",
@@ -4963,20 +4980,8 @@ q24 = {
                     ]
                 }
             }
-        ],
-        "widgetType": "",
-        "actionKey": "event4_case_found"
-    }
-}
-
-q25 = {
-    "conversation": "Increased the General Crime Risk Level associated to the incident",
-    "payload": {
-        "knowledge": [
-            {
-                "assumption": "Major correlation to property crime in the area"
-            }
-        ],
+        },
+        "knowledge": [],
         "widgetType": "N/A",
         "actionKey": "event4_update_crime"
     }
