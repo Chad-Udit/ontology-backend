@@ -2138,7 +2138,7 @@ q4 = {
                 "probability": "28",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "Hate Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2157,7 +2157,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2176,31 +2176,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2208,8 +2200,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2217,8 +2209,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2226,18 +2218,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2251,7 +2234,7 @@ q4 = {
                 "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "Hate Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2270,7 +2253,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2289,31 +2272,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2321,8 +2296,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2330,8 +2305,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2339,18 +2314,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2364,7 +2330,7 @@ q4 = {
                 "probability": "42",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "Hate Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2383,7 +2349,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2402,31 +2368,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2434,8 +2392,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2443,8 +2401,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2452,18 +2410,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2477,7 +2426,7 @@ q4 = {
                 "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "General Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2496,7 +2445,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2515,31 +2464,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2547,8 +2488,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2556,8 +2497,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2565,18 +2506,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2590,7 +2522,7 @@ q4 = {
                 "probability": "44",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "General Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2609,7 +2541,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2628,31 +2560,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2660,8 +2584,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2669,8 +2593,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2678,18 +2602,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2703,7 +2618,7 @@ q4 = {
                 "probability": "40",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "General Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2722,7 +2637,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2741,31 +2656,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2773,8 +2680,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2782,8 +2689,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2791,18 +2698,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
@@ -2816,7 +2714,7 @@ q4 = {
                 "probability": "35",
                 "mindMap": {
                     "widgetTitleBar": {
-                        "threatName": "Nuclear threat",
+                        "threatName": "General Crime",
                         "case": "10001",
                         "sources": [
                             "LinkedIn",
@@ -2835,7 +2733,7 @@ q4 = {
                             {
                                 "id": "1",
                                 "label": "Reference Threat",
-                                "description": "Bangladesh attacked by Nuclear weapon",
+                                "description": "Hate Crime",
                                 "policyScore": "",
                                 "children": [
                                     "2",
@@ -2854,31 +2752,23 @@ q4 = {
                                 "label": "Current aggregate threat level",
                                 "description": "",
                                 "policyScore": "Medium",
-                                "children": []
+                                "children": [
+                                    "4"
+                                ]
                             },
                             {
                                 "id": "4",
                                 "label": "Reference Scenario",
-                                "description": "Attack from stolen nuclear weapon",
+                                "description": "Physical harm to JC members",
                                 "policyScore": "",
                                 "children": [
-                                    "3",
                                     "5"
                                 ]
                             },
                             {
                                 "id": "5",
-                                "label": "",
-                                "description": "Nuclear Weapon stolen from NATO country",
-                                "policyScore": "",
-                                "children": [
-                                    "6"
-                                ]
-                            },
-                            {
-                                "id": "5",
-                                "label": "",
-                                "description": "Weapon stolen from Belgium",
+                                "label": "Sub-scenario",
+                                "description": "Tangible plans to attack members of the JC",
                                 "policyScore": "",
                                 "children": [
                                     "6"
@@ -2886,8 +2776,8 @@ q4 = {
                             },
                             {
                                 "id": "6",
-                                "label": "Threat Level",
-                                "description": "Low",
+                                "label": "Rules",
+                                "description": "[Names of JC member] appears in [Post] by [person of interest] and contains [words indicating violence]",
                                 "policyScore": "",
                                 "children": [
                                     "7"
@@ -2895,8 +2785,8 @@ q4 = {
                             },
                             {
                                 "id": "7",
-                                "label": "Rules",
-                                "description": "If two persons of interest enters Belgium at the same time",
+                                "label": "Activate",
+                                "description": "Emerging Threat",
                                 "policyScore": "",
                                 "children": [
                                     "8"
@@ -2904,18 +2794,9 @@ q4 = {
                             },
                             {
                                 "id": "8",
-                                "label": "",
-                                "description": "Increase Threat Level to",
-                                "policyScore": "Medium",
-                                "children": [
-                                    "9"
-                                ]
-                            },
-                            {
-                                "id": "9",
-                                "label": "Activate",
-                                "description": "Deeper Analysis",
-                                "policyScore": "",
+                                "label": "Increase Overall Threat Level to",
+                                "description": "",
+                                "policyScore": "High",
                                 "children": []
                             }
                         ]
