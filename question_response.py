@@ -68,8 +68,8 @@ invg = [
                 },
                 "triggers": [],
                 "mapIcon": "",
-                "latitude": "-37.87793930776059",
-                "longitude": "145.00714523915582",
+                "latitude": "-37.87758518234184,",
+                "longitude": "145.00723438043",
                 "createDate": ""
             },
             "assumptionsTable": [
