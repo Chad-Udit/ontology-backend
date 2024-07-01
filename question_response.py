@@ -19,7 +19,7 @@ invg = [
                 "referenceThreat": "Hate Crime"
             },
             "socialMediaWidget": {
-                "source": 'Facebook group "JOM - Jews of Melbourne"',
+                "source": 'JOM - Jews of Melbourne',
                 "author": {
                     "image": "http://dynamite.ddns.net/washington_img/sheila-schwartz.png",
                     "name": "Sheila Schwartz",
@@ -103,7 +103,7 @@ invg = [
                 "widgetBody": {
                     "content": "Suspicious Person Watching JC Homes",
                     "sourceType": "Social media",
-                    "source": "Facebook group 'JOM - Jews of Melbourne'",
+                    "source": "JOM - Jews of Melbourne",
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "Discussion about potential physical threat",
                     "tigger": [
@@ -219,7 +219,7 @@ invg = [
                 "widgetBody": {
                     "content": "Unusual Iconography By a Person of interest",
                     "sourceType": "Social media",
-                    "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
+                    "source": "Melbourne Islamic Lectures, Classes & Events",
                     "referenceThreat": "Hate Crime",
                     "referenceUseCase": "",
                     "tigger": [
@@ -282,7 +282,7 @@ invg = [
                         "widgetBody": {
                             "content": "Suspicious Person Watching JC Homes",
                             "sourceType": "Social media",
-                            "source": "Facebook group 'JOM - Jews of Melbourne'",
+                            "source": "JOM - Jews of Melbourne",
                             "referenceThreat": "Hate Crime",
                             "referenceUseCase": "Discussion about potential physical threat",
                             "tigger": [
@@ -3795,7 +3795,7 @@ q7 = {
     "payload": {
         "knowledge": [
             {
-                "source": 'Facebook group "Melbourne, Victoria, Australia"',
+                "source": 'JOM - Jews of Melbourne',
                 "author": {
                     "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
@@ -3849,7 +3849,7 @@ q7 = {
                 "createDate": ""
             },
             {
-                "source": 'Facebook group "Melbourne, Victoria, Australia"',
+                "source": 'JOM - Jews of Melbourne',
                 "author": {
                     "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
@@ -3903,7 +3903,7 @@ q7 = {
                 "createDate": ""
             },
             {
-                "source": 'Melbourne',
+                "source": 'JOM - Jews of Melbourne',
                 "author": {
                     "image": "http://dynamite.ddns.net/washington_img/emily-johnson.png",
                     "name": "Emily Johnson",
@@ -4482,7 +4482,7 @@ q16 = {
             "widgetBody": {
                 "content": "(Auto Generated) Incident Generated Based on Ontological Rule Based on Undocumented Iconography Pattern",
                 "sourceType": "Social media",
-                "source": "Facebook Group - Melbourne Islamic Lectures, Classes & Events",
+                "source": "Melbourne Islamic Lectures, Classes & Events",
                 "referenceThreat": "Hate Crime",
                 "referenceUseCase": "",
                 "tigger": [
