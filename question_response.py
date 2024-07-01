@@ -4951,36 +4951,36 @@ q24 = {
 
 q25 = {
     "conversation": "Increased the General Crime Risk Level associated to the incident",
-    "payload": {
-        "data": {
-            "assumptionsTable": [
-                {
-                    "category": "General Crime",
-                    "concern": "Physical harm to JC members",
-                    "assumption": "Major correlation to property crime in the area",
-                    "confidenceScore": "9"
-                }
-            ],
-            "containerWidget": {
-                "widgetTitleBar": {
-                    "timestamp": "2024/04/14 10:56:00",
-                    "containerType": "Case",
-                    "policyScore": "Very High",
-                    "assignee": "invg",
-                    "id": "10005"
-                },
-                "widgetBody": {
-                    "content": "Potential threat to 2024 independence day parade",
-                    "sourceType": "Ontological rule",
-                    "source": "Ontological rule",
-                    "referenceThreat": "Hate Crime",
-                    "referenceUseCase": "",
-                    "tigger": [
-                        "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
-                    ]
-                }
+    "data": {
+        "assumptionsTable": [
+            {
+                "category": "General Crime",
+                "concern": "Physical harm to JC members",
+                "assumption": "Major correlation to property crime in the area",
+                "confidenceScore": "9"
             }
-        },
+        ],
+        "containerWidget": {
+            "widgetTitleBar": {
+                "timestamp": "2024/04/14 10:56:00",
+                "containerType": "Case",
+                "policyScore": "Very High",
+                "assignee": "invg",
+                "id": "10005"
+            },
+            "widgetBody": {
+                "content": "Potential threat to 2024 independence day parade",
+                "sourceType": "Ontological rule",
+                "source": "Ontological rule",
+                "referenceThreat": "Hate Crime",
+                "referenceUseCase": "",
+                "tigger": [
+                    "repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+                ]
+            }
+        }
+    },
+    "payload": {
         "knowledge": [],
         "widgetType": "N/A",
         "actionKey": "event4_update_crime"
