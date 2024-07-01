@@ -4001,7 +4001,8 @@ q9 = {
                 "longitude": 145.023839,
                 "address": "4 Howitt St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869629,145.023839",
-                "date": "2023/11/15 00:00:00"
+                "date": "2023/11/15 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 2,
@@ -4010,7 +4011,8 @@ q9 = {
                 "longitude": 145.016572,
                 "address": "6 Garden St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867777,145.016572",
-                "date": "2023/10/27 00:00:00"
+                "date": "2023/10/27 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 3,
@@ -4019,7 +4021,8 @@ q9 = {
                 "longitude": 145.021575,
                 "address": "10 Kerferd Rd, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.873263,145.021575",
-                "date": "2023/09/14 00:00:00"
+                "date": "2023/09/14 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 4,
@@ -4028,7 +4031,8 @@ q9 = {
                 "longitude": 145.020285,
                 "address": "28 Wright St, Middle Park VIC 3206, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877182,145.020285",
-                "date": "2023/08/30 00:00:00"
+                "date": "2023/08/30 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 5,
@@ -4037,7 +4041,8 @@ q9 = {
                 "longitude": 145.016224,
                 "address": "11 Emerald Hill Rd, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878017,145.016224",
-                "date": "2023/07/22 00:00:00"
+                "date": "2023/07/22 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 6,
@@ -4046,7 +4051,8 @@ q9 = {
                 "longitude": 145.024891,
                 "address": "33 Stead St, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.879481,145.024891",
-                "date": "2023/06/14 00:00:00"
+                "date": "2023/06/14 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
             },
             {
                 "incidentNumber": 7,
@@ -4055,7 +4061,8 @@ q9 = {
                 "longitude": 145.028973,
                 "address": "55 Eastern Rd, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877889,145.028973",
-                "date": "2023/05/20 00:00:00"
+                "date": "2023/05/20 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 8,
@@ -4064,7 +4071,8 @@ q9 = {
                 "longitude": 145.032694,
                 "address": "18 Gladstone St, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878487,145.032694",
-                "date": "2023/04/11 00:00:00"
+                "date": "2023/04/11 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 9,
@@ -4073,7 +4081,8 @@ q9 = {
                 "longitude": 145.034172,
                 "address": "26 Bond St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871547,145.034172",
-                "date": "2023/03/19 00:00:00"
+                "date": "2023/03/19 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 10,
@@ -4082,7 +4091,8 @@ q9 = {
                 "longitude": 145.035184,
                 "address": "10 Portland Pl, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.874123,145.035184",
-                "date": "2023/02/27 00:00:00"
+                "date": "2023/02/27 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
             },
             {
                 "incidentNumber": 11,
@@ -4091,7 +4101,8 @@ q9 = {
                 "longitude": 145.031324,
                 "address": "29 Coventry St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872673,145.031324",
-                "date": "2023/01/15 00:00:00"
+                "date": "2023/01/15 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 12,
@@ -4100,7 +4111,8 @@ q9 = {
                 "longitude": 145.027622,
                 "address": "9 Moore St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870576,145.027622",
-                "date": "2023/02/05 00:00:00"
+                "date": "2023/02/05 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 13,
@@ -4109,7 +4121,8 @@ q9 = {
                 "longitude": 145.026561,
                 "address": "38 Meaden St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871847,145.026561",
-                "date": "2023/03/14 00:00:00"
+                "date": "2023/03/14 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 14,
@@ -4118,7 +4131,8 @@ q9 = {
                 "longitude": 145.025622,
                 "address": "55 Fawkner St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872126,145.025622",
-                "date": "2023/04/02 00:00:00"
+                "date": "2023/04/02 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 15,
@@ -4127,7 +4141,8 @@ q9 = {
                 "longitude": 145.024732,
                 "address": "31 York St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871854,145.024732",
-                "date": "2023/05/19 00:00:00"
+                "date": "2023/05/19 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 16,
@@ -4136,7 +4151,8 @@ q9 = {
                 "longitude": 145.023982,
                 "address": "19 Dinsdale St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870847,145.023982",
-                "date": "2023/06/28 00:00:00"
+                "date": "2023/06/28 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 17,
@@ -4145,7 +4161,8 @@ q9 = {
                 "longitude": 145.023112,
                 "address": "23 Grosvenor St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870562,145.023112",
-                "date": "2023/07/25 00:00:00"
+                "date": "2023/07/25 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 18,
@@ -4154,7 +4171,8 @@ q9 = {
                 "longitude": 145.022381,
                 "address": "30 Powell St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870984,145.022381",
-                "date": "2023/08/19 00:00:00"
+                "date": "2023/08/19 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 19,
@@ -4163,7 +4181,8 @@ q9 = {
                 "longitude": 145.021123,
                 "address": "16 Hawksburn Rd, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869837,145.021123",
-                "date": "2023/09/13 00:00:00"
+                "date": "2023/09/13 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 20,
@@ -4172,7 +4191,8 @@ q9 = {
                 "longitude": 145.020574,
                 "address": "12 Lexton Grove, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.868723,145.020574",
-                "date": "2023/10/01 00:00:00"
+                "date": "2023/10/01 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 21,
@@ -4181,7 +4201,8 @@ q9 = {
                 "longitude": 145.018275,
                 "address": "27 Derby St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867892,145.018275",
-                "date": "2023/11/05 00:00:00"
+                "date": "2023/11/05 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 22,
@@ -4190,7 +4211,8 @@ q9 = {
                 "longitude": 145.016982,
                 "address": "34 Hornby St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.865839,145.016982",
-                "date": "2023/12/21 00:00:00"
+                "date": "2023/12/21 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 23,
@@ -4199,7 +4221,8 @@ q9 = {
                 "longitude": 145.017223,
                 "address": "18 Eastbourne St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.864257,145.017223",
-                "date": "2023/01/18 00:00:00"
+                "date": "2023/01/18 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
             },
             {
                 "incidentNumber": 24,
@@ -4208,7 +4231,8 @@ q9 = {
                 "longitude": 145.016847,
                 "address": "14 Tyrone St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.861294,145.016847",
-                "date": "2023/02/14 00:00:00"
+                "date": "2023/02/14 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 25,
@@ -4217,7 +4241,8 @@ q9 = {
                 "longitude": 145.018562,
                 "address": "7 Horsburgh Grove, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.865472,145.018562",
-                "date": "2023/03/08 00:00:00"
+                "date": "2023/03/08 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 26,
@@ -4226,7 +4251,8 @@ q9 = {
                 "longitude": 145.019973,
                 "address": "19 Bowen St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867457,145.019973",
-                "date": "2023/04/23 00:00:00"
+                "date": "2023/04/23 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 27,
@@ -4235,7 +4261,8 @@ q9 = {
                 "longitude": 145.021863,
                 "address": "43 Kent St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869284,145.021863",
-                "date": "2023/05/29 00:00:00"
+                "date": "2023/05/29 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 28,
@@ -4244,7 +4271,8 @@ q9 = {
                 "longitude": 145.023694,
                 "address": "8 Llaneast St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.868435,145.023694",
-                "date": "2023/06/11 00:00:00"
+                "date": "2023/06/11 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 29,
@@ -4253,7 +4281,8 @@ q9 = {
                 "longitude": 145.024593,
                 "address": "5 Marlton Cres, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869237,145.024593",
-                "date": "2023/07/17 00:00:00"
+                "date": "2023/07/17 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 30,
@@ -4262,7 +4291,8 @@ q9 = {
                 "longitude": 145.025473,
                 "address": "13 Lorna St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870174,145.025473",
-                "date": "2023/08/13 00:00:00"
+                "date": "2023/08/13 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 31,
@@ -4271,7 +4301,8 @@ q9 = {
                 "longitude": 145.026274,
                 "address": "38 Wando Grove, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871284,145.026274",
-                "date": "2023/09/20 00:00:00"
+                "date": "2023/09/20 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 32,
@@ -4280,7 +4311,8 @@ q9 = {
                 "longitude": 145.027184,
                 "address": "20 Keverell St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872153,145.027184",
-                "date": "2023/10/29 00:00:00"
+                "date": "2023/10/29 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 33,
@@ -4289,7 +4321,8 @@ q9 = {
                 "longitude": 145.028174,
                 "address": "18 Almeric Ave, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.873287,145.028174",
-                "date": "2023/11/09 00:00:00"
+                "date": "2023/11/09 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 34,
@@ -4298,7 +4331,8 @@ q9 = {
                 "longitude": 145.029194,
                 "address": "21 Calder Rd, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.874583,145.029194",
-                "date": "2023/12/14 00:00:00"
+                "date": "2023/12/14 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
             },
             {
                 "incidentNumber": 35,
@@ -4307,7 +4341,8 @@ q9 = {
                 "longitude": 145.030174,
                 "address": "32 Barkly St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.875153,145.030174",
-                "date": "2023/01/12 00:00:00"
+                "date": "2023/01/12 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 36,
@@ -4316,7 +4351,8 @@ q9 = {
                 "longitude": 145.031124,
                 "address": "11 Alma Rd, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.876482,145.031124",
-                "date": "2023/02/22 00:00:00"
+                "date": "2023/02/22 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 37,
@@ -4325,7 +4361,8 @@ q9 = {
                 "longitude": 145.032174,
                 "address": "27 Acland St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877738,145.032174",
-                "date": "2023/03/16 00:00:00"
+                "date": "2023/03/16 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 38,
@@ -4334,7 +4371,8 @@ q9 = {
                 "longitude": 145.033214,
                 "address": "49 Carlisle St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878943,145.033214",
-                "date": "2023/04/12 00:00:00"
+                "date": "2023/04/12 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 39,
@@ -4343,7 +4381,8 @@ q9 = {
                 "longitude": 145.034174,
                 "address": "6 Inkerman St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.879523,145.034174",
-                "date": "2023/05/18 00:00:00"
+                "date": "2023/05/18 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
             },
             {
                 "incidentNumber": 40,
@@ -4352,7 +4391,8 @@ q9 = {
                 "longitude": 145.035124,
                 "address": "22 Duke St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.880472,145.035124",
-                "date": "2023/06/20 00:00:00"
+                "date": "2023/06/20 00:00:00",
+                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
             }
         ],
         "widgetType": "PROPERTY_CRIME_TABLE",
@@ -4587,24 +4627,24 @@ q18 = {
 q19 = {
     "conversation": "Created a case #10004",
     "data": {
-                "widgetTitleBar": {
-                    "timestamp": "2024/02/25 11:26:00",
-                    "containerType": "Case",
-                    "policyScore": "High",
-                    "assignee": "invg",
-                    "id": "10004"
-                },
-                "widgetBody": {
-                    "content": "Created a case #10010",
-                    "sourceType": "Ontology Rule",
-                    "source": "Combined Both Incident",
-                    "referenceThreat": "Hate Crime",
-                    "referenceUseCase": "",
-                    "tigger": [
-                        "Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
-                    ]
-                }
-            },
+        "widgetTitleBar": {
+            "timestamp": "2024/02/25 11:26:00",
+            "containerType": "Case",
+            "policyScore": "High",
+            "assignee": "invg",
+            "id": "10004"
+        },
+        "widgetBody": {
+            "content": "Created a case #10010",
+            "sourceType": "Ontology Rule",
+            "source": "Combined Both Incident",
+            "referenceThreat": "Hate Crime",
+            "referenceUseCase": "",
+            "tigger": [
+                "Repeated iconography in the comments of a post by a person of interest marked as a potnetial threat"
+            ]
+        }
+    },
     "payload": {
         "knowledge": [],
         "widgetType": "CONTAINER_WIDGET",
@@ -4878,29 +4918,29 @@ q23 = {
 q24 = {
     "conversation": "Case #10002 'suspicious person watching JC homes' has over 85% locations overlapping with the above route.",
     "formatting": {
-      "conversation": [
-        {
-          "text": "Case #10002 'suspicious person watching JC homes'",
-          "format": "anchortag",
-          "event": "event1",
-          "source": "containerWidget"
-        },
-        {
-          "text": "has over 85% locations overlapping with the above route.",
-          "format": "text",
-          "event": "",
-          "source": ""
-        }
-      ],
-      "buttons": [
-        {
+        "conversation": [
+            {
+                "text": "Case #10002 'suspicious person watching JC homes'",
+                "format": "anchortag",
+                "event": "event1",
+                "source": "containerWidget"
+            },
+            {
+                "text": "has over 85% locations overlapping with the above route.",
+                "format": "text",
+                "event": "",
+                "source": ""
+            }
+        ],
+        "buttons": [
+            {
                 "position": "bottomRight",
                 "text": "Add to canvas?",
                 "styles": "",
                 "event": "event1",
                 "action": "show_location"
             }
-      ]
+        ]
     },
     "payload": {
         "knowledge": [
