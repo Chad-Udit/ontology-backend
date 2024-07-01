@@ -375,9 +375,9 @@ invg = [
                     ]
                 },
                 "widgetBody": {
-                    "content": "Date Of Intrest 'Israel Independence Day Parade'",
-                    "sourceType": "Ontoligical rule",
-                    "source": "Date Of Intrest 'Israel Independence Day Parade'",
+                    "content": "Date Of Interest 'Israel Independence Day Parade'",
+                    "sourceType": "Ontological rule",
+                    "source": "Date Of Interest 'Israel Independence Day Parade'",
                     "actionButtons": [
                         "Ontology Widget"
                     ],
@@ -4516,7 +4516,7 @@ q16 = {
         "notificationPanel": {
             "type": "Notification",
             "timestamp": "2024/04/03 12:23:00",
-            "content": "Auto Generated: Incident Generated Base on Ontology Rule Based on Undocumented Iconography Pattern",
+            "content": "Auto Generated: Detected pattern that resulted in the creation of an incident will be shared with the JC ontology owner",
             "sourceType": "Social media"
         },
         "contextPanel": {
@@ -4535,7 +4535,7 @@ q16 = {
                 "id": "10008"
             },
             "widgetBody": {
-                "content": "(Auto Generated) Incident Generated Based on Ontological Rule Based on Undocumented Iconography Pattern",
+                "content": "(Auto Generated) Detected pattern that resulted in the creation of an incident will be shared with the JC ontology owner",
                 "sourceType": "Social media",
                 "source": "Melbourne Islamic Lectures, Classes & Events",
                 "referenceThreat": "Hate Crime",
