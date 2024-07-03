@@ -21,7 +21,7 @@ invg = [
             "socialMediaWidget": {
                 "source": 'JOM - Jews of Melbourne',
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/sheila-schwartz.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/sheila-schwartz.png",
                     "name": "Sheila Schwartz",
                     "personOfInterest": {
                         "name": "Sheila Schwartz",
@@ -29,8 +29,8 @@ invg = [
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/sheila-schwartz.png",
-                            "http://dynamite.ddns.net/washington_img/sheila-schwartz.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/sheila-schwartz.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/sheila-schwartz.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -62,7 +62,7 @@ invg = [
                     },
                     "shares": 2,
                     "totalComments": 15,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/jom-sheila-schwartz-post-2024-02-05-10-07.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/jom-sheila-schwartz-post-2024-02-05-10-07.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -137,7 +137,7 @@ invg = [
             "socialMediaWidget": {
                 "source": "Melbourne Islamic Lectures, Classes & Events",
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
                     "name": "Bilal Elcheikh",
                     "personOfInterest": {
                         "name": "Bilal Elcheikh",
@@ -145,8 +145,8 @@ invg = [
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -178,7 +178,7 @@ invg = [
                     },
                     "shares": 4,
                     "totalComments": 47,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-original-post.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh-original-post.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -317,8 +317,8 @@ invg = [
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -2825,7 +2825,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route01-start-point.png",
                     "address": "450-388 Orrong Rd, Armadale VIC 3143, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -2836,7 +2836,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route01-end-point.png",
                     "address": "377 State Route 22, Caulfield VIC 3162, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -2848,7 +2848,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route01-way-point01.png",
                         "address": "42C4+RV8 Caulfield North, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2859,7 +2859,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route01-way-point02.png",
                         "address": "42R6+C45 Armadale, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -2906,7 +2906,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-start-point.png",
                     "address": "258 Dandenong Rd, St Kilda East VIC 3183, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -2917,7 +2917,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-end-point.png",
                     "address": "238-232 State Route 22, Elsternwick VIC 3185, Australia ",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -2929,7 +2929,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point01.png",
                         "address": "168 Hotham St, St Kilda East VIC 3183, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2940,7 +2940,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route01-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route01-way-point01.png",
                         "address": "42C4+RV8 Caulfield North, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2951,7 +2951,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point03.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2962,7 +2962,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2973,7 +2973,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2984,7 +2984,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -2995,7 +2995,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3006,7 +3006,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route02-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route02-way-point04.png",
                         "address": "42C4+QVM St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3098,7 +3098,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route03-start-point.png",
                     "address": "42M2+C2J, St Kilda East VIC 3183, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3109,7 +3109,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route03-end-point.png",
                     "address": "700 Inkerman Rd, Caulfield North VIC 3161, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3121,7 +3121,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route03-way-point01.png",
                         "address": "42M2+C2 St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3132,7 +3132,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route03-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route03-way-point02.png",
                         "address": "42M2+C2 St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3179,7 +3179,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route-04-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route-04-start-point.png",
                     "address": "155-153 Alma Rd, St Kilda East VIC 3183, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3190,7 +3190,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route04-end-point.png",
                     "address": "Alma Rd, Armadale VIC 3143, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3202,7 +3202,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route04-way-point01.png",
                         "address": "42Q2+F75 St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3213,7 +3213,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route04-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route04-way-point02.png",
                         "address": "42Q2+F9 St Kilda East, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3260,7 +3260,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route05-start-point.png",
                     "address": "4XJX+5QQ St Kilda East, Victoria, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3271,7 +3271,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route05-end-point.png",
                     "address": "236 Balaclava Rd, Caulfield North VIC 3161, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3283,7 +3283,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route05-way-point01.png",
                         "address": "315 Carlisle St, Balaclava VIC 3183, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3294,7 +3294,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route05-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route05-way-point02.png",
                         "address": "315 Carlisle St, Balaclava VIC 3183, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3341,7 +3341,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-start-point.png",
                     "address": "428C+2XG Caulfield, Victoria, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3352,7 +3352,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-end-point.png",
                     "address": "Neerim Rd, Glen Huntly VIC 3163, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3364,7 +3364,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point01.png",
                         "address": "319 Hawthorn Rd, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3375,7 +3375,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point02.png",
                         "address": "302-298 Hawthorn Rd, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3386,7 +3386,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point03.png",
                         "address": "26-30 Masters St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3397,7 +3397,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point03.png",
                         "address": "27 Briggs St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3408,7 +3408,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point03.png",
                         "address": "27 Briggs St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3419,7 +3419,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point03.png",
                         "address": "27 Briggs St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3430,7 +3430,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point04.png",
                         "address": "27 Briggs St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3441,7 +3441,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point04.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point04.png",
                         "address": "27 Briggs St, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3452,7 +3452,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point05.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point05.png",
                         "address": "150-152 Bambra Rd, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3463,7 +3463,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route06-way-point06.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route06-way-point06.png",
                         "address": "150 Bambra Rd, Caulfield VIC 3162, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3582,7 +3582,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-start-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route07-start-point.png",
                     "address": "4X8W+FRF Elsternwick, Victoria, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3593,7 +3593,7 @@ q5 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-end-point.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route07-end-point.png",
                     "address": "250-244 Hawthorn Rd, Caulfield VIC 3162, Australia",
                     "justification": "Garbage Route Collection Melborne City"
                 },
@@ -3605,7 +3605,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point01.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route07-way-point01.png",
                         "address": "4X8W+XQ6 Ripponlea, Victoria, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3616,7 +3616,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point02.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route07-way-point02.png",
                         "address": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     },
@@ -3627,7 +3627,7 @@ q5 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/gmc-route07-way-point03.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/gmc-route07-way-point03.png",
                         "address": "192-190 Glen Huntly Rd, Elsternwick VIC 3185, Australia",
                         "justification": "Garbage Route Collection Melborne City"
                     }
@@ -3693,7 +3693,7 @@ q7 = {
             {
                 "source": 'JOM - Jews of Melbourne',
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
                     "personOfInterest": {
                         "name": "Matthew Smith",
@@ -3701,8 +3701,8 @@ q7 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/matthew-smith.png",
-                            "http://dynamite.ddns.net/washington_img/matthew-smith.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -3734,7 +3734,7 @@ q7 = {
                     },
                     "shares": 0,
                     "totalComments": 3,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-original-post.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith-original-post.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -3747,7 +3747,7 @@ q7 = {
             {
                 "source": 'JOM - Jews of Melbourne',
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/matthew-smith.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png",
                     "name": "Matthew Smith",
                     "personOfInterest": {
                         "name": "Matthew Smith",
@@ -3755,8 +3755,8 @@ q7 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/matthew-smith.png",
-                            "http://dynamite.ddns.net/washington_img/matthew-smith.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -3788,7 +3788,7 @@ q7 = {
                     },
                     "shares": 0,
                     "totalComments": 2,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/matthew-smith-update-post.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/matthew-smith-update-post.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -3801,7 +3801,7 @@ q7 = {
             {
                 "source": 'JOM - Jews of Melbourne',
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/emily-johnson.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/emily-johnson.png",
                     "name": "Emily Johnson",
                     "personOfInterest": {
                         "name": "Emily Johnson",
@@ -3809,8 +3809,8 @@ q7 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/emily-johnson.png",
-                            "http://dynamite.ddns.net/washington_img/emily-johnson.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/emily-johnson.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/emily-johnson.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "",
@@ -3842,7 +3842,7 @@ q7 = {
                     },
                     "shares": 2,
                     "totalComments": 3,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/emilly-johnson-original-post.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/emilly-johnson-original-post.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -3883,7 +3883,7 @@ q9 = {
                 "address": "4 Howitt St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869629,145.023839",
                 "date": "2023/11/15 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 2,
@@ -3893,7 +3893,7 @@ q9 = {
                 "address": "6 Garden St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867777,145.016572",
                 "date": "2023/10/27 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 3,
@@ -3903,7 +3903,7 @@ q9 = {
                 "address": "10 Kerferd Rd, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.873263,145.021575",
                 "date": "2023/09/14 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 4,
@@ -3913,7 +3913,7 @@ q9 = {
                 "address": "28 Wright St, Middle Park VIC 3206, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877182,145.020285",
                 "date": "2023/08/30 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 5,
@@ -3923,7 +3923,7 @@ q9 = {
                 "address": "11 Emerald Hill Rd, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878017,145.016224",
                 "date": "2023/07/22 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 6,
@@ -3933,7 +3933,7 @@ q9 = {
                 "address": "33 Stead St, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.879481,145.024891",
                 "date": "2023/06/14 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png"
             },
             {
                 "incidentNumber": 7,
@@ -3943,7 +3943,7 @@ q9 = {
                 "address": "55 Eastern Rd, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877889,145.028973",
                 "date": "2023/05/20 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 8,
@@ -3953,7 +3953,7 @@ q9 = {
                 "address": "18 Gladstone St, South Melbourne VIC 3205, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878487,145.032694",
                 "date": "2023/04/11 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 9,
@@ -3963,7 +3963,7 @@ q9 = {
                 "address": "26 Bond St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871547,145.034172",
                 "date": "2023/03/19 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 10,
@@ -3973,7 +3973,7 @@ q9 = {
                 "address": "10 Portland Pl, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.874123,145.035184",
                 "date": "2023/02/27 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png"
             },
             {
                 "incidentNumber": 11,
@@ -3983,7 +3983,7 @@ q9 = {
                 "address": "29 Coventry St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872673,145.031324",
                 "date": "2023/01/15 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 12,
@@ -3993,7 +3993,7 @@ q9 = {
                 "address": "9 Moore St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870576,145.027622",
                 "date": "2023/02/05 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 13,
@@ -4003,7 +4003,7 @@ q9 = {
                 "address": "38 Meaden St, Southbank VIC 3006, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871847,145.026561",
                 "date": "2023/03/14 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 14,
@@ -4013,7 +4013,7 @@ q9 = {
                 "address": "55 Fawkner St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872126,145.025622",
                 "date": "2023/04/02 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 15,
@@ -4023,7 +4023,7 @@ q9 = {
                 "address": "31 York St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871854,145.024732",
                 "date": "2023/05/19 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 16,
@@ -4033,7 +4033,7 @@ q9 = {
                 "address": "19 Dinsdale St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870847,145.023982",
                 "date": "2023/06/28 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 17,
@@ -4043,7 +4043,7 @@ q9 = {
                 "address": "23 Grosvenor St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870562,145.023112",
                 "date": "2023/07/25 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 18,
@@ -4053,7 +4053,7 @@ q9 = {
                 "address": "30 Powell St, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870984,145.022381",
                 "date": "2023/08/19 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 19,
@@ -4063,7 +4063,7 @@ q9 = {
                 "address": "16 Hawksburn Rd, South Yarra VIC 3141, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869837,145.021123",
                 "date": "2023/09/13 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 20,
@@ -4073,7 +4073,7 @@ q9 = {
                 "address": "12 Lexton Grove, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.868723,145.020574",
                 "date": "2023/10/01 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 21,
@@ -4083,7 +4083,7 @@ q9 = {
                 "address": "27 Derby St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867892,145.018275",
                 "date": "2023/11/05 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 22,
@@ -4093,7 +4093,7 @@ q9 = {
                 "address": "34 Hornby St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.865839,145.016982",
                 "date": "2023/12/21 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 23,
@@ -4103,7 +4103,7 @@ q9 = {
                 "address": "18 Eastbourne St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.864257,145.017223",
                 "date": "2023/01/18 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png"
             },
             {
                 "incidentNumber": 24,
@@ -4113,7 +4113,7 @@ q9 = {
                 "address": "14 Tyrone St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.861294,145.016847",
                 "date": "2023/02/14 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 25,
@@ -4123,7 +4123,7 @@ q9 = {
                 "address": "7 Horsburgh Grove, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.865472,145.018562",
                 "date": "2023/03/08 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 26,
@@ -4133,7 +4133,7 @@ q9 = {
                 "address": "19 Bowen St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.867457,145.019973",
                 "date": "2023/04/23 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 27,
@@ -4143,7 +4143,7 @@ q9 = {
                 "address": "43 Kent St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869284,145.021863",
                 "date": "2023/05/29 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 28,
@@ -4153,7 +4153,7 @@ q9 = {
                 "address": "8 Llaneast St, Windsor VIC 3181, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.868435,145.023694",
                 "date": "2023/06/11 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png"
             },
             {
                 "incidentNumber": 29,
@@ -4163,7 +4163,7 @@ q9 = {
                 "address": "5 Marlton Cres, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.869237,145.024593",
                 "date": "2023/07/17 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/identity-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/identity-theft.png"
             },
             {
                 "incidentNumber": 30,
@@ -4173,7 +4173,7 @@ q9 = {
                 "address": "13 Lorna St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.870174,145.025473",
                 "date": "2023/08/13 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 31,
@@ -4183,7 +4183,7 @@ q9 = {
                 "address": "38 Wando Grove, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.871284,145.026274",
                 "date": "2023/09/20 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/shoplifting.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shoplifting.png"
             },
             {
                 "incidentNumber": 32,
@@ -4193,7 +4193,7 @@ q9 = {
                 "address": "20 Keverell St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.872153,145.027184",
                 "date": "2023/10/29 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/motor-vehicle-theft.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/motor-vehicle-theft.png"
             },
             {
                 "incidentNumber": 33,
@@ -4203,7 +4203,7 @@ q9 = {
                 "address": "18 Almeric Ave, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.873287,145.028174",
                 "date": "2023/11/09 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 34,
@@ -4213,7 +4213,7 @@ q9 = {
                 "address": "21 Calder Rd, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.874583,145.029194",
                 "date": "2023/12/14 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png"
             },
             {
                 "incidentNumber": 35,
@@ -4223,7 +4223,7 @@ q9 = {
                 "address": "32 Barkly St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.875153,145.030174",
                 "date": "2023/01/12 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png"
             },
             {
                 "incidentNumber": 36,
@@ -4233,7 +4233,7 @@ q9 = {
                 "address": "11 Alma Rd, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.876482,145.031124",
                 "date": "2023/02/22 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/burglary.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/burglary.png"
             },
             {
                 "incidentNumber": 37,
@@ -4243,7 +4243,7 @@ q9 = {
                 "address": "27 Acland St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.877738,145.032174",
                 "date": "2023/03/16 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/larceny.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/larceny.png"
             },
             {
                 "incidentNumber": 38,
@@ -4253,7 +4253,7 @@ q9 = {
                 "address": "49 Carlisle St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.878943,145.033214",
                 "date": "2023/04/12 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/fraud.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/fraud.png"
             },
             {
                 "incidentNumber": 39,
@@ -4263,7 +4263,7 @@ q9 = {
                 "address": "6 Inkerman St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.879523,145.034174",
                 "date": "2023/05/18 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png"
             },
             {
                 "incidentNumber": 40,
@@ -4273,7 +4273,7 @@ q9 = {
                 "address": "22 Duke St, St Kilda VIC 3182, Australia",
                 "linkToGoogleMaps": "https://www.google.com/maps?q=-37.880472,145.035124",
                 "date": "2023/06/20 00:00:00",
-                "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png"
+                "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png"
             }
         ],
         "widgetType": "PROPERTY_CRIME_TABLE",
@@ -4429,7 +4429,7 @@ q16 = {
         "socialMediaWidget": {
             "source": "Melbourne Islamic Lectures, Classes & Events",
             "author": {
-                "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                "image": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
                 "name": "Bilal Elcheikh",
                 "personOfInterest": {
                     "name": "Bilal Elcheikh",
@@ -4437,8 +4437,8 @@ q16 = {
                     "type": "",
                     "createDate": "",
                     "imageUrls": [
-                        "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                        "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                        "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                        "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                     ],
                     "relatedContainers": [],
                     "interestLevel": "medium",
@@ -4470,7 +4470,7 @@ q16 = {
                 },
                 "shares": 0,
                 "totalComments": 2,
-                "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post01.png",
+                "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh-post01.png",
                 "translatedText": "",
                 "linguisticAnalytics": "Potnetial antisemitic connotation: Phrase from the Hadith: “O Muslim, there is a Jew behind me. Come and kill him” {حتى يقول الشجر والحجر: يا مسلم، يا عبدالله، هذا يهودي تعال فاقتله}"
             },
@@ -4540,7 +4540,7 @@ q21 = {
             {
                 "source": "Melbourne Islamic Lectures, Classes & Events",
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
                     "name": "Bilal Elcheikh",
                     "personOfInterest": {
                         "name": "Bilal Elcheikh",
@@ -4548,8 +4548,8 @@ q21 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "medium",
@@ -4581,7 +4581,7 @@ q21 = {
                     },
                     "shares": 0,
                     "totalComments": 2,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post01.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh-post01.png",
                     "translatedText": "",
                     "linguisticAnalytics": "Potnetial antisemitic connotation: Phrase from the Hadith: “O Muslim, there is a Jew behind me. Come and kill him” {حتى يقول الشجر والحجر: يا مسلم، يا عبدالله، هذا يهودي تعال فاقتله}"
                 },
@@ -4594,7 +4594,7 @@ q21 = {
             {
                 "source": "Bilal Elcheikh",
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
                     "name": "Bilal Elcheikh",
                     "personOfInterest": {
                         "name": "Bilal Elcheikh",
@@ -4602,8 +4602,8 @@ q21 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "medium",
@@ -4635,7 +4635,7 @@ q21 = {
                     },
                     "shares": 0,
                     "totalComments": 3,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post02.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh-post02.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -4648,7 +4648,7 @@ q21 = {
             {
                 "source": "Bilal Elcheikh",
                 "author": {
-                    "image": "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
+                    "image": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
                     "name": "Bilal Elcheikh",
                     "personOfInterest": {
                         "name": "Bilal Elcheikh",
@@ -4656,8 +4656,8 @@ q21 = {
                         "type": "",
                         "createDate": "",
                         "imageUrls": [
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png",
-                            "http://dynamite.ddns.net/washington_img/bilal-elcheikh.png"
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png",
+                            "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh.png"
                         ],
                         "relatedContainers": [],
                         "interestLevel": "medium",
@@ -4689,7 +4689,7 @@ q21 = {
                     },
                     "shares": 0,
                     "totalComments": 1,
-                    "originalPostLink": "http://dynamite.ddns.net/washington_img/bilal-elcheikh-post03.png",
+                    "originalPostLink": "https://washinton-be.datafabdevelopment.com/washington_img/bilal-elcheikh-post03.png",
                     "translatedText": "",
                     "linguisticAnalytics": ""
                 },
@@ -4721,7 +4721,7 @@ q23 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/parade-location01.jpg",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/parade-location01.jpg",
                     "address": "572 Inkerman Rd, Caulfield North VIC 3161",
                     "justification": "Parade Starting Place"
                 },
@@ -4732,7 +4732,7 @@ q23 = {
                     "mapIcon": "",
                     "createDate": "",
                     "createUser": "",
-                    "imageUrl": "http://dynamite.ddns.net/washington_img/glen-eira-rd-and-orrong-rd.png",
+                    "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/glen-eira-rd-and-orrong-rd.png",
                     "address": "Glen Eira Rd & Orrong Rd",
                     "justification": "Parade Ending Place"
                 },
@@ -4744,7 +4744,7 @@ q23 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/balcava-rd.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/balcava-rd.png",
                         "address": "Balcava Road",
                         "justification": "Parade Turning Point 01"
                     },
@@ -4755,7 +4755,7 @@ q23 = {
                         "mapIcon": "",
                         "createDate": "",
                         "createUser": "",
-                        "imageUrl": "http://dynamite.ddns.net/washington_img/balcava-rd.png",
+                        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/balcava-rd.png",
                         "address": "Orrong Road",
                         "justification": "Parade Turning Point 02"
                     }
@@ -4899,7 +4899,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/south-yara.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/south-yara.png",
         "description": "Community Centre",
         "sensitivity": "",
         "social": "",
@@ -4931,7 +4931,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/brighton-hill.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/brighton-hill.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -4963,7 +4963,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/st-john.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/st-john.png",
         "description": "High School",
         "sensitivity": "",
         "social": "",
@@ -4995,7 +4995,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/greenmade.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/greenmade.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5027,7 +5027,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/cedar-house.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/cedar-house.png",
         "description": "Adults Community Centre",
         "sensitivity": "",
         "social": "",
@@ -5059,7 +5059,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/northsea.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/northsea.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5091,7 +5091,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/hobba.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/hobba.png",
         "description": "Early Learning Centre",
         "sensitivity": "",
         "social": "",
@@ -5123,7 +5123,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/north-prahan.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/north-prahan.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5155,7 +5155,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/motherwell.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/motherwell.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -5187,7 +5187,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/macfarlan.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/macfarlan.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5219,7 +5219,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/osborne.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/osborne.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -5251,7 +5251,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/mill-hill.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/mill-hill.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5283,7 +5283,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/townside.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/townside.png",
         "description": "Public Pool",
         "sensitivity": "",
         "social": "",
@@ -5315,7 +5315,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/grenville.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/grenville.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -5347,7 +5347,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/powell-side.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/powell-side.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5379,7 +5379,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/osborne-st.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/osborne-st.png",
         "description": "Muncipality office",
         "sensitivity": "",
         "social": "",
@@ -5411,7 +5411,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/st-martin.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/st-martin.png",
         "description": "School",
         "sensitivity": "",
         "social": "",
@@ -5443,7 +5443,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/hampstead.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/hampstead.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5475,7 +5475,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/toorak-rd.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/toorak-rd.png",
         "description": "Sports Centre",
         "sensitivity": "",
         "social": "",
@@ -5507,7 +5507,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/sir-francis-hackney.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/sir-francis-hackney.png",
         "description": "Library",
         "sensitivity": "",
         "social": "",
@@ -5539,7 +5539,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/1-clarck.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/1-clarck.png",
         "description": "Community Centre",
         "sensitivity": "",
         "social": "",
@@ -5571,7 +5571,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/greelong.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/greelong.png",
         "description": "Primary School",
         "sensitivity": "",
         "social": "",
@@ -5603,7 +5603,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/hackney.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/hackney.png",
         "description": "Sports Centre",
         "sensitivity": "",
         "social": "",
@@ -5635,7 +5635,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/bushy.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/bushy.png",
         "description": "Sports Centre",
         "sensitivity": "",
         "social": "",
@@ -5699,7 +5699,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/south-edgware.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/south-edgware.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5731,7 +5731,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/king-henry.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/king-henry.png",
         "description": "Library",
         "sensitivity": "",
         "social": "",
@@ -5763,7 +5763,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/greenleaf.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/greenleaf.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5795,7 +5795,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/holloway.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/holloway.png",
         "description": "High School",
         "sensitivity": "",
         "social": "",
@@ -5827,7 +5827,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/commo-house.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/commo-house.png",
         "description": "Community Centre",
         "sensitivity": "",
         "social": "",
@@ -5859,7 +5859,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/kevin-barllet.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/kevin-barllet.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5891,7 +5891,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/busy-beez.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/busy-beez.png",
         "description": "Early Learning Centre",
         "sensitivity": "",
         "social": "",
@@ -5923,7 +5923,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/east-caulfield.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/east-caulfield.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -5955,7 +5955,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/epsom.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/epsom.png",
         "description": "Primary School",
         "sensitivity": "",
         "social": "",
@@ -5987,7 +5987,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/masonic.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/masonic.png",
         "description": "Children Playground",
         "sensitivity": "",
         "social": "",
@@ -6019,7 +6019,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/ardrie-park.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/ardrie-park.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6083,7 +6083,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/h2.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/h2.png",
         "description": "High School",
         "sensitivity": "",
         "social": "",
@@ -6115,7 +6115,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/ashborne.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/ashborne.png",
         "description": "Sports Centre",
         "sensitivity": "",
         "social": "",
@@ -6147,7 +6147,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/hawthorn.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/hawthorn.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6179,7 +6179,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/airedale.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/airedale.png",
         "description": "Cementry",
         "sensitivity": "",
         "social": "",
@@ -6211,7 +6211,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/rivoli.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/rivoli.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6243,7 +6243,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/camberwell.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/camberwell.png",
         "description": "Primary School",
         "sensitivity": "",
         "social": "",
@@ -6275,7 +6275,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/queen-victoria.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/queen-victoria.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6307,7 +6307,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/catenbury.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/catenbury.png",
         "description": "Sports Centre",
         "sensitivity": "",
         "social": "",
@@ -6339,7 +6339,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/shenley-place.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/shenley-place.png",
         "description": "Toy Library",
         "sensitivity": "",
         "social": "",
@@ -6371,7 +6371,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/norway-reserve.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/norway-reserve.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6403,7 +6403,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/oak-street.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/oak-street.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -6435,7 +6435,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/melbourne-cardiology-centre.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/melbourne-cardiology-centre.png",
         "description": "Medical Centre",
         "sensitivity": "",
         "social": "",
@@ -6467,7 +6467,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "municipality",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/princess-park.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/princess-park.png",
         "description": "Public Park",
         "sensitivity": "",
         "social": "",
@@ -6499,7 +6499,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png",
         "description": "Displayed a banner reading “Expose Jewish Power” in front of a train station in Melbourne, boarded a train, handed out materials and asked passengers if they were Jewish. People affiliated with NSN posted picture of the incident and propagating the antisemitic Great Replacement conspiracy theory and on the social media platform Gab, and asserted “Expose Jewish power because Jews slander gentile nationalists as baby-killers and terrorists, all the while Israel fires a missile into a Palestinian hospital killing hundreds of women and children.”",
         "sensitivity": "",
         "social": "",
@@ -6531,7 +6531,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png",
         "description": "Two pieces of graffiti, both composed of “Kill JEWS”, were written on the pavement in south Melbourne.",
         "sensitivity": "",
         "social": "",
@@ -6595,7 +6595,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png",
         "description": "Jewish students threatened with a knife on a bus in Melbourne, Australia. Jewish Students from the Leibler Yavneh College in Australia were traveling on a public bus when they were abused with antisemitic obscenities by a knife-wielding man on Thursday, according to a press release from the Anti-Defamation Commission (ADC).",
         "sensitivity": "",
         "social": "",
@@ -6627,7 +6627,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png",
         "description": "A Jewish family from Melbourne told Daily Mail Australia that their teenage daughter had been targeted by high school students. Her mother, who wished to remain anonymous, said a series of antisemitic incidents had been directed at her daughter since the start of the year, well before the current Israel/Hamas conflict. 'She has been sent swastikas online. One child repeatedly approached her and told her 'Knock Knock' jokes in which the butt of the jokes are ""dead Jews"",' she said. 'Another student approached her and declared: ""I will gas you and your whole family"".'",
         "sensitivity": "",
         "social": "",
@@ -6659,7 +6659,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/arson.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/arson.png",
         "description": '''"Clashes between pro-Palestinian and pro-Israeli groups in Melbourne's south-east.\nA rally was organised on Friday, with a spokesperson for Free Palestine Melbourne saying it was organised in response to an arson attack on a burger shop on Glenhuntly Road in Caulfield, owned by a man of Palestinian heritage.\nPolice said on Friday they were treating the fire at Burgertory as suspicious, but repeatedly said they did not believe it was linked to the owner's attendance at an earlier pro-Palestinian rally.\nSmall numbers of people, some draped in Israeli flags, had gathered near the boarded-up burger store throughout the day."''',
         "sensitivity": "",
         "social": "",
@@ -6691,7 +6691,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png",
         "description": "The word 'genocide' and a picture of the Palestinian flag were found spray-painted across the Beth Weizmann Community Centre.",
         "sensitivity": "",
         "social": "",
@@ -6755,7 +6755,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/vandalizm.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/vandalizm.png",
         "description": "Rabbi walking with young child on Melbourne street confronted with alleged antisemitic threats",
         "sensitivity": "",
         "social": "",
@@ -6787,7 +6787,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "past_incidents",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/robbery.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/robbery.png",
         "description": '''"A member of Melbourne’s Jewish community claims she and her husband were attacked by pro-Palestinian protestors outside the Melbourne Town Hall.\nThe attack happened last night as the City of Melbourne voted down a motion for the council to call for a ceasefire in Gaza."''',
         "sensitivity": "",
         "social": "",
@@ -6819,7 +6819,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/layla_ahmed_ibrahim.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/layla_ahmed_ibrahim.png",
         "description": "Took photos of the jewish community ",
         "sensitivity": "",
         "social": "",
@@ -6851,7 +6851,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/jamal_hassan_reza.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/jamal_hassan_reza.png",
         "description": "wrote antisemitic post on Facebook",
         "sensitivity": "",
         "social": "",
@@ -6883,7 +6883,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/yasmin_aisha_khatun.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/yasmin_aisha_khatun.png",
         "description": "Antisemitic comment on Twitter",
         "sensitivity": "",
         "social": "",
@@ -6915,7 +6915,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/amir_mohammed_farhan.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/amir_mohammed_farhan.png",
         "description": "Clashed with young Jews near a synagogue",
         "sensitivity": "",
         "social": "",
@@ -6947,7 +6947,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/sara_bint_abdullah.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/sara_bint_abdullah.png",
         "description": "Antisemitic comment on Twitter",
         "sensitivity": "",
         "social": "",
@@ -6979,7 +6979,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/khalid_reza_ali.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/khalid_reza_ali.png",
         "description": "Threatening a Jewish student ",
         "sensitivity": "",
         "social": "",
@@ -7011,7 +7011,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/noor_fatima_bint_mohammed.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/noor_fatima_bint_mohammed.png",
         "description": "Laughing emoji under antisemitic post",
         "sensitivity": "",
         "social": "",
@@ -7043,7 +7043,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/ibrahim_hassan_omar.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/ibrahim_hassan_omar.png",
         "description": "Antisemitic comment on Twitter",
         "sensitivity": "",
         "social": "",
@@ -7075,7 +7075,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/aisha_bint_khalid.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/aisha_bint_khalid.png",
         "description": "Antisemitic comment on Facebook",
         "sensitivity": "",
         "social": "",
@@ -7107,7 +7107,7 @@ ontology_data = [
         "relatedPerson": [],
         "alertMessage": {},
         "type": "poi",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/omar_ali_mohammed.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/omar_ali_mohammed.png",
         "description": "Laughing emoji under antisemitic post",
         "sensitivity": "",
         "social": "",
@@ -7191,7 +7191,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/north-eastern-jewish-centre.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/north-eastern-jewish-centre.png",
         "description": "Welcome to North Eastern Jewish Centre. We are a local and vibrant community serving the North Eastern suburbs of Melbourne. All are welcome.",
         "sensitivity": "",
         "social": "",
@@ -7298,7 +7298,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/melbourne-hebrew-congregation.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/melbourne-hebrew-congregation.png",
         "description": 'Melbourne Hebrew Congregation (Hebrew: ק"ק שארית ישראל), affectionately referred to as ‘Toorak Shule’ or ‘MHC’, is the oldest Jewish congregation in Melbourne, Victoria, Australia. Formed in 1841, MHC was originally located on Burke Street in Melbourne CBD, before moving to its current location at 2/8 Toorak Road, South Yarra.',
         "sensitivity": "",
         "social": "",
@@ -7363,7 +7363,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/east-melbourne-hebrew-congregation.jpeg",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/east-melbourne-hebrew-congregation.jpeg",
         "description": "The Melbourne City Synagogue is your first stop for all your jewish needs in Melbourne, Australia. We offer inspiring prayer services, engaging classes, open Shabbat dinners, tours, visitor services and many other activities. Easy walking distance from the city’s hotels, hospitals and universities.",
         "sensitivity": "",
         "social": "",
@@ -7445,7 +7445,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/north-eastern-jewish-centre.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/north-eastern-jewish-centre.png",
         "description": "Welcome to North Eastern Jewish Centre. We are a local and vibrant community serving the North Eastern suburbs of Melbourne. All are welcome.",
         "sensitivity": "",
         "social": "",
@@ -7488,7 +7488,7 @@ ontology_data = [
         "alertMessage": {},
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/adass-israel-synagogue-of-melbourne.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/adass-israel-synagogue-of-melbourne.png",
         "description": "",
         "sensitivity": "",
         "social": "",
@@ -7539,7 +7539,7 @@ ontology_data = [
         },
         "type": "jewish_community",
         "mapIcon": "poi_marker.png",
-        "imageUrl": "http://dynamite.ddns.net/washington_img/jewish-community-council-of-victoria.png",
+        "imageUrl": "https://washinton-be.datafabdevelopment.com/washington_img/jewish-community-council-of-victoria.png",
         "description": "THE JCCV IS THE RECOGNISED ROOF BODY AND VOICE OF VICTORIAN JEWRY WITHIN BOTH THE JEWISH AND WIDER COMMUNITIES.",
         "sensitivity": "",
         "social": "",
