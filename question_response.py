@@ -4831,20 +4831,20 @@ q24 = {
 }
 
 q25 = {
-    "conversation": "Increased the General Crime Risk Level associated to the incident",
+    "conversation": "Increased the Hate Crime Risk Level associated to the incident",
     "data": {
         "assumptionsTable": [
             {
                 "category": "Hate Crime",
                 "concern": "Physical harm to JC members",
                 "assumption": "Tangible threat by a person of interest",
-                "confidenceScore": "1"
+                "confidenceScore": "9"
             },
             {
                 "category": "General Crime",
                 "concern": "Physical harm to JC members",
                 "assumption": "Major correlation to property crime in the area",
-                "confidenceScore": "9"
+                "confidenceScore": "1"
             },
             {
                 "category": "Neutral",
